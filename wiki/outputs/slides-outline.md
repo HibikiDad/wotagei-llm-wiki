@@ -1,7 +1,7 @@
 ---
 title: 「御宅藝文化講座」簡報大綱（120 分鐘社課）
 type: output
-sources: [S00, S01, S02, S04a, S04b, S05, S06b, S06c, S07, S08a, S08b, S10a, S10b, S10c, S10d, S11a, S11b, S11c]
+sources: [S00, S01, S02, S04a, S04b, S05, S06b, S06c, S07, S08a, S08b, S09, S10a, S10b, S10c, S10d, S11a, S11b, S11c]
 updated: 2026-11-23
 ---
 
@@ -21,14 +21,14 @@ updated: 2026-11-23
 |---|---|---|---|---|
 | 0 | 開場 | 5 分 | 2 | [overview](../overview.md) |
 | 1 | 御宅藝是什麼 | 12 分 | 4 | [wotagei](../concepts/wotagei.md)、[call](../concepts/call.md)、[general-support](../concepts/general-support.md)、[chika-gei](../concepts/chika-gei.md)、[performance-gei](../concepts/performance-gei.md) |
-| 2 | 從哪裡來：年表 | 10 分 | 3 | [timeline](../history/timeline.md)、[romance](../techniques/romance.md) |
-| 3 | 地下偶像與台灣御宅藝圈 | 10 分 | 3 | [underground-idol](../concepts/underground-idol.md)、[local-idol](../concepts/local-idol.md)、[taiwan](../culture/taiwan.md)、[competitions](../culture/competitions.md)、[taiwan-original-waza](../techniques/taiwan-original-waza.md) |
+| 2 | 從哪裡來：年表 | 6 分 | 2 | [timeline](../history/timeline.md)、[romance](../techniques/romance.md) |
+| 3 | 地下偶像與台灣御宅藝圈 | 14 分 | 4 | [underground-idol](../concepts/underground-idol.md)、[local-idol](../concepts/local-idol.md)、[taiwan](../culture/taiwan.md)、[competitions](../culture/competitions.md)、[taiwan-original-waza](../techniques/taiwan-original-waza.md) |
 | 4 | 螢光棒 | 10 分 | 3 | [glowstick](../gear/glowstick.md) |
 | 5 | 曲子結構 | 8 分 | 2 | [song-structure](../music/song-structure.md) |
 | 6 | 打call：MIX 與家虎（含帶念） | 15 分 | 4 | [mix](../concepts/mix.md)、[yetta-tiger](../concepts/yetta-tiger.md)、[call](../concepts/call.md) |
 | — | 休息 | 10 分 | 1 | — |
 | 7 | 技：實作 | 25 分 | 6 | [oad](../techniques/oad.md)、[nihai-ohai](../techniques/nihai-ohai.md)、[soya](../techniques/soya.md)、[yddjj](../techniques/yddjj.md)、[rosario](../techniques/rosario.md)、[los-angeles](../techniques/los-angeles.md)、[sabi-waza](../techniques/sabi-waza.md)、[thunder-snake](../techniques/thunder-snake.md) |
-| 8 | 現場禮儀與厄介 | 10 分 | 3 | [controversies](../culture/controversies.md)、[yakkai](../concepts/yakkai.md)、[chika-gei](../concepts/chika-gei.md)、[glowstick](../gear/glowstick.md) |
+| 8 | 現場禮儀與厄介 | 10 分 | 3 | [controversies](../culture/controversies.md)、[yakkai](../concepts/yakkai.md)、[yetta-tiger](../concepts/yetta-tiger.md)、[chika-gei](../concepts/chika-gei.md)、[glowstick](../gear/glowstick.md) |
 | 9 | 總結與 Q&A | 5 分 | 2 | [index](../index.md)、[overview](../overview.md) |
 | | **合計** | **120 分** | **33** | |
 
@@ -44,15 +44,15 @@ updated: 2026-11-23
 5. **打call 是總稱**：一般應援與地下藝都包含；MIX、家虎、口上都是它延伸的形式。
 6. **影片**：嵌入 S05〈EvolutioN 御宅藝文化詳細介紹〉的開頭段落（台灣打師自己的分類說明）。
 
-### 2. 從哪裡來（10 分）
-7. **日本的起點**：1970 年代親衛隊 → 1974 年演唱會揮光 → 1989 ロマンスダンス（原型）→ 2002 ハロプロ擴散 → 2006 起網路影片。
-8. **分化成表演藝**：2009 基扭特戰隊 → 2014 前後以打藝為主體的活動 → 2017 ROTO 初代世界王者、2018 起 Cyalume Dance World Battle 等比賽。
-9. **台灣的時間線**：2004 女僕咖啡 → 2011 動漫節、2011 台北電玩展「戰鬥哥」影片爆紅 → 2018 新竹高中動畫社 → 2020-01 風城界隈；疫情讓粉絲轉向本土地下偶像。
+### 2. 從哪裡來（6 分）
+7. **日本：從應援到表演**（一張精簡時間線）：1989 ロマンスダンス（原型）→ 2002 ハロプロ擴散 → 2009 基扭特戰隊 → 2017 ROTO 初代世界王者、2018 起 Cyalume Dance World Battle。
+8. **台灣：入坑的契機**：2004 女僕咖啡 → 2011 動漫節、2011 台北電玩展「戰鬥哥」影片爆紅 → 2019～2020 疫情讓粉絲轉向本土地下偶像。
 
-### 3. 地下偶像與台灣圈（10 分）
-10. **地下偶像是什麼**：重視現場、小公司經營、拼盤演出；台灣 45～50 組。與在地偶像的差別。
-11. **為什麼要吸引表演者注意**：多團同場、距離近 → 「刷認知」（整理者推論，經使用者同意）。
-12. **台灣御宅藝圈**：團體地圖、校園社團傳承、大家加入的原因；比賽（個人賽／團體賽評分項目）與台灣原創技（「本家」的概念，舉 2～3 個技名；⚠️ 來源沒有動作描述，只列名稱）。
+### 3. 地下偶像與台灣圈（14 分）
+9. **地下偶像是什麼**：重視現場、小公司經營、拼盤演出；台灣 45～50 組。與在地偶像的差別；為什麼要吸引表演者注意：多團同場、距離近 →「刷認知」（整理者推論，經使用者同意）。
+10. **台灣主要團體**：2021 年團體地圖（台北赤式、魔亂、大安勢、小祈家 Family；新竹風城界隈；桃園 Larry；中部 Pandora；高雄 EvolutioN、PhoeniX、高雄藝師聯合 —— 據 S05 是台灣最早的打藝團體）；⚠️ 團體現況有時效性，且資料都出自 EvolutioN 的來源。
+11. **團體怎麼傳承與活動**：風城界隈從新竹高中動畫社到創團的過程（社博表演、一屆傳一屆）；EvolutioN 的影片、講座、校園社團指導；大家加入的原因（「很帥」）。
+12. **比賽與台灣原創技**：個人賽／團體賽評分項目；2022～2024 高雄的比賽；台灣原創技與「本家」的概念，舉 2～3 個技名（⚠️ 來源沒有動作描述，只列名稱）。
 
 ### 4. 螢光棒（10 分）
 13. **化學 vs LED**：比較表＋台灣圈叫法（手燈、王劍、電棒、大閃光 —— 台灣圈通常指化學棒）與誰用哪一種；化學棒為什麼會亮（酸化液＋蛍光液、「冷光」、不能重複用）。
@@ -78,25 +78,25 @@ updated: 2026-11-23
 25. **主歌技 2～4：NIHAIOHAI、SOYA、YDDJJ**：重點各 2 行；NIHAIOHAI 與應援的「ニーハイ、オイハイ」call。
 26. **影片**：嵌入 S08a 主歌篇示範段落 → 全體跟著打一輪。
 27. **導歌技：ロザリオ（十字架）、ロサンゼルス（洛杉磯）**：ロザリオ是一個 4 拍動作做兩次＝一個八拍；ロサンゼルス 8 拍。
-28. **影片**：嵌入 S08b 導歌篇 → 全體跟著打一輪；副歌技只介紹サンダースネイク、ロマンス（⚠️ 副歌教學影片沒有字幕，只當視覺示範）。
+28. **影片**：嵌入 S08b 導歌篇 → 全體跟著打一輪；副歌技只介紹サンダースネイク、ロマンス；再嵌入沒有字幕的副歌篇影片當視覺示範（只放影片，不引用內容；使用者同意）。
 
 ### 8. 現場禮儀與厄介（10 分）
 29. **爭議事件**：2008 榊原ゆい禁止、2017 KOBerrieS♪ 訴訟、2020 家虎根絕宣言。
-30. **厄介是什麼**：指人、不是動作；在台灣，正經的演唱會上喊家虎、打地下藝會被當成厄介，但在 DJ 場、地下偶像場打地下藝是一般的同樂（看場合）；⚠️ 日本方面的定義待補（S09）。
-31. **現場禮儀檢查表**：先看是什麼場合（演唱會／DJ 場／地下偶像場）、確認場地規定（化學棒、家虎）、不要甩飛棒子、車站不揮棒（由 wiki 事實整理）。
+30. **厄介是什麼**：在 live 現場用不正當的應援方式影響周圍觀眾的**行為**（圈內偏向指行為；⚠️ S07 用來指人）；在台灣，正經的演唱會上喊家虎、打地下藝會被當成厄介，但在 DJ 場、地下偶像場打地下藝是一般的同樂（看場合）；⚠️ S09 是中文百科，日本方面的定義仍是資料缺口。
+31. **現場禮儀檢查表**：S09 的厄介行為清單（丟螢光棒、大功率光學設備、台下跑動、敲鑼打鼓…）；先看是什麼場合（演唱會／DJ 場／地下偶像場）、確認場地規定（化學棒、家虎）、不要甩飛棒子、車站不揮棒（由 wiki 事實整理）。
 
 ### 9. 總結與 Q&A（5 分）
 32. **三句話帶走**：御宅藝分三種、打call 是總稱；喊 MIX 跟著段落走；先確認場地規定再打。
-33. **延伸資源與資料缺口**：wiki 連結、來源清單；wiki 還缺什麼（厄介日文定義、副歌技例子、技的日文原名、台灣原創技的動作、MAF展是什麼）。
+33. **延伸資源與資料缺口**：wiki 連結、來源清單；wiki 還缺什麼（厄介的日文來源、北部與中部團體的觀點、副歌技例子、技的日文原名、台灣原創技的動作、MAF展是什麼）。
 
 ## 修訂紀錄
 
 - 2026-11-23 18:25：依 S10（EvolutioN 官網）與 S11（LUMICA 官網）修訂第 3、8、9、12、13、15、23、27、30、31、33 張；張數與時間不變。
+- 2026-11-23 18:45：依使用者審核意見 —— 年表 10→6 分（3→2 張）、台灣圈 10→14 分（3→4 張，新增「台灣主要團體」）；第 28 張嵌入副歌篇影片；第 30、31 張依 S09 改寫（厄介指行為）。
 
-## 需要使用者決定
+## 審核狀態
 
-- 單元比重（例如實作 25 分是否足夠、是否要多一點台灣圈介紹）。
-- 第 28 張是否嵌入沒有字幕的副歌篇影片當視覺示範（只放影片，不引用內容）。
+- 使用者已審核通過（2026-11-23）。
 
 ## 相關頁面
 
