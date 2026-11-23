@@ -1,7 +1,7 @@
 ---
 title: 御宅藝年表
 type: history
-sources: [S01, S02, S03, S04b]
+sources: [S01, S02, S03, S04b, S05]
 updated: 2026-11-23
 ---
 
@@ -30,17 +30,21 @@ updated: 2026-11-23
 | 2006 起 | 透過 YouTube、ニコニコ動画擴散，一般人也開始認識 | [S01](../sources/S01-ja-wiki-wotagei.md) |
 | 2007 | J 聯盟川崎前鋒的選手在粉絲感謝日表演「ンタ芸」 | [S01](../sources/S01-ja-wiki-wotagei.md) |
 | 2008 | 榊原ゆい在自己的 live 全面禁止オタ芸 | [S01](../sources/S01-ja-wiki-wotagei.md) |
+| 2009 | 據 S05，基扭特戰隊（ギニュ～特戦隊）開始形成用螢光棒表現的御宅藝文化（[表演藝](../concepts/performance-gei.md)） | [S05](../sources/S05-K97ZqVhf-mA.md) |
 | 2010 前後 | 觀眾自備多色螢光棒對應成員代表色（應援色）；無線控制 LED 螢光棒出現，2013 年起普及 | [S04b](../sources/S04b-ja-wiki-penlight.md) |
 | 2011 起 | 🇹🇼 各地方政府紛紛舉辦「動漫節」，表演機會變多 | [S02](../sources/S02-zh-wiki-taiwan-underground-idol.md) |
+| 約 2011 | 🇹🇼「戰鬥哥」在台灣爆紅（S05 於 2021 年稱「十年前」，年份為整理者推算） | [S05](../sources/S05-K97ZqVhf-mA.md) |
 | 2014 前後 | 以打藝為主體的活動與 live 頻繁舉辦（[表演藝](../concepts/performance-gei.md)成形） | [S01](../sources/S01-ja-wiki-wotagei.md) |
 | 2015 | AKB48 禁止帶入化學螢光棒；2020 年代 LED 螢光棒成為主流 | [S04b](../sources/S04b-ja-wiki-penlight.md) |
 | 2017-08 | 神戸 KOBerrieS♪ 演唱會訴訟（打藝太激烈、聽不到歌） | [S01](../sources/S01-ja-wiki-wotagei.md) |
+| 2018-08 | 🇹🇼 新竹高中動畫社在社團博覽會表演ヲタ芸，之後發展成風城界隈 | [S05](../sources/S05-K97ZqVhf-mA.md) |
 | 2019～2020 初 | 🇹🇼 疫情使粉絲無法出國看日本 live，轉而關注台灣本土[地下偶像](../concepts/underground-idol.md) | [S02](../sources/S02-zh-wiki-taiwan-underground-idol.md) |
+| 2020-01 | 🇹🇼 風城界隈創團 | [S05](../sources/S05-K97ZqVhf-mA.md) |
 | 2020-02-02 | ブシロード木谷高明宣布根絕[家虎](../concepts/yetta-tiger.md) | [S01](../sources/S01-ja-wiki-wotagei.md) |
 
 🇹🇼 = 台灣的事件，詳見[台灣的地下偶像與御宅藝圈](../culture/taiwan.md)。
 
-> ⚠️ 資料缺口：S02 只涵蓋台灣地下偶像（偶像方），台灣御宅藝（粉絲方）的時間線尚無來源。
+> ⚠️ 資料缺口：台灣御宅藝（粉絲方）的時間線目前只有 S05 一份來源，高雄藝師聯合等早期團體的年份不明。
 
 ## 相關頁面
 

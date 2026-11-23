@@ -7,7 +7,7 @@ url: https://ja.wikipedia.org/wiki/ペンライト
 raw: ../../raw/web/S04b-ja-wiki-penlight.md
 author: Wikipedia 日文版編者（revision 105955851，2025-08-11）
 fetched: 2026-11-23
-reliability: 中～高 —— 歷史段落附有報刊與國會圖書館（NDL）文獻出處
+reliability: 中 —— 歷史段落附有報刊與國會圖書館（NDL）文獻出處，但仍是百科條目（使用者在 S05 討論時調整為中）
 sources: [S04b]
 updated: 2026-11-23
 ---

@@ -38,3 +38,9 @@
 - 更新：history/timeline.md（1974／1986／1996／2002／2010／2015）、concepts/performance-gei.md（サイリウムダンス名稱）、culture/controversies.md（化學螢光棒安全）、glossary.md（新增「道具」表）、overview.md、sources/S00-discussion-notes.md、index.md
 - 討論修正：使用者補充台灣也叫 LED 螢光棒「手燈」、台灣以 LED 為主；決定合併成一頁
 - lint：通過（第 1 次）
+
+## [2026-11-23 16:31] ingest | S05 YouTube【EvolutioN】御宅藝文化詳細介紹
+- 新增：sources/S05-K97ZqVhf-mA.md、techniques/sabi-waza.md；raw/youtube/S05-K97ZqVhf-mA.md 補上短引文與時間碼
+- 更新：culture/taiwan.md（台灣御宅藝圈：團體地圖、風城界隈校園傳承、入坑理由 → 填掉資料缺口）、concepts/wotagei.md／general-support.md（打call）／chika-gei.md（通常不拿螢光棒、刷認知佐證推論）／performance-gei.md（光棒藝、基扭特戰隊 2009）／yetta-tiger.md、techniques/romance.md／thunder-snake.md（台灣中文叫法確認、⚠️ 分歧）、history/timeline.md、glossary.md、overview.md、index.md、S00
+- 討論修正：地下藝通常不拿螢光棒；打call＝一般應援；十字架＝ロザリオ；基扭特戰隊為台灣通稱；小祈＝S07 的祈哥；S05 可信度高；S04 可信度回改為中
+- lint：通過（第 1 次）
