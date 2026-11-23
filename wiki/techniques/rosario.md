@@ -2,13 +2,13 @@
 title: ロザリオ（十字架）
 type: technique
 aliases: [十字架, Rosario]
-sources: [S05, S00, S08b, S08a]
+sources: [S05, S00, S08b, S08a, S10b]
 updated: 2026-11-23
 ---
 
 # ロザリオ（十字架）
 
-**手從後方拉到頭頂繞圈，再全力往下打的導歌技；4 拍。**（[S08b](../sources/S08b-HIsBsrt1bBw.md) 00:00～00:30）日文是ロザリオ（[S00](../sources/S00-discussion-notes.md)），也是定番技之一（[S05](../sources/S05-K97ZqVhf-mA.md)）。
+**手從後方拉到頭頂繞圈，再全力往下打的導歌技；一個動作 4 拍，做兩次合起來是一個八拍。**（[S08b](../sources/S08b-HIsBsrt1bBw.md) 00:00～00:30；[S00](../sources/S00-discussion-notes.md)）日文是ロザリオ（[S00](../sources/S00-discussion-notes.md)），也是定番技之一（[S05](../sources/S05-K97ZqVhf-mA.md)）。
 
 ## 動作
 
@@ -22,6 +22,8 @@ updated: 2026-11-23
 - 繞圈時兩手互相交錯；圈要畫大，往後到身體後方（[S08b](../sources/S08b-HIsBsrt1bBw.md) 01:32）。
 
 ## 其他
+
+- 拍數：S08b 教的是 4 拍的動作；使用者補充：ロザリオ是**兩個同樣動作的四拍組合而成，最後還是八拍**（[S00](../sources/S00-discussion-notes.md)）。EvolutioN 則把「技」定義為 4 個八拍組成的連續動作（[S10b](../sources/S10b-evolution-faq.md)），計算單位不同，詳見[表演藝](../concepts/performance-gei.md)。
 
 - 主歌技 [SOYA](soya.md) 就是十字架加四突（[S08a](../sources/S08a-zGVnPOHCoRA.md) 08:49）。
 

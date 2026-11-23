@@ -78,6 +78,16 @@ updated: 2026-11-23
 4. **演唱會應援通常用 LED、表演藝通常用化學棒**；但地下偶像場很常有粉絲用化學螢光棒，表演藝有時因成本改用電棒。圈內把演唱會用的 LED 螢光棒叫「**王劍**」（亮度較低、很粗）；專給表演藝用、大小接近化學棒的高亮度 LED 叫「**電棒**」。
 5. 一技一頁、S08 可信度**高** —— 同意。
 
+### S10 討論（2026-11-23）
+
+1. 三個說法分歧都**並列**：
+   - 站姿：S08a「腳開約 90 度以上」與 S10b「腳尖朝前、1.5～2 倍肩寬」並列。
+   - 技的長度：**ロザリオ是兩個同樣動作的四拍組合而成，最後還是八拍**。
+   - 地下藝：**在 DJ 場或地下偶像場是一般的同樂，但在正經的演唱會會被當成厄介**（補充 S07 討論時的說法）。
+2. **藝師＝打師**，同義詞。
+3. 台灣原創技**合併成一頁**。
+4. S10 可信度**中～高**。
+
 ## 相關頁面
 
 - [S01 日文維基百科「オタ芸」](S01-ja-wiki-wotagei.md)
@@ -88,6 +98,7 @@ updated: 2026-11-23
 - [S06b](S06b-yzX_SkMQAfw.md)、[S06c](S06c-dLfZSCgwyMY.md) 無用男Rain MIX 講座
 - [S07 kknews MIX／家虎／厄介](S07-kknews-mix.md)
 - [S08a](S08a-zGVnPOHCoRA.md)、[S08b](S08b-HIsBsrt1bBw.md) 祈哥 主歌／導歌教學
+- [S10a](S10a-evolution-home.md)～[S10d](S10d-evolution-taiwan-original-waza.md) EvolutioN 官網
 - [打call](../concepts/call.md)、[MIX](../concepts/mix.md)、[厄介](../concepts/yakkai.md)
 - [御宅藝](../concepts/wotagei.md)
 - [用語表](../glossary.md)

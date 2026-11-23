@@ -82,3 +82,11 @@
 - 新增：outputs/slides-outline.md（10 單元、33 張、120 分鐘；每張列出依據的 wiki 頁）
 - 資料缺口在投影片中標示：厄介日文定義（S09）、副歌技例子、NIHAIOHAI／SOYA／YDDJJ 日文原名
 - 狀態：等待使用者審核大綱
+
+## [2026-11-23 18:10] ingest | S10a～S10d EvolutioN 官網（首頁、常見問題、比賽頁、台灣原創技）
+- 抓取：使用者提供首頁，正文很短；Claude 列出子頁面，挑出 faq、competition、twotageiskill_cultureshock 一起 ingest（S09 預留給厄介，故用 S10）
+- 新增：sources/S10a～S10d、techniques/taiwan-original-waza.md、culture/competitions.md
+- 更新：wotagei（藝師、不等於螢光棒舞蹈）、chika-gei（同樂 vs 吸引注意 ⚠️ 分歧）、yakkai（台灣依場合分兩列）、performance-gei（技／技連／本家、拍光軌、比賽）、oad（站姿 ⚠️ 分歧）、rosario（4 拍×2＝八拍）、glowstick（品牌、15 分鐘、握法）、taiwan、timeline（2011 戰鬥哥改為確定年份、2017～2025 比賽與原創技）、song-structure、glossary（藝師、光棒藝、比賽、技、技連、本家、副手、台灣原創技）
+- 討論修正：使用者補充ロザリオ是兩個 4 拍動作＝一個八拍；地下藝在 DJ 場、地下偶像場是同樂，在正經演唱會才會被當成厄介；藝師＝打師
+- 順手修正：glowstick 頁殘留的錯誤引用「{Bb}」→ S08b；taiwan 頁「台灣現場以 LED 為主」→ 限定為演唱會（LLM lint 時漏改的同一句）
+- lint：通過（第 1 次）

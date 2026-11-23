@@ -1,7 +1,7 @@
 # 御宅藝 LLM Wiki — 目錄
 
 > 這是 wiki 的內容目錄。每頁一行：連結＋一句話摘要。由 LLM 在每次 ingest 時更新。
-> 新手請從 [總覽](overview.md) 開始。　來源數：11（S00～S08b）　最後更新：2026-11-23
+> 新手請從 [總覽](overview.md) 開始。　來源數：16（S00～S10d）　最後更新：2026-11-23
 
 ## 入口
 
@@ -22,6 +22,10 @@
 - [S07 kknews〈日式應援中mix，家虎，火虎，厄介都是什麼意思？〉](sources/S07-kknews-mix.md) — 三連MIX 喊詞、虎火發動、家虎由來、厄介
 - [S08a YouTube 祈哥 Hong〈新手村入門 - 主歌篇〉](sources/S08a-zGVnPOHCoRA.md) — 螢光棒折法／拿法；主歌技 OAD、NIHAIOHAI、SOYA、YDDJJ
 - [S08b YouTube 祈哥 Hong〈新手村入門 - 導歌篇〉](sources/S08b-HIsBsrt1bBw.md) — 導歌技ロザリオ、ロサンゼルス；關東／關西OAD
+- [S10a EvolutioN 官網首頁](sources/S10a-evolution-home.md) — EvolutioN 簡介；2011 台北電玩展戰鬥哥
+- [S10b EvolutioN 官網「常見問題」](sources/S10b-evolution-faq.md) — 地下藝／光棒藝、技／技連／本家／副手、自學、螢光棒品牌、拍光軌、站姿
+- [S10c EvolutioN 官網「比賽專屬頁面」](sources/S10c-evolution-competition.md) — 比賽發展、賽制與評分、Party Time（地下藝＝同樂）
+- [S10d EvolutioN 官網「台灣原創技」](sources/S10d-evolution-taiwan-original-waza.md) — 2025 煌芒祭用到的 12 個台灣原創技與本家
 
 ## 概念（Concepts）
 
@@ -34,7 +38,7 @@
 - [打call](concepts/call.md) — 喊聲應援的總稱（一般應援與地下藝都包含）
 - [MIX](concepts/mix.md) — 前奏、間奏一起喊的固定單字；發動、三連MIX 喊詞表、虎火發動
 - [家虎](concepts/yetta-tiger.md) — 喊「イエッタイガー」的應援，2020 年被ブシロード宣布根絕
-- [厄介](concepts/yakkai.md) — 在現場搞事的麻煩粉絲；台灣喊家虎、打地下藝會被當成厄介
+- [厄介](concepts/yakkai.md) — 在現場搞事的麻煩粉絲；台灣正經演唱會喊家虎、打地下藝會被當成厄介
 
 ## 技（Techniques）
 
@@ -49,8 +53,9 @@
 - [NIHAIOHAI](techniques/nihai-ohai.md) — 過膝襪：手從腳踝沿腿拉上來（主歌）
 - [SOYA](techniques/soya.md) — 十字架＋四突（主歌）
 - [YDDJJ](techniques/yddjj.md) — 扇形大圈＋風火輪（主歌）
-- [ロザリオ](techniques/rosario.md) — 十字架：頭頂繞圈再全力往下打（導歌，4 拍）
+- [ロザリオ](techniques/rosario.md) — 十字架：頭頂繞圈再全力往下打（導歌，4 拍×2）
 - [ロサンゼルス](techniques/los-angeles.md) — 洛杉磯：往內繞、轉身延伸（導歌，8 拍）
+- [台灣原創技](techniques/taiwan-original-waza.md) — 本家、2025 煌芒祭用到的 12 個台灣原創技
 - [副歌技](techniques/sabi-waza.md) — サビ技：定番技 vs. 副歌技，據說超過 1000 種
 
 ## 道具（Gear）
@@ -69,6 +74,7 @@
 
 - [台灣的地下偶像與御宅藝圈](culture/taiwan.md) — 地下偶像（日本傳入、疫情轉折、45～50 組）＋御宅藝圈（團體地圖、校園社團傳承）
 - [爭議與禁止](culture/controversies.md) — 主要批評、榊原ゆい禁止、KOBerrieS♪ 訴訟、厄介、車站螢光棒
+- [表演藝的比賽](culture/competitions.md) — Cyalume Dance World Battle、台灣的比賽、個人賽／團體賽評分
 
 ## 產出（Outputs）
 

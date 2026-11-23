@@ -32,9 +32,12 @@ updated: 2026-11-23
 | [地下藝](concepts/chika-gei.md) | 地下芸 | Chika-gei | 地下芸 | 誇張扭曲的動作＋MIX，吸引台上表演者注意；通常不拿螢光棒 | [S00](sources/S00-discussion-notes.md) [S01](sources/S01-ja-wiki-wotagei.md) |
 | [表演藝](concepts/performance-gei.md) | サイリウムダンス | Cyalume Dance | 表演芸 | 別名：地上藝、サイリウムダンス、光棒藝；表演給觀眾看 | [S00](sources/S00-discussion-notes.md) [S01](sources/S01-ja-wiki-wotagei.md) [S05](sources/S05-K97ZqVhf-mA.md) |
 | 打藝 | 打つ | — | 打芸 | 表演御宅藝這個動作 | [S01](sources/S01-ja-wiki-wotagei.md) |
-| 打師 | 打ち師 | — | — | 表演御宅藝的人 | [S01](sources/S01-ja-wiki-wotagei.md) [S05](sources/S05-K97ZqVhf-mA.md) |
+| 打師 | 打ち師 | — | — | 表演御宅藝的人；同義詞：藝師 | [S01](sources/S01-ja-wiki-wotagei.md) [S05](sources/S05-K97ZqVhf-mA.md) |
 | 刷認知 | 認知 | — | — | 讓台上的表演者認得自己；地下藝的目的之一 | [S05](sources/S05-K97ZqVhf-mA.md) |
 | 基扭特戰隊 | ギニュ～特戦隊 | GinyuforcE | 基紐特戰隊 | 日本表演藝的先驅團體；台灣通稱「基扭特戰隊」 | [S01](sources/S01-ja-wiki-wotagei.md) [S05](sources/S05-K97ZqVhf-mA.md) [S00](sources/S00-discussion-notes.md) |
+| 藝師 | — | — | — | 打師的同義詞 | [S10b](sources/S10b-evolution-faq.md) [S00](sources/S00-discussion-notes.md) |
+| 光棒藝 | ヲタ芸 | — | — | 表演藝的別名（台灣圈） | [S05](sources/S05-K97ZqVhf-mA.md) [S10b](sources/S10b-evolution-faq.md) |
+| 比賽 | バトル | Battle | — | 表演藝的比賽：個人一對一即興（Scramble）、團體原創編排；見 [比賽](culture/competitions.md) | [S10c](sources/S10c-evolution-competition.md) |
 | 戰鬥哥 | — | — | — | 約十年前在台灣爆紅、帶動很多人入坑的打師 | [S05](sources/S05-K97ZqVhf-mA.md) |
 | [地下偶像](concepts/underground-idol.md) | 地下アイドル | Underground Idol | — | 重視現場演出、小型公司經營的偶像 | [S02](sources/S02-zh-wiki-taiwan-underground-idol.md) |
 | [在地偶像](concepts/local-idol.md) | ローカルアイドル | Local Idol | — | 以家鄉地區為活動中心的偶像；與地下偶像分開 | [S03](sources/S03-zh-wiki-local-idol.md) |
@@ -64,7 +67,7 @@ updated: 2026-11-23
 | LED 螢光棒 | ペンライト | Penlight、LED light | — | 台灣也常叫「手燈」；目前主流 | [S04b](sources/S04b-ja-wiki-penlight.md)、[S00](sources/S00-discussion-notes.md) |
 | 王劍 | — | — | — | 台灣圈對演唱會用 LED 螢光棒的叫法；亮度較低、很粗 | [S00](sources/S00-discussion-notes.md) |
 | 電棒 | — | — | — | 專給表演藝用的高亮度 LED 螢光棒，大小接近化學棒 | [S00](sources/S00-discussion-notes.md) |
-| 大閃光 | 大閃光 | — | — | LUMICA 的化學螢光棒，表演藝常用 | [S08a](sources/S08a-zGVnPOHCoRA.md) |
+| 大閃光 | 大閃光 | — | — | LUMICA 的化學螢光棒，表演藝常用；打藝挑發光 15 分鐘內的版本 | [S08a](sources/S08a-zGVnPOHCoRA.md) |
 | UO | ウルトラオレンジ | Ultra Orange | — | 只亮 5～15 分鐘的高亮度化學螢光棒 | [S04a](sources/S04a-ja-wiki-chemical-light.md) |
 | 應援色 | メンバーカラー、イメージカラー | Member color | — | 對應成員代表色的螢光棒顏色 | [S04b](sources/S04b-ja-wiki-penlight.md) |
 
@@ -86,7 +89,12 @@ updated: 2026-11-23
 | [SOYA](techniques/soya.md) | （待補） | SOYA | — | 主歌技；十字架＋四突 | [S08a](sources/S08a-zGVnPOHCoRA.md) |
 | [YDDJJ](techniques/yddjj.md) | （待補） | YDDJJ | — | 主歌技；扇形大圈＋風火輪 | [S08a](sources/S08a-zGVnPOHCoRA.md) |
 | [ロサンゼルス](techniques/los-angeles.md) | ロサンゼルス | Rosanzerusu／Los Angeles | — | 中文：洛杉磯。導歌技，8 拍 | [S08b](sources/S08b-HIsBsrt1bBw.md) [S00](sources/S00-discussion-notes.md) |
-| [ロザリオ](techniques/rosario.md) | ロザリオ | Rosario | — | 中文：十字架。導歌技、定番技，4 拍 | [S05](sources/S05-K97ZqVhf-mA.md) [S00](sources/S00-discussion-notes.md) [S08b](sources/S08b-HIsBsrt1bBw.md) |
+| [ロザリオ](techniques/rosario.md) | ロザリオ | Rosario | — | 中文：十字架。導歌技、定番技；4 拍動作×2＝一個八拍 | [S05](sources/S05-K97ZqVhf-mA.md) [S00](sources/S00-discussion-notes.md) [S08b](sources/S08b-HIsBsrt1bBw.md) |
+| 技 | 技 | Waza | — | 由 4 個八拍組成的連續動作 | [S10b](sources/S10b-evolution-faq.md) |
+| 技連 | 技連 | Wazaren | — | 一連串技的展示影片；說明欄通常列出技名 | [S10b](sources/S10b-evolution-faq.md) |
+| 本家 | 本家 | Honke | — | 技的原創者 | [S10b](sources/S10b-evolution-faq.md) [S10d](sources/S10d-evolution-taiwan-original-waza.md) |
+| 副手 | — | — | — | 動作中次要的那隻手 | [S10b](sources/S10b-evolution-faq.md) |
+| [台灣原創技](techniques/taiwan-original-waza.md) | オリジナル技、オリ技 | Original waza | — | 打師自己創作的技 | [S10d](sources/S10d-evolution-taiwan-original-waza.md) |
 | 紋章技 | 紋章技 | — | — | 技的一類（S05 沒有說明內容） | [S05](sources/S05-K97ZqVhf-mA.md) |
 
 > 羅曼史、雷蛇已由 S05 確認是台灣圈用法；十字架、洛杉磯、過膝襪由 S08 確認。地藏、迴轉、克差、旋轉木馬仍為整理者暫譯（S08 沒有教到）。

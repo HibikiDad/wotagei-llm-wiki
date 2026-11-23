@@ -2,7 +2,7 @@
 title: 御宅藝
 type: concept
 aliases: [ヲタ芸, オタ芸, Wotagei, WOTA藝]
-sources: [S00, S01, S05, S06c]
+sources: [S00, S01, S05, S06c, S10b]
 updated: 2026-11-23
 ---
 
@@ -13,7 +13,7 @@ updated: 2026-11-23
 ## 基本用語
 
 - **打藝**（打つ）：表演御宅藝這個動作（[S01](../sources/S01-ja-wiki-wotagei.md)）。
-- **打師**（打ち師）：表演御宅藝的人（[S01](../sources/S01-ja-wiki-wotagei.md)）。
+- **打師**（打ち師）：表演御宅藝的人（[S01](../sources/S01-ja-wiki-wotagei.md)）；台灣也叫「**藝師**」，兩者是同義詞（[S10b](../sources/S10b-evolution-faq.md)；[S00](../sources/S00-discussion-notes.md)）。
 - 除了偶像歌曲，也會配 Vocaloid 曲或一般日本流行歌來打（[S01](../sources/S01-ja-wiki-wotagei.md)）。
 
 ## 分類
@@ -29,7 +29,7 @@ updated: 2026-11-23
 
 兩者有共通的動作，但表演型常常沒有コール（喊聲），而且技的數量多很多（[S01](../sources/S01-ja-wiki-wotagei.md)）。
 
-台灣打藝團體 EvolutioN 的介紹也採二分法：オタ芸＝地下藝，**通常不拿螢光棒**，包含口號與動作；ヲタ芸是拿螢光棒揮出光跡，又叫「光棒藝」（[S05](../sources/S05-K97ZqVhf-mA.md) 00:33～01:06）。另外「打call」也算御宅藝的一種，偏向應援（[S05](../sources/S05-K97ZqVhf-mA.md) 01:38）。
+台灣打藝團體 EvolutioN 的介紹也採二分法：オタ芸＝地下藝，**通常不拿螢光棒**，包含口號與動作；ヲタ芸是拿螢光棒揮出光跡，又叫「光棒藝」（[S05](../sources/S05-K97ZqVhf-mA.md) 00:33～01:06）。另外「打call」也算御宅藝的一種，偏向應援（[S05](../sources/S05-K97ZqVhf-mA.md) 01:38）。同團隊的官網 FAQ 說法一致，並強調御宅藝不一定要拿螢光棒、也不限於肢體動作，所以**不等於「螢光棒舞蹈」**；團隊也避免單用「螢光棒舞蹈」，因為容易被誤解成 Light Dance（[S10b](../sources/S10b-evolution-faq.md)）。
 
 **使用者的三分法**（[S00](../sources/S00-discussion-notes.md)）—— 本 wiki 採用這個分類：
 

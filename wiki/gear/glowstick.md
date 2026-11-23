@@ -2,7 +2,7 @@
 title: 螢光棒
 type: gear
 aliases: [サイリウム, サイリューム, ケミカルライト, ペンライト, 手燈, 王劍, 電棒, 大閃光, lightstick]
-sources: [S00, S01, S04a, S04b, S08a]
+sources: [S00, S01, S04a, S04b, S08a, S10b, S08b]
 updated: 2026-11-23
 ---
 
@@ -31,6 +31,8 @@ updated: 2026-11-23
 | 表演藝 | 化學螢光棒（例如 LUMICA「**大閃光**」） | 因為成本改用「**電棒**」：專給表演藝用的高亮度 LED，大小跟化學棒接近 | [S08a](../sources/S08a-zGVnPOHCoRA.md) 00:48；[S00](../sources/S00-discussion-notes.md) |
 
 - 大閃光的顏色有紅、橙、黃、綠、藍、靛、紫、粉，還有淺蔥、琉璃、白等特殊色；另有大閃光8、MEGA大閃光等產品（[S08a](../sources/S08a-zGVnPOHCoRA.md) 00:48）。練習時有人改用電子螢光棒（[S08a](../sources/S08a-zGVnPOHCoRA.md) 00:48）。
+- **打藝用的品牌**：化學棒最常用 LUMICA「大閃光」系列與 Riverroots「Flash Bomber」系列；要挑**發光時長 15 分鐘以內**的版本，才有影片上的亮度（打藝會加速消耗，實際能用的時間比包裝寫的短）。電子螢光棒有光芒一閃E-Light、仁光社大火、PolarLight、KiraLight、CheerLight 等（[S10b](../sources/S10b-evolution-faq.md)）。
+- **握法**：EvolutioN 的說法是怎麼握都可以，只要找到適合自己、不會掉棒的方法（[S10b](../sources/S10b-evolution-faq.md)）；下面是 S08a 介紹的三種常見握法。
 
 ## 打藝時怎麼折、怎麼拿
 
@@ -67,7 +69,7 @@ updated: 2026-11-23
 - 棒子細長好滑，揮動時注意不要甩飛打到旁邊的人（[S04a](../sources/S04a-ja-wiki-chemical-light.md)）。
 - 在車站不要揮螢光棒（特別是紅色），可能被誤認為緊急停車信號（[S01](../sources/S01-ja-wiki-wotagei.md)）。
 
-> 注意：S08a 推薦化學棒，但影片的螢光棒由 LUMICA 在台經銷商提供（{Bb} 07:50）；化學棒的安全疑慮見上方「安全」段落。
+> 注意：S08a 推薦化學棒，但影片的螢光棒由 LUMICA 在台經銷商提供（[S08b](../sources/S08b-HIsBsrt1bBw.md) 07:50）；化學棒的安全疑慮見上方「安全」段落。
 
 ## 相關頁面
 

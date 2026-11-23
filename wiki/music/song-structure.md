@@ -49,7 +49,7 @@ updated: 2026-11-23
 | 段落 | 技 | 拍子 | 出處 |
 |---|---|---|---|
 | Aメロ（主歌） | [OAD](../techniques/oad.md)、[NIHAIOHAI](../techniques/nihai-ohai.md)（過膝襪）、[SOYA](../techniques/soya.md)、[YDDJJ](../techniques/yddjj.md) | 每個技 8 拍，串起來練 | [S08a](../sources/S08a-zGVnPOHCoRA.md) 03:09、12:00 |
-| Bメロ（導歌） | [ロザリオ](../techniques/rosario.md)（十字架）4 拍、[ロサンゼルス](../techniques/los-angeles.md)（洛杉磯）8 拍 | | [S08b](../sources/S08b-HIsBsrt1bBw.md) 00:00、02:48 |
+| Bメロ（導歌） | [ロザリオ](../techniques/rosario.md)（十字架）4 拍×2、[ロサンゼルス](../techniques/los-angeles.md)（洛杉磯）8 拍 | | [S08b](../sources/S08b-HIsBsrt1bBw.md) 00:00、02:48 |
 | サビ（副歌） | [副歌技](../techniques/sabi-waza.md)（據說超過 1000 種） | | [S05](../sources/S05-K97ZqVhf-mA.md) |
 
 - 同一段 Aメロ，應援的人喊「ニーハイ、オイハイ」call（[S06b](../sources/S06b-yzX_SkMQAfw.md) 04:52），表演藝的人打 NIHAIOHAI —— 應援與表演在同一個段落做相似的動作（整理者推論）。

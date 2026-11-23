@@ -2,7 +2,7 @@
 title: OAD
 type: technique
 aliases: [關西OAD, 關東OAD]
-sources: [S05, S08a, S08b, S00]
+sources: [S05, S08a, S08b, S00, S10b]
 updated: 2026-11-23
 ---
 
@@ -13,6 +13,7 @@ updated: 2026-11-23
 ## 動作（關西OAD）
 
 - 站姿：腳打開約 90 度以上（[S08a](../sources/S08a-zGVnPOHCoRA.md) 03:09）。
+  > ⚠️ 說法分歧：EvolutioN 的 FAQ 說正確站姿是**腳尖朝前**、站開到可以靈活左右橫移的寬度（通常約 1.5～2 倍肩寬），用大腿和下盤出力、膝蓋微微向前、上身挺直（[S10b](../sources/S10b-evolution-faq.md)）。兩種說法並列（[S00](../sources/S00-discussion-notes.md)）。
 - 雙手在一側預備，從右邊劃到左上角，在臉旁拍一下，再劃到另一邊做同樣的動作（[S08a](../sources/S08a-zGVnPOHCoRA.md) 03:39～04:13）。
 - 節拍：8 拍，**第 1 拍開始、第 2 拍是擊掌點**（[S08a](../sources/S08a-zGVnPOHCoRA.md) 07:33）。
 - 劃過去的同時，膝蓋朝正前方微彎當緩衝（[S08a](../sources/S08a-zGVnPOHCoRA.md) 05:52～06:25）。
