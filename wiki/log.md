@@ -146,3 +146,8 @@
 - 新增：index.html（GitHub Pages 入口）、.nojekyll、docs/workflow.md（Mermaid：Ingest loop、Lint、Slides Graph）、docs/reflection.md、README.md（繳交 6 項）
 - 入口頁用 chrome-devtools 在 390 與 1280 寬截圖確認；標題圖示太小 → 放大
 - lint：通過；check_slides：通過
+
+## [2026-11-23 17:49] slides | 發布到 GitHub Pages（Slides Graph 第 6 步）
+- push 到 main，用 gh api 啟用 Pages（main 分支根目錄，.nojekyll 關掉 Jekyll）
+- 線上確認：入口頁、slides/、圖片都回 200；用 chrome-devtools 打開線上第 21 張，影片可以嵌入播放
+- 網址：https://hibikidad.github.io/wotagei-llm-wiki/ 、https://hibikidad.github.io/wotagei-llm-wiki/slides/

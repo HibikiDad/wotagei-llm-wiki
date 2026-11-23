@@ -23,7 +23,7 @@
 |---|---|
 | 外部來源 | 11 份（S01～S11，共 20 個來源頁；YouTube 只收有字幕的，另剔除 19 支無字幕影片） |
 | wiki 頁面 | 56 頁：概念 10、技 15、道具 1、曲子結構 1、歷史 1、文化 3、來源 20、產出 1，加上 overview、glossary、index、log |
-| 操作紀錄 | 22 筆 log、23 次自動 lint、1 次 LLM lint |
+| 操作紀錄 | 23 筆 log、23 次自動 lint、1 次 LLM lint |
 | 簡報 | 33 張投影片，每張都用 `data-sources` 標出依據的 wiki 頁 |
 
 ## 2. Wiki 連結
