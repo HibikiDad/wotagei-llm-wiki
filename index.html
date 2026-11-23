@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>御宅藝 LLM Wiki</title>
+<link rel="icon" href="slides/img/chibi1.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+:root{--orange:#ff8a1f;--dark:#141418;--panel:#202026;--grey:#9a9aa6;--line:#3a3a44;--text:#f2f2f5}
+*{box-sizing:border-box}
+body{margin:0;background:var(--dark);color:var(--text);font-family:"Noto Sans TC",system-ui,sans-serif;line-height:1.6}
+main{max-width:880px;margin:0 auto;padding:48px 16px 64px}
+header{display:flex;gap:20px;align-items:center;flex-wrap:wrap}
+header img{width:200px;max-width:60%;height:auto}
+h1{font-size:clamp(28px,6vw,44px);font-weight:900;margin:0;line-height:1.2}
+h1 span{color:var(--orange)}
+.sub{color:var(--grey);margin:6px 0 0}
+p.lead{font-size:17px;margin:28px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+a.card{display:block;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px 20px;color:var(--text);text-decoration:none;transition:border-color .15s}
+a.card:hover,a.card:focus-visible{border-color:var(--orange);outline:none}
+a.card b{display:block;font-size:18px;color:var(--orange)}
+a.card small{color:var(--grey);font-size:14px}
+a.card.main{grid-column:1/-1;background:var(--orange);color:var(--dark);border-color:var(--orange)}
+a.card.main b{color:var(--dark);font-size:22px}
+a.card.main small{color:#3a2408}
+.stats{display:flex;flex-wrap:wrap;gap:10px 28px;margin:32px 0 0;color:var(--grey);font-size:14px}
+.stats b{color:var(--text);font-size:20px;margin-right:4px}
+footer{margin-top:48px;color:var(--grey);font-size:13px;border-top:1px solid var(--line);padding-top:16px}
+footer a{color:var(--grey)}
+</style>
+</head>
+<body>
+<main>
+<header>
+  <img src="slides/img/title-icon.png" alt="">
+  <div>
+    <h1>御宅藝 <span>LLM Wiki</span></h1>
+    <p class="sub">ヲタ芸 / Wotagei —— 用 Karpathy 的 LLM Wiki pattern 整理的個人知識庫</p>
+  </div>
+</header>
+<p class="lead">把日文維基、中文維基、YouTube 教學影片、圈內網站與社團成員的實務經驗整理成一份可追溯出處的 wiki，再從 wiki 產出 120 分鐘的社課簡報「御宅藝文化講座」。</p>
+<div class="grid">
+  <a class="card main" href="slides/"><b>▶ 御宅藝文化講座（簡報）</b><small>33 張，按 ← → 或空白鍵換頁；每張都標了依據的 wiki 頁</small></a>
+  <a class="card" href="https://github.com/HibikiDad/wotagei-llm-wiki/blob/main/wiki/index.md"><b>Wiki 目錄</b><small>56 頁：概念、技、道具、曲子結構、文化、來源摘要</small></a>
+  <a class="card" href="https://github.com/HibikiDad/wotagei-llm-wiki/blob/main/docs/workflow.md"><b>Loop／Graph 設計</b><small>Ingest loop、Lint、Slides Graph，以及檢查放在哪裡</small></a>
+  <a class="card" href="https://github.com/HibikiDad/wotagei-llm-wiki/blob/main/docs/reflection.md"><b>反思</b><small>最常失敗的節點、檢查往前移、流程的改變</small></a>
+  <a class="card" href="https://github.com/HibikiDad/wotagei-llm-wiki/tree/main/checks"><b>檢查紀錄</b><small>23 份 lint、5 份 slides check、LLM lint、事實查核、渲染檢查</small></a>
+  <a class="card" href="https://github.com/HibikiDad/wotagei-llm-wiki/blob/main/wiki/log.md"><b>操作紀錄（log）</b><small>每次 ingest／lint／slides 的時間與討論修正</small></a>
+  <a class="card" href="https://github.com/HibikiDad/wotagei-llm-wiki/blob/main/CLAUDE.md"><b>Schema（CLAUDE.md）</b><small>wiki 怎麼組織、頁面怎麼寫、每個流程的步驟</small></a>
+</div>
+<div class="stats">
+  <span><b>11</b>份外部來源（20 個來源頁）</span>
+  <span><b>56</b>個 wiki 頁</span>
+  <span><b>23</b>次自動 lint</span>
+  <span><b>33</b>張投影片</span>
+</div>
+<footer>維基百科內容依 CC BY-SA 4.0；其他網站與影片逐字稿只在本機保存，repo 只放後設資料與短引文。原始碼：<a href="https://github.com/HibikiDad/wotagei-llm-wiki">GitHub</a></footer>
+</main>
+</body>
+</html>

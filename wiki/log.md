@@ -1,6 +1,6 @@
 # 操作紀錄（log）
 
-> 依時間累加，只新增不修改。前綴格式：`## [YYYY-MM-DD HH:MM] 類型 | 標題`，類型為 ingest / query / lint / slides / fix / schema。
+> 依時間累加，只新增不修改。前綴格式：`## [YYYY-MM-DD HH:MM] 類型 | 標題`，類型為 ingest / query / lint / slides / fix / schema / docs。
 > 快速查看最近 5 筆：`grep "^## \[" wiki/log.md | tail -5`
 
 ## [2026-11-23 16:00] schema | 建立專案骨架與 CLAUDE.md
@@ -135,3 +135,14 @@
 - 修正的副作用：.yt 改 overflow:visible 後影片在 grid 裡被撐寬 → 加 min-width:0，重新截圖確認
 - 報告：checks/slides-render-20261123.md；check_slides：通過
 - 另：上一筆 log 的時間 17:45 是估計值（比當時時鐘還晚），改為 commit 的實際時間 17:33
+
+## [2026-11-23 17:48] schema | 檢查往前移（反思的結論寫回 CLAUDE.md）
+- §3.1 第 1 步：規劃來源時就檢查每支影片的字幕（S06a 到抓取時才發現沒有字幕）
+- §3.1 第 3 步：討論時把新用語對照 glossary 的不採用寫法（lint 的 3 次 FAIL 全是 E5）；列出被推翻的舊說法
+- §3.1 第 4 步：被推翻的舊說法要 grep 全 wiki（含 overview）一起改，並記到 log（至少 6 處舊說法晚了好幾步才被抓到）
+- §4：新增 docs 類型；log 時間一律先跑 date 取得
+
+## [2026-11-23 17:48] docs | 入口頁、workflow、反思、README（Slides Graph 第 6 步前）
+- 新增：index.html（GitHub Pages 入口）、.nojekyll、docs/workflow.md（Mermaid：Ingest loop、Lint、Slides Graph）、docs/reflection.md、README.md（繳交 6 項）
+- 入口頁用 chrome-devtools 在 390 與 1280 寬截圖確認；標題圖示太小 → 放大
+- lint：通過；check_slides：通過

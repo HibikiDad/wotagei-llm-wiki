@@ -122,6 +122,7 @@ updated: 2026-11-23
    - YouTube 影片：`$PY tools/fetch_youtube.py <url> --id S##`
      - 優先順序：作者上傳的字幕 > 自動字幕。**完全沒有字幕的影片先剔除**，
        記到 `raw/backlog.md` 並告知使用者（目前約定不做語音辨識）。
+     - **規劃來源時**就對每一支候選影片跑一次 `--list`／字幕檢查，不要等到抓取時才發現（S06a 的教訓）。
    - YouTube 播放清單：`$PY tools/fetch_youtube.py <playlist-url> --list`，
      列出每支影片的字幕狀態，讓使用者挑選；同一主題的影片可以綁成一個來源編號（S##a、S##b…）。
    - 本機檔案：使用者放進 `raw/inbox/`，搬到 `raw/web/` 或 `raw/youtube/` 並補上 frontmatter。
@@ -132,7 +133,11 @@ updated: 2026-11-23
      新出現的用語、與既有 wiki 矛盾的地方、可信度評估。
    - 等使用者確認或修正後，才進行下一步。
    - 使用者的修正或補充 → 原文追加到 `raw/discussion/discussion-notes.md`（標明是哪一次 ingest），並以 S00 引用。
+   - **（檢查前移，見 docs/reflection.md）**「新出現的用語」要逐一對照 glossary 的「不採用寫法」欄，
+     當場決定標準寫法；使用者的修正如果**推翻**了既有說法，要列出「會被推翻的舊說法」。
 4. **寫入 wiki**：來源摘要頁 → 更新或新增主題頁 → 更新 `glossary.md` → 更新 `overview.md`（如果需要）。
+   - 有被推翻的舊說法時，用 `grep` 找出全 wiki 所有出現的地方（**一定包含 overview.md**）一起改，
+     並把 grep 的關鍵字與修改的頁面記到 log。
 5. **✅ 檢查**：`$PY tools/lint_wiki.py`（報告會寫進 `checks/`）。有 error 就修正後重跑，直到通過為止。
 6. **記帳**：更新 `index.md`，在 `log.md` 追加一筆紀錄，
    然後 `git commit -m "ingest: S## <標題>"`。
@@ -167,7 +172,8 @@ updated: 2026-11-23
 - 討論修正：使用者指出…
 - lint：通過（第 2 次；第 1 次的問題：…）
 ```
-類型：`ingest` | `query` | `lint` | `slides` | `fix` | `schema`（修改本檔時要記一筆）。
+類型：`ingest` | `query` | `lint` | `slides` | `fix` | `schema`（修改本檔時要記一筆） | `docs`（docs/、README、入口頁）。
+時間一律先執行 `date '+%Y-%m-%d %H:%M'` 取得，不可估計。
 
 ---
 
