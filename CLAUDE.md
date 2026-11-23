@@ -19,6 +19,7 @@ raw/                 第一層：原始資料（不可修改，immutable）
   web/               網頁來源（S##-slug.md）
   youtube/           影片來源（S##-<videoId>.md 是公開的後設資料；.private.md 是逐字稿全文）
   inbox/             使用者手動丟進來、還沒處理的檔案
+  discussion/        ingest 討論時使用者的補充與修正（原文照錄，只追加不修改）→ 對應來源 S00
   backlog.md         候選來源（還沒 ingest，或被剔除的，附原因）
 wiki/                第二層：LLM 撰寫、維護的知識庫（LLM 全權負責）
   index.md           內容目錄：每頁一行（連結＋一句摘要），依分類排列
@@ -55,6 +56,9 @@ Python 一律用：`C:/Users/Hibiki/anaconda3/envs/CLAUDE/python.exe`（下文�
 - 路徑用英文或羅馬拼音的 kebab-case（例如 `techniques/romance.md`、`concepts/underground-idol.md`），
   方便 GitHub、Windows 與 URL 處理；中文標題寫在 frontmatter 的 `title`。
 - 來源編號 `S01`、`S02`… 依 ingest 順序遞增，一旦給定就不再變動。
+- **`S00` 是「使用者討論紀錄」**：使用者在討論時提供的圈內實務知識（沒有書面來源）。
+  原文照錄在 `raw/discussion/discussion-notes.md`，wiki 引用時標 `[S00]`。
+  S00 的說法與書面來源衝突時，**兩邊都保留**，用「⚠️ 說法分歧」並列，不擅自刪除。
 
 ### Frontmatter（每個 wiki 頁面都必須有，`index.md`、`log.md` 除外）
 ```yaml
@@ -73,6 +77,7 @@ updated: 2026-11-23
 2. **頁面之間用相對路徑的標準 Markdown 連結**（不用 `[[wikilink]]`，因為 GitHub 不會渲染）。
 3. **來源之間說法矛盾時，不要擅自選一個**：用 `> ⚠️ 說法分歧：` 區塊並列兩邊的說法和出處。
 4. 用語一律採用 `glossary.md` 的「標準寫法」，不使用「不採用寫法」欄裡的寫法。
+   例外：全形括號（…）裡的原文註記、`>` 引文區塊，不在此限。
 5. 每頁開頭先用 1～2 句話白話說明「這是什麼」（給新手看），再展開細節。
 6. 結尾放「相關頁面」清單（至少 1 個連結），避免孤兒頁。
 
@@ -126,6 +131,7 @@ updated: 2026-11-23
    - 用條列呈現：一句話摘要、5～10 個重點、會新增或修改的 wiki 頁面清單、
      新出現的用語、與既有 wiki 矛盾的地方、可信度評估。
    - 等使用者確認或修正後，才進行下一步。
+   - 使用者的修正或補充 → 原文追加到 `raw/discussion/discussion-notes.md`（標明是哪一次 ingest），並以 S00 引用。
 4. **寫入 wiki**：來源摘要頁 → 更新或新增主題頁 → 更新 `glossary.md` → 更新 `overview.md`（如果需要）。
 5. **✅ 檢查**：`$PY tools/lint_wiki.py`（報告會寫進 `checks/`）。有 error 就修正後重跑，直到通過為止。
 6. **記帳**：更新 `index.md`，在 `log.md` 追加一筆紀錄，

@@ -5,7 +5,7 @@
   E2 斷鏈（相對路徑的 Markdown 連結指向不存在的檔案）
   E3 缺出處（內文沒有任何連結指向 sources/S##；output 類型的頁面可以改為連結到其他 wiki 頁）
   E4 沒有列在 index.md
-  E5 使用了 glossary「不採用寫法」（引文區塊 > 和行內程式碼不檢查）
+  E5 使用了 glossary「不採用寫法」（引文區塊 >、行內程式碼、全形括號（…）內的原文註記不檢查）
   E6 frontmatter 的 sources 寫了不存在的來源編號
   W1 孤兒頁（除了 index.md 之外，沒有任何頁面連到它）
   W2 沒有「相關頁面」段落
@@ -128,6 +128,7 @@ def main() -> int:
                     continue
                 clean = re.sub(r"`[^`]*`", "", line)
                 clean = re.sub(r"\]\([^)]*\)", "]", clean)  # 不檢查連結網址
+                clean = re.sub(r"（[^）]*）", "", clean)  # 不檢查括號內的原文註記
                 for bad, std in variants.items():
                     if bad in clean:
                         errors.append(f"E5 用語：`{name}` 第 {ln} 行用了「{bad}」→ 應為「{std}」")
