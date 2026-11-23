@@ -30,6 +30,7 @@ updated: 2026-11-23
 - 在 2018 年的偶像現場，家虎「很常見，幾乎是必備知識」（[S06b](../sources/S06b-yzX_SkMQAfw.md) 00:36）。
 - 家虎和 [MIX](mix.md) 都屬於[打call](call.md)（[S00](../sources/S00-discussion-notes.md)）。曲中位置見[曲子結構與打法](../music/song-structure.md)。
 - 在台灣，喊家虎會被當成[厄介](yakkai.md)（[S00](../sources/S00-discussion-notes.md)）；S09 也說，在非地下偶像系的偶像演唱會上大喊家虎是厄介，通常會被官方禁止（[S09](../sources/S09-moegirl-yakkai.md)）。
+  > ⚠️ 資料缺口：使用者在 S10 討論時補充，**地下藝**在 DJ 場、地下偶像場是一般的同樂，在正經的演唱會才算厄介（[S00](../sources/S00-discussion-notes.md)）；S05 也把家虎列為地下藝的口號之一。家虎是不是同樣依場合而定，目前沒有確認（整理者推論：很可能一樣）。
 
 ## 相關頁面
 

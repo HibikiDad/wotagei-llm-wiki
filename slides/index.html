@@ -1,0 +1,812 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>御宅藝文化講座</title>
+<meta name="description" content="御宅藝社團 120 分鐘入門課簡報：內容全部依據御宅藝 LLM Wiki。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --orange:#ff8a1f; --orange-soft:#ffb066; --orange-dim:rgba(255,138,31,.14);
+  --dark:#141418; --panel:#202026; --panel-2:#2a2a32; --line:#3a3a44;
+  --grey:#9a9aa6; --text:#f2f2f5; --warn:#ffd166; --warn-bg:rgba(255,209,102,.10);
+  --W:1280px; --H:720px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%;background:#0b0b0e;color:var(--text);
+  font-family:"Noto Sans TC","Noto Sans JP",system-ui,sans-serif;overflow:hidden}
+:lang(ja),.ja{font-family:"Noto Sans JP","Noto Sans TC",sans-serif}
+#viewport{position:fixed;inset:0;display:flex;align-items:center;justify-content:center}
+#deck{width:var(--W);height:var(--H);position:relative;transform-origin:center center;flex:none}
+.slide{position:absolute;inset:0;background:var(--dark);padding:46px 64px 58px;display:none;flex-direction:column;overflow:hidden;
+  background-image:radial-gradient(circle at 100% 0%,rgba(255,138,31,.10),transparent 42%)}
+.slide.active{display:flex}
+.unit{font-size:15px;color:var(--orange);letter-spacing:.12em;font-weight:700;margin-bottom:6px}
+h1{font-size:64px;font-weight:900;line-height:1.15}
+h2{font-size:38px;font-weight:900;line-height:1.25;margin-bottom:20px}
+h2 .sub{font-size:22px;color:var(--grey);font-weight:500;margin-left:12px}
+h3{font-size:22px;color:var(--orange-soft);margin-bottom:8px}
+p,li,td,th{font-size:21px;line-height:1.6}
+.small,.small li,.small td,.small th{font-size:17px;line-height:1.5}
+ul{padding-left:1.2em} li{margin:4px 0} li::marker{color:var(--orange)}
+ol{padding-left:1.4em} ol li::marker{color:var(--orange);font-weight:700}
+b,strong{color:var(--orange-soft)}
+.lead{font-size:28px;line-height:1.5;font-weight:700;border-left:6px solid var(--orange);padding-left:18px;margin-bottom:18px}
+table{border-collapse:collapse;width:100%}
+th{background:var(--panel-2);color:var(--orange-soft);text-align:left;font-weight:700}
+th,td{padding:7px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+.cols{display:grid;gap:28px;grid-template-columns:1fr 1fr;flex:1;min-height:0}
+.cols.c3{grid-template-columns:1fr 1fr 1fr}
+.cols.w2{grid-template-columns:3fr 2fr}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px 20px}
+.card.hl{border-color:var(--orange);background:linear-gradient(180deg,var(--orange-dim),var(--panel) 70%)}
+.warn{background:var(--warn-bg);border-left:5px solid var(--warn);padding:8px 14px;border-radius:6px;margin-top:12px;font-size:17px;line-height:1.5}
+.warn::before{content:"⚠️ ";}
+.gap{background:rgba(154,154,166,.12);border-left:5px solid var(--grey);padding:8px 14px;border-radius:6px;margin-top:10px;font-size:16px;color:#cfcfd6}
+.gap::before{content:"資料缺口：";color:var(--grey);font-weight:700}
+.infer{color:var(--grey);font-size:.85em}
+.tag{display:inline-block;background:var(--orange);color:#141418;font-weight:900;border-radius:999px;padding:2px 12px;font-size:15px;margin-right:6px;vertical-align:middle}
+.tag.g{background:var(--panel-2);color:var(--text);border:1px solid var(--line)}
+.chibi{position:absolute;pointer-events:none;filter:drop-shadow(0 6px 18px rgba(0,0,0,.5))}
+.src{position:absolute;left:64px;right:180px;bottom:16px;font-size:12.5px;color:var(--grey);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.src a{color:var(--grey);text-decoration:none;border-bottom:1px dotted var(--grey)}
+.src a:hover{color:var(--orange)}
+.pg{position:absolute;right:64px;bottom:14px;font-size:14px;color:var(--grey);font-variant-numeric:tabular-nums}
+.timeline{display:flex;flex-direction:column;gap:8px}
+.tl{display:grid;grid-template-columns:150px 1fr;gap:14px;align-items:baseline}
+.tl .y{font-weight:900;color:var(--orange);font-size:22px;text-align:right}
+.tl .e{font-size:20px;line-height:1.45;border-left:2px solid var(--line);padding-left:14px}
+.yt{position:relative;width:100%;aspect-ratio:16/9;background:#000;border-radius:12px;overflow:hidden;border:1px solid var(--line)}
+.yt iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.yt .ph{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:var(--grey);font-size:18px}
+.imgs{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.imgs figure{background:var(--panel);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.imgs img{width:100%;height:150px;object-fit:cover;display:block}
+.imgs figcaption{font-size:14.5px;padding:5px 10px;line-height:1.35}
+.mix td{font-size:20px;padding:6px 8px;text-align:center;cursor:pointer;transition:background .15s}
+.mix th{font-size:17px}
+.mix td.on{background:var(--orange);color:#141418;font-weight:900}
+.mix td .r{display:block;font-size:13px;color:var(--grey)}
+.mix td.on .r{color:#3a2000}
+.count{font-size:150px;font-weight:900;color:var(--orange);font-variant-numeric:tabular-nums;line-height:1}
+button.btn{background:var(--orange);color:#141418;border:0;border-radius:999px;padding:8px 22px;font:700 18px "Noto Sans TC",sans-serif;cursor:pointer}
+button.btn.ghost{background:transparent;color:var(--text);border:1px solid var(--line)}
+.check li{list-style:none;position:relative;padding-left:36px}
+.check li::before{content:"☐";position:absolute;left:0;color:var(--orange);font-size:24px;line-height:1.3}
+#bar{position:fixed;left:0;bottom:0;height:4px;background:var(--orange);transition:width .2s;z-index:5}
+#help{position:fixed;right:12px;top:10px;font-size:12px;color:#55555f;z-index:5}
+.cover{justify-content:center;align-items:center;text-align:center;
+  background-image:radial-gradient(circle at 50% 30%,rgba(255,138,31,.22),transparent 55%),radial-gradient(circle at 0% 100%,rgba(255,138,31,.10),transparent 40%)}
+.big3 li{font-size:28px;margin:16px 0;line-height:1.45}
+@media print{.slide{display:flex;position:relative;page-break-after:always}#viewport{position:static}}
+</style>
+</head>
+<body>
+<div id="viewport"><div id="deck">
+
+<!-- ===================== 0 開場 ===================== -->
+<section class="slide cover" data-unit="開場" data-sources="wiki/overview.md">
+  <img src="img/title-icon.png" alt="御宅藝主題課程標題圖示" style="width:640px;margin-bottom:10px">
+  <h1>御宅藝文化講座</h1>
+  <p style="font-size:26px;color:var(--grey);margin-top:14px">從應援到表演：喊 MIX、打技、守禮儀 ── 社團新生 120 分鐘入門課</p>
+  <img class="chibi" src="img/chibi1.png" alt="" style="width:190px;left:40px;bottom:40px">
+  <img class="chibi" src="img/chibi3.png" alt="" style="width:190px;right:40px;bottom:40px">
+</section>
+
+<section class="slide" data-unit="開場" data-sources="wiki/outputs/slides-outline.md, wiki/index.md">
+  <div class="unit">開場</div>
+  <h2>今天的路線圖<span class="sub">講解 85 分＋實作 25 分＋休息 10 分</span></h2>
+  <div class="cols w2">
+    <table class="small">
+      <tr><th>#</th><th>單元</th><th>時間</th></tr>
+      <tr><td>1</td><td>御宅藝是什麼</td><td>12 分</td></tr>
+      <tr><td>2</td><td>從哪裡來</td><td>6 分</td></tr>
+      <tr><td>3</td><td>地下偶像與台灣御宅藝圈</td><td>14 分</td></tr>
+      <tr><td>4</td><td>螢光棒</td><td>10 分</td></tr>
+      <tr><td>5</td><td>曲子結構</td><td>8 分</td></tr>
+      <tr><td>6</td><td>打call：MIX 與家虎（帶念）</td><td>15 分</td></tr>
+      <tr><td>—</td><td>休息</td><td>10 分</td></tr>
+      <tr><td>7</td><td><b>技：實作</b></td><td>25 分</td></tr>
+      <tr><td>8</td><td>現場禮儀與厄介</td><td>10 分</td></tr>
+      <tr><td>9</td><td>總結與 Q&amp;A</td><td>5 分</td></tr>
+    </table>
+    <div>
+      <div class="card hl">
+        <h3>這份簡報怎麼來的</h3>
+        <p class="small">每張投影片都根據「御宅藝 LLM Wiki」撰寫，左下角的「依據」就是這張用到的 wiki 頁；wiki 頁再往下可以追到原始來源（維基百科、YouTube 教學、團體官網、社團成員的說明）。</p>
+      </div>
+      <div class="card" style="margin-top:14px">
+        <h3>看到這兩種標記</h3>
+        <div class="warn" style="margin-top:4px">說法分歧：來源之間說法不同，兩邊並列。</div>
+        <div class="gap">wiki 目前還沒有可靠來源的地方。</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 1 御宅藝是什麼 ===================== -->
+<section class="slide" data-unit="1 御宅藝是什麼" data-sources="wiki/concepts/wotagei.md">
+  <div class="unit">單元 1　御宅藝是什麼</div>
+  <h2>一句話定義</h2>
+  <p class="lead">御宅藝（<span class="ja">ヲタ芸／オタ芸</span>）是偶像宅配合音樂，用舞蹈動作和喊聲來應援或表演的「藝」。</p>
+  <div class="cols">
+    <div class="card">
+      <h3>基本用語</h3>
+      <ul>
+        <li>日文是「<span class="ja">アイドルオタクの芸</span>」的簡稱</li>
+        <li><b>打藝</b>（<span class="ja">打つ</span>）：表演御宅藝這個動作</li>
+        <li><b>打師</b>（<span class="ja">打ち師</span>）：表演的人；台灣也叫<b>藝師</b>（同義詞）</li>
+        <li>不只偶像歌，也會配 Vocaloid 曲、一般日本流行歌來打</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>常見誤會</h3>
+      <p>御宅藝<b>不等於</b>「螢光棒舞蹈」：EvolutioN 官網 FAQ 說明，御宅藝不一定要拿螢光棒，也不限於肢體動作。</p>
+      <div class="warn">書面來源（日文維基）只有「應援／表演」二分法；台灣社團實務上分成三種 → 下一張。</div>
+    </div>
+  </div>
+  <img class="chibi" src="img/chibi2.png" alt="" style="width:120px;right:40px;top:30px">
+</section>
+
+<section class="slide" data-unit="1 御宅藝是什麼" data-sources="wiki/concepts/wotagei.md, wiki/concepts/general-support.md, wiki/concepts/chika-gei.md, wiki/concepts/performance-gei.md, wiki/overview.md">
+  <div class="unit">單元 1　御宅藝是什麼</div>
+  <h2>三種御宅藝</h2>
+  <table>
+    <tr><th style="width:15%"></th><th>一般應援</th><th>地下藝</th><th>表演藝</th></tr>
+    <tr><td><b>別名</b></td><td>—</td><td><span class="ja">地下芸</span>（日文）</td><td>地上藝、<span class="ja">サイリウムダンス</span>、光棒藝</td></tr>
+    <tr><td><b>對誰</b></td><td>台上的偶像</td><td>台上的表演者</td><td>觀眾</td></tr>
+    <tr><td><b>怎麼做</b></td><td>觀眾席上揮螢光棒、喊 call</td><td>極度誇張、扭曲的動作＋MIX，<b>通常不拿螢光棒</b></td><td>技很多的螢光棒舞蹈，常常沒有喊聲</td></tr>
+    <tr><td><b>目的</b></td><td>替偶像加油</td><td>吸引表演者注意（刷認知）；DJ 場是同樂</td><td>表演給觀眾看</td></tr>
+  </table>
+  <div class="warn">說法分歧：日文維基是二分法 ── <span class="ja">オタ芸</span>（應援，通稱地下藝）／<span class="ja">ヲタ芸</span>（表演，通稱<span class="ja">サイリウムダンス</span>）。三分法來自社團成員的圈內經驗：地下藝只是應援裡特別誇張的那一種。</div>
+</section>
+
+<section class="slide" data-unit="1 御宅藝是什麼" data-sources="wiki/concepts/call.md, wiki/concepts/mix.md">
+  <div class="unit">單元 1　御宅藝是什麼</div>
+  <h2>打call 是總稱</h2>
+  <p class="lead">打call ＝ 現場配合歌曲喊口號、拍手、揮手臂的應援總稱；MIX、家虎、口上都是它延伸出來的形式。</p>
+  <div class="cols">
+    <div class="card">
+      <h3>一般應援的 call</h3>
+      <p>喊偶像在歌曲中放入、粉絲記得住的<b>專屬口號</b>，目的是替偶像應援。</p>
+    </div>
+    <div class="card hl">
+      <h3>地下藝的 call</h3>
+      <p>常是<b>約定俗成的一套念法</b>，有時跟偶像本身沒有關係；重點是好幾個人的聲音一起大到讓偶像注意到。</p>
+    </div>
+  </div>
+  <p style="margin-top:18px">所以：地下藝也屬於打call；MIX 也不是地下藝專有 ── 一般偶像也可能放入專屬口號當作 MIX。</p>
+</section>
+
+<section class="slide" data-unit="1 御宅藝是什麼" data-sources="wiki/concepts/wotagei.md, wiki/concepts/performance-gei.md, wiki/sources/S05-K97ZqVhf-mA.md">
+  <div class="unit">單元 1　御宅藝是什麼</div>
+  <h2>影片：台灣打師自己怎麼分類<span class="sub">EvolutioN〈御宅藝文化詳細介紹〉00:33 起</span></h2>
+  <div class="cols w2">
+    <div class="yt" data-id="K97ZqVhf-mA" data-start="33"></div>
+    <div class="small">
+      <h3>看的時候注意</h3>
+      <ul>
+        <li>00:33 オタ芸＝地下藝：口號（例如家虎）＋動作，<b>通常不拿螢光棒</b></li>
+        <li>01:06 ヲタ芸＝光棒藝：拿螢光棒揮出光跡，比起應援更偏向表現</li>
+        <li>01:06～01:38 技分成經典的<b>定番技</b>和種類極多的<b>副歌技</b>（據說超過 1000 種）</li>
+        <li>01:38 打call 也算御宅藝的一種，偏向應援</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 2 從哪裡來 ===================== -->
+<section class="slide" data-unit="2 從哪裡來" data-sources="wiki/history/timeline.md, wiki/techniques/romance.md, wiki/culture/competitions.md">
+  <div class="unit">單元 2　從哪裡來</div>
+  <h2>日本：從應援到表演</h2>
+  <div class="timeline">
+    <div class="tl"><div class="y">1970～80 年代</div><div class="e">偶像親衛隊配合歌曲齊聲喊聲的應援已經存在</div></div>
+    <div class="tl"><div class="y">1989</div><div class="e">渡辺美奈代〈恋愛紅一点〉Aメロ時粉絲跳的「<span class="ja">ロマンス</span>ダンス」── 被視為オタ芸的<b>原型</b></div></div>
+    <div class="tl"><div class="y">2002</div><div class="e">ハロー!プロジェクト演唱會上以「オタ芸」之名廣為人知（〈ロマンティック 浮かれモード〉是契機）</div></div>
+    <div class="tl"><div class="y">2006 起</div><div class="e">透過 YouTube、ニコニコ動画擴散</div></div>
+    <div class="tl"><div class="y">2009</div><div class="e">基扭特戰隊（<span class="ja">ギニュ～特戦隊</span>）開始用螢光棒表現 → <b>表演藝</b>分化出來；2014 前後以打藝為主體的活動頻繁舉辦</div></div>
+    <div class="tl"><div class="y">2017～18</div><div class="e">ROTO 成為「初代御宅藝世界王者」；基扭特戰隊與 LUMICA 合辦 Cyalume Dance World Battle</div></div>
+  </div>
+</section>
+
+<section class="slide" data-unit="2 從哪裡來" data-sources="wiki/history/timeline.md, wiki/culture/taiwan.md">
+  <div class="unit">單元 2　從哪裡來</div>
+  <h2>台灣：入坑的契機</h2>
+  <div class="timeline">
+    <div class="tl"><div class="y">2004</div><div class="e">台北第一家女僕咖啡廳「咖啡安妮莓」開幕，店內有地下偶像唱跳表演</div></div>
+    <div class="tl"><div class="y">2011 起</div><div class="e">各地方政府舉辦「動漫節」，表演機會變多</div></div>
+    <div class="tl"><div class="y">2011</div><div class="e"><b>台北電玩展「戰鬥哥」</b>在 MEGA 舞台下應援的影片爆紅（觀看數 400 萬），帶很多人入坑</div></div>
+    <div class="tl"><div class="y">2018</div><div class="e">EvolutioN 在高雄成立；新竹高中動畫社在社博表演ヲタ芸（→ 風城界隈）</div></div>
+    <div class="tl"><div class="y">2019～2020</div><div class="e">疫情讓粉絲無法出國看日本 live，轉而支持台灣本土地下偶像</div></div>
+  </div>
+  <img class="chibi" src="img/chibi4.png" alt="" style="width:120px;right:50px;top:40px">
+</section>
+
+<!-- ===================== 3 地下偶像與台灣圈 ===================== -->
+<section class="slide" data-unit="3 地下偶像與台灣圈" data-sources="wiki/concepts/underground-idol.md, wiki/concepts/local-idol.md, wiki/culture/taiwan.md, wiki/concepts/chika-gei.md">
+  <div class="unit">單元 3　地下偶像與台灣御宅藝圈</div>
+  <h2>地下偶像是什麼</h2>
+  <div class="cols">
+    <div>
+      <p class="lead" style="font-size:24px">相對於主流偶像、更重視<b>現場演出</b>的偶像類型。</p>
+      <ul class="small">
+        <li>多由小型演藝公司、音樂工作室經營，有的沒有公司支援</li>
+        <li>收入靠小型現場演出＋周邊商品</li>
+        <li>常見「拼盤」：多組表演者同場演出</li>
+        <li>台灣：約 45～50 多組、近 200 人；穿梭在每年約 1,000 場 ACG 活動中</li>
+      </ul>
+      <p class="small" style="margin-top:8px">對照<b>在地偶像</b>（<span class="ja">ローカルアイドル</span>）：強調以家鄉為活動中心 ── 本 wiki 分成兩個概念。</p>
+    </div>
+    <div class="card hl">
+      <h3>為什麼地下藝要「被看見」？</h3>
+      <p class="small">秋葉系偶像的歌迷總數少、常常好幾團同場；場地小、距離近，台上看得到也認得出個別粉絲 → 用誇張的動作讓自己被看見。<span class="infer">（整理者推論，經社團成員同意）</span></p>
+      <p class="small" style="margin-top:8px">圈內說法：打藝的目的「就是讓偶像知道我們，就是<b>刷認知</b>」。</p>
+    </div>
+  </div>
+</section>
+
+<section class="slide" data-unit="3 地下偶像與台灣圈" data-sources="wiki/culture/taiwan.md">
+  <div class="unit">單元 3　地下偶像與台灣御宅藝圈</div>
+  <h2>台灣主要團體<span class="sub">2021 年的團體地圖</span></h2>
+  <div class="cols w2">
+    <table>
+      <tr><th style="width:22%">地區</th><th>團體／打師</th></tr>
+      <tr><td>台北</td><td>赤式、魔亂、大安勢、小祈家 Family</td></tr>
+      <tr><td>新竹</td><td>風城界隈</td></tr>
+      <tr><td>桃園</td><td>Larry（個人打師）</td></tr>
+      <tr><td>中部</td><td><span class="ja">パンドラ</span>（Pandora）</td></tr>
+      <tr><td>高雄</td><td>EvolutioN、PhoeniX、<b>高雄藝師聯合</b></td></tr>
+    </table>
+    <div>
+      <div class="card hl"><h3>高雄藝師聯合</h3><p class="small">據 EvolutioN 的介紹影片，是台灣最早的打藝團體；爆紅的「戰鬥哥」也是成員。</p></div>
+      <div class="warn">團體現況有時效性，以各團體的社群頁為準。</div>
+      <div class="gap">這張表與團體介紹都出自 EvolutioN 團隊的來源；北部、中部團體自己的觀點還沒有來源。</div>
+    </div>
+  </div>
+</section>
+
+<section class="slide" data-unit="3 地下偶像與台灣圈" data-sources="wiki/culture/taiwan.md">
+  <div class="unit">單元 3　地下偶像與台灣御宅藝圈</div>
+  <h2>團體怎麼傳承、怎麼活動</h2>
+  <div class="cols">
+    <div class="card">
+      <h3>風城界隈：一屆傳一屆</h3>
+      <ol class="small">
+        <li><b>2018-08</b> 新竹高中動畫社學長怕「單純畫畫招不到人」，找到日本 Fly-N 的影片，在社團博覽會表演</li>
+        <li>組同好會「嶺風ヲタ」，迎新、成發表演，拉竹北高中動畫社一起打</li>
+        <li>下一屆用同樣方式收學弟 → <b>2020-01</b> 正式創團</li>
+        <li>挑戰：團員上大學後分散各地</li>
+      </ol>
+    </div>
+    <div>
+      <div class="card">
+        <h3>EvolutioN（高雄，2018～）</h3>
+        <p class="small">做影片、講座、舞台表演、辦比賽；團長 EOS 指導過中科實中打藝社（2021）、政大御宅藝社（2022）。</p>
+      </div>
+      <div class="card hl" style="margin-top:14px">
+        <h3>大家為什麼入坑？</h3>
+        <p class="small">看到戰鬥哥、LoveLive 應援、女僕咖啡廳偶像的應援、表演藝團體的演出 ── 最常聽到的一句：「<b>很帥</b>」。也有人從地下偶像場打地下藝，後來轉打表演藝。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="slide" data-unit="3 地下偶像與台灣圈" data-sources="wiki/culture/competitions.md, wiki/techniques/taiwan-original-waza.md, wiki/concepts/performance-gei.md">
+  <div class="unit">單元 3　地下偶像與台灣御宅藝圈</div>
+  <h2>比賽與台灣原創技</h2>
+  <div class="cols c3">
+    <div class="card">
+      <h3>個人賽</h3>
+      <p class="small">一人雙手拿螢光棒演出；評分：動作節拍 30%、力道控制 30%、光跡呈現 20%、體態 10%、舞台表現 10%。複賽採 Scramble：隨機兩首副歌輪流即興。</p>
+    </div>
+    <div class="card">
+      <h3>團體賽</h3>
+      <p class="small">2～5 人原創編排；評分：整齊度 40%、編排創意 40%、執行完成度 10%、舞台表現 10%。<br>比賽中還有 DJ 帶大家打地下藝的「Party Time」。</p>
+      <img src="img/performance-demo.jpg" alt="表演藝團體在舞台上揮舞螢光棒的演出照片" style="width:100%;border-radius:8px;margin-top:8px">
+    </div>
+    <div class="card hl">
+      <h3>原創技與「本家」</h3>
+      <p class="small">打師自創的技叫原創技，創作者叫那個技的<b>本家</b>。2025 年 EvolutioN 把 12 個台灣原創技帶到日本煌芒祭，例如：</p>
+      <ul class="small"><li><span class="ja">殺意の百合</span>（本家：小羅）</li><li>初心幻刃（戰鬥哥＆お茶ユ）</li><li>祈火（Hong）</li></ul>
+      <div class="gap">來源只列技名與本家，沒有動作說明。</div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 4 螢光棒 ===================== -->
+<section class="slide" data-unit="4 螢光棒" data-sources="wiki/gear/glowstick.md">
+  <div class="unit">單元 4　螢光棒</div>
+  <h2>化學 vs LED，台灣圈怎麼叫</h2>
+  <div class="cols">
+    <div>
+      <table class="small">
+        <tr><th></th><th>化學螢光棒</th><th>LED 螢光棒</th></tr>
+        <tr><td>日文</td><td><span class="ja">ケミカルライト</span>、<span class="ja">サイリウム</span></td><td><span class="ja">ペンライト</span></td></tr>
+        <tr><td>發光</td><td>折斷玻璃安瓿，兩液反應發光</td><td>電池＋LED</td></tr>
+        <tr><td>時間</td><td>一般 6～8 小時，用完即丟</td><td>可重複使用、可換色</td></tr>
+        <tr><td>台灣誰用</td><td><b>表演藝</b>（大閃光）；地下偶像場也常見</td><td><b>演唱會應援</b>（王劍）</td></tr>
+      </table>
+      <p class="small" style="margin-top:10px">為什麼會亮：「酸化液」＋「蛍光液」起化學反應，發光時不發熱 ──「<b>冷光</b>」；反應完就不會再亮。</p>
+      <p class="small">台灣也把 LED 螢光棒叫「手燈」。</p>
+    </div>
+    <div class="imgs">
+      <figure><img src="img/stick-chemical-daisenko.jpg" alt="LUMICA 大閃光化學螢光棒包裝"><figcaption><b>大閃光</b>：台灣圈通常指這種化學棒</figcaption></figure>
+      <figure><img src="img/stick-ouken-blade.jpg" alt="LUMICA 大閃光ブレード LED 螢光棒"><figcaption><b>王劍</b>：演唱會用 LED，很粗、亮度較低</figcaption></figure>
+      <figure><img src="img/stick-denbou-arc.jpg" alt="多色高亮度 LED 螢光棒排成扇形"><figcaption><b>電棒</b>：表演藝用的高亮度 LED，大小接近化學棒</figcaption></figure>
+      <figure><img src="img/stick-denbou-taika.jpg" alt="仁光社大火 LED 螢光棒"><figcaption>電棒：成本考量時用來取代化學棒</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="slide" data-unit="4 螢光棒" data-sources="wiki/gear/glowstick.md">
+  <div class="unit">單元 4　螢光棒</div>
+  <h2>打藝用的棒子：怎麼挑、怎麼折、怎麼拿</h2>
+  <div class="cols c3">
+    <div class="card">
+      <h3>挑</h3>
+      <ul class="small">
+        <li>化學棒常用 LUMICA「大閃光」、Riverroots「Flash Bomber」</li>
+        <li>挑<b>發光 15 分鐘以內</b>的版本，才有影片上的亮度</li>
+        <li>練習時可以改用電子螢光棒</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>折（讓化學棒發光）</h3>
+      <ul class="small">
+        <li>幾支併在一起對折</li>
+        <li>單手用大拇指和食指凹（要練握力）</li>
+        <li>棒子對棒子敲、敲地板</li>
+      </ul>
+    </div>
+    <div class="card hl">
+      <h3>拿</h3>
+      <ol class="small">
+        <li>夾在指間、整隻手握住 ── 手張開時很好看</li>
+        <li>抓住棒子最頂端 ── 光弧比較長</li>
+        <li>用大拇指抓，像爪子（特殊）</li>
+      </ol>
+      <p class="small" style="margin-top:6px">EvolutioN：怎麼握都可以，<b>不會掉棒</b>最重要。</p>
+    </div>
+  </div>
+  <p class="small" style="margin-top:14px"><span class="tag g">備註</span>教學影片的螢光棒由 LUMICA 在台經銷商提供，LUMICA 也贊助比賽 ── 推薦品牌時要考慮這層關係。<span class="infer">（整理者推論）</span></p>
+</section>
+
+<section class="slide" data-unit="4 螢光棒" data-sources="wiki/gear/glowstick.md, wiki/culture/controversies.md, wiki/concepts/yakkai.md">
+  <div class="unit">單元 4　螢光棒</div>
+  <h2>應援色與安全</h2>
+  <div class="cols">
+    <div class="card">
+      <h3>應援色</h3>
+      <p class="small">2010 年前後，每位成員各有代表色的大型團體走紅，觀眾開始自備多色螢光棒對應成員。</p>
+      <h3 style="margin-top:14px">車站不要揮</h3>
+      <p class="small">在月台或車廂揮螢光棒（特別是<b>紅色</b>），可能被誤認為緊急停車信號。</p>
+    </div>
+    <div class="card hl">
+      <h3>化學棒安全須知</h3>
+      <ul class="small">
+        <li>不要用力折、不要往膝蓋上敲：藥液可能噴出</li>
+        <li>藥液進眼睛 → <b>不要揉</b>，用流水沖，不舒服就就醫；沾到皮膚 → 用水或肥皂水洗</li>
+        <li>不要加熱、不要放冷凍庫</li>
+        <li>注意不要甩飛；<b>把棒子丟出去砸到人是典型的厄介行為</b></li>
+      </ul>
+      <div class="warn">說法分歧：日文維基強調藥液噴出、玻璃碎片的風險；製造商 LUMICA 說自家藥液有害性約等於中性洗劑。後者是廠商的說法。</div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 5 曲子結構 ===================== -->
+<section class="slide" data-unit="5 曲子結構" data-sources="wiki/music/song-structure.md">
+  <div class="unit">單元 5　曲子結構</div>
+  <h2>先聽懂段落，才知道什麼時候喊、什麼時候打</h2>
+  <table>
+    <tr><th style="width:26%">段落</th><th>意思</th></tr>
+    <tr><td>前奏</td><td>歌聲開始前的器樂段落</td></tr>
+    <tr><td><span class="ja">Aメロ</span>（主歌）</td><td>第一段旋律</td></tr>
+    <tr><td><span class="ja">Bメロ</span>（導歌）</td><td>接往副歌的過渡旋律</td></tr>
+    <tr><td><span class="ja">サビ</span>（副歌）</td><td>歌曲最高潮、重複的段落</td></tr>
+    <tr><td>間奏</td><td>段與段之間的器樂段落</td></tr>
+    <tr><td><span class="ja">Cメロ</span></td><td>二段副歌之後、通常速度變慢的新段落</td></tr>
+    <tr><td>尾奏</td><td>最後一段副歌之後的結尾</td></tr>
+  </table>
+  <img class="chibi" src="img/chibi5.png" alt="" style="width:110px;right:40px;top:28px">
+</section>
+
+<section class="slide" data-unit="5 曲子結構" data-sources="wiki/music/song-structure.md, wiki/concepts/mix.md, wiki/concepts/yetta-tiger.md">
+  <div class="unit">單元 5　曲子結構</div>
+  <h2>段落 × 喊什麼 × 打什麼</h2>
+  <table class="small">
+    <tr><th style="width:20%">段落</th><th>應援：喊什麼</th><th>表演藝：打什麼技</th></tr>
+    <tr><td>前奏</td><td>「woo hey」抓拍子 → 發動 MIX；前奏夠長可以喊三連MIX</td><td>—</td></tr>
+    <tr><td><span class="ja">Aメロ</span>（主歌）</td><td>「<span class="ja">ニーハイ、オイハイ</span>」call：穿長襪的動作＋拍手</td><td>OAD、NIHAIOHAI、SOYA、YDDJJ（每個 8 拍）</td></tr>
+    <tr><td><span class="ja">Bメロ</span>（導歌）</td><td>歌曲進行中的 MIX 一般在導歌</td><td><span class="ja">ロザリオ</span>、<span class="ja">ロサンゼルス</span></td></tr>
+    <tr><td>副歌前的空檔</td><td>家虎（前一句先喊兩聲「耶」預備）</td><td>—</td></tr>
+    <tr><td><span class="ja">サビ</span>（副歌）</td><td>—</td><td>副歌技（據說超過 1000 種）</td></tr>
+    <tr><td>句與句之間</td><td>倍速MIX</td><td>—</td></tr>
+  </table>
+  <p class="small" style="margin-top:10px">同一段 Aメロ，應援的人喊「ニーハイ、オイハイ」、表演藝的人打 NIHAIOHAI ── 應援和表演在同一段做相似的動作。<span class="infer">（整理者推論）</span>　喊法「沒有絕對正確，但順序有規律」。</p>
+</section>
+
+<!-- ===================== 6 打call ===================== -->
+<section class="slide" data-unit="6 打call：MIX 與家虎" data-sources="wiki/concepts/mix.md">
+  <div class="unit">單元 6　打call：MIX 與家虎</div>
+  <h2>MIX 怎麼發動</h2>
+  <p class="lead">MIX ＝ 在前奏、間奏等空檔，觀眾一起喊出的一串固定單字。</p>
+  <div class="cols c3">
+    <div class="card"><h3>① 抓拍子</h3><p class="small">前奏一開始喊「woo hey」，一般約四次；前奏長的話可以喊到約 20 次。</p></div>
+    <div class="card"><h3>② 警報</h3><p class="small">拍手（pa～papapa pa）＋「sha～ikuzo」；也有「<span class="ja">あーーーーよっしゃぁ行くぞぉ！</span>」。</p></div>
+    <div class="card hl"><h3>③ 喊 MIX</h3><p class="small">一般 MIX 7 個單字、每段 8 拍。最完美：<b>喊完剛好偶像開始唱</b>。</p></div>
+  </div>
+  <p class="small" style="margin-top:16px">想喊得熱血：身體稍微往下壓、帶點沙啞聲。假發動：拍手後改喊「<span class="ja">まだいかない</span>」並用手臂比 X，兩次後才真正開始。</p>
+</section>
+
+<section class="slide" data-unit="6 打call：MIX 與家虎" data-sources="wiki/concepts/mix.md">
+  <div class="unit">單元 6　打call：MIX 與家虎　<span class="tag">帶念</span></div>
+  <h2>三連MIX（虎火三連）<span class="sub">點格子或按「下一個」一起念</span></h2>
+  <table class="mix" id="mixTable">
+    <tr><th style="width:13%">英語MIX</th><td>タイガー<span class="r">Taigā</span></td><td>ファイヤー<span class="r">Faiyā</span></td><td>サイバー<span class="r">Saibā</span></td><td>ファイバー<span class="r">Faibā</span></td><td>ダイバー<span class="r">Daibā</span></td><td>バイバー<span class="r">Baibā</span></td><td>ジャージャー<span class="r">Jā Jā</span></td></tr>
+    <tr><th>日本語MIX</th><td>虎<span class="r">Tora</span></td><td>火<span class="r">Hi</span></td><td>人造<span class="r">Jinzō</span></td><td>繊維<span class="r">Sen'i</span></td><td>海女<span class="r">Ama</span></td><td>振動<span class="r">Shindō</span></td><td>化繊飛除去<span class="r">Kasen Tobi Jokyo</span></td></tr>
+    <tr><th>愛努語MIX</th><td>チャペ<span class="r">Chape</span></td><td>アペ<span class="r">Ape</span></td><td>カラ<span class="r">Kara</span></td><td>キナ<span class="r">Kina</span></td><td>ララ<span class="r">Rara</span></td><td>トゥスケ<span class="r">Tusuke</span></td><td>ミョーホントゥスケ<span class="r">Myōhontusuke</span></td></tr>
+  </table>
+  <div style="display:flex;gap:10px;margin-top:12px;align-items:center">
+    <button class="btn" id="mixNext">下一個 ▶</button><button class="btn ghost" id="mixReset">重來</button>
+    <span class="small" style="color:var(--grey)">順序：英語 → 日本語 → 愛努語；羅馬音由整理者依日文轉寫</span>
+  </div>
+  <div class="warn">名稱注意：「<b>虎火三連</b>」是台灣常說的一般三連MIX（最常用）；「<b>虎火發動</b>」是把「虎、火」拿出來當發動的變體，兩者不同。</div>
+</section>
+
+<section class="slide" data-unit="6 打call：MIX 與家虎" data-sources="wiki/concepts/yetta-tiger.md, wiki/concepts/yakkai.md">
+  <div class="unit">單元 6　打call：MIX 與家虎</div>
+  <h2>家虎（<span class="ja">イエッタイガー</span>）</h2>
+  <div class="cols">
+    <div class="card">
+      <h3>名稱</h3>
+      <p class="small">「イエ」寫成漢字「家」、「タイガー」就是「虎」→ 家虎。對著偶像大喊「イエッタイガー」的應援行為。後面可以接「ファイボー、ワイパー」。</p>
+      <h3 style="margin-top:12px">什麼時候喊</h3>
+      <p class="small">短促有力，插在留白處：只要有<b>兩三秒的空檔</b>；常見是<b>副歌前</b>，前一句先喊兩聲「耶」預備。2018 年的偶像現場「幾乎是必備知識」。</p>
+    </div>
+    <div class="card hl">
+      <h3>但是……</h3>
+      <ul class="small">
+        <li><b>2020-02-02</b> ブシロード的木谷高明宣布根絕家虎：違反者要求退場、列入黑名單、考慮求償</li>
+        <li>在非地下偶像系的偶像演唱會上大喊家虎是<b>厄介</b>，通常會被官方禁止</li>
+        <li>在台灣，喊家虎會被當成厄介；但地下藝在 DJ 場、地下偶像場算同樂 ── 家虎是不是也看場合，wiki 還沒確認</li>
+      </ul>
+      <p class="small" style="margin-top:8px">→ 學會怎麼喊，也要知道<b>哪裡不能喊</b>（單元 8）。</p>
+    </div>
+  </div>
+</section>
+
+<section class="slide" data-unit="6 打call：MIX 與家虎" data-sources="wiki/concepts/mix.md, wiki/sources/S06c-dLfZSCgwyMY.md">
+  <div class="unit">單元 6　打call：MIX 與家虎</div>
+  <h2>影片：如何正確發動 MIX<span class="sub">無用男Rain</span></h2>
+  <div class="cols w2">
+    <div class="yt" data-id="dLfZSCgwyMY" data-start="0"></div>
+    <div class="small">
+      <h3>看的時候注意</h3>
+      <ul>
+        <li>00:30 前奏的「woo hey」</li>
+        <li>01:01 拍手 → 開始喊；英語 → 日本語 → 愛努語</li>
+        <li>02:27 倍速MIX</li>
+        <li>03:49 家虎的時機</li>
+      </ul>
+      <p style="margin-top:10px">看完後全體跟著影片喊一輪三連MIX。</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 休息 ===================== -->
+<section class="slide cover" data-unit="休息" data-sources="wiki/outputs/slides-outline.md">
+  <div class="unit">休息 10 分鐘</div>
+  <div class="count" id="countdown">10:00</div>
+  <div style="display:flex;gap:10px;margin-top:20px"><button class="btn" id="cdStart">開始倒數</button><button class="btn ghost" id="cdReset">重設</button></div>
+  <p style="color:var(--grey);margin-top:20px">下半場：拿起螢光棒，開始打技！（化學棒先別折）</p>
+  <img class="chibi" src="img/chibi1.png" alt="" style="width:150px;left:80px;bottom:60px">
+  <img class="chibi" src="img/chibi2.png" alt="" style="width:150px;left:260px;bottom:40px">
+  <img class="chibi" src="img/chibi3.png" alt="" style="width:150px;right:260px;bottom:40px">
+  <img class="chibi" src="img/chibi4.png" alt="" style="width:130px;right:80px;bottom:60px">
+</section>
+
+<!-- ===================== 7 技：實作 ===================== -->
+<section class="slide" data-unit="7 技：實作" data-sources="wiki/techniques/oad.md, wiki/concepts/performance-gei.md, wiki/techniques/sabi-waza.md">
+  <div class="unit">單元 7　技：實作</div>
+  <h2>站姿與節拍</h2>
+  <div class="cols">
+    <div class="card">
+      <h3>站姿</h3>
+      <div class="warn" style="margin-top:0">說法分歧，兩種都試試看：<br>・祈哥教學：腳打開約 <b>90 度以上</b><br>・EvolutioN FAQ：<b>腳尖朝前</b>，約 <b>1.5～2 倍肩寬</b>，用大腿和下盤出力、膝蓋微微向前、上身挺直</div>
+      <h3 style="margin-top:14px">節拍</h3>
+      <p class="small">入門技以 <b>8 拍</b>為一組練；EvolutioN 把一個「技」定義為 4 個八拍組成的連續動作。</p>
+    </div>
+    <div class="card">
+      <h3>技的兩大類</h3>
+      <table class="small">
+        <tr><th></th><th>定番技</th><th>副歌技</th></tr>
+        <tr><td>意思</td><td>經典、固定的動作</td><td>副歌時打的技，據說超過 1000 種</td></tr>
+        <tr><td>例子</td><td>OAD、<span class="ja">ロザリオ</span>、<span class="ja">ロマンス</span></td><td><span class="ja">サンダースネイク</span>（雷蛇）等</td></tr>
+      </table>
+      <p class="small" style="margin-top:10px">今天的順序：主歌技 4 個 → 導歌技 2 個 → 看副歌技示範。</p>
+    </div>
+  </div>
+</section>
+
+<section class="slide" data-unit="7 技：實作" data-sources="wiki/techniques/oad.md">
+  <div class="unit">單元 7　技：實作　<span class="tag">主歌技 1</span></div>
+  <h2>OAD<span class="sub">左右交替劃出光弧、在臉旁拍手</span></h2>
+  <div class="cols">
+    <div class="card hl">
+      <h3>動作</h3>
+      <ol class="small">
+        <li>雙手在一側預備</li>
+        <li>從右邊劃到左上角，在臉旁拍一下</li>
+        <li>再劃到另一邊做同樣的動作</li>
+        <li>劃過去時膝蓋朝正前方微彎當緩衝</li>
+      </ol>
+      <p class="small" style="margin-top:8px">8 拍：<b>第 1 拍開始、第 2 拍擊掌</b>。</p>
+    </div>
+    <div class="card">
+      <h3>新手常犯的錯</h3>
+      <ul class="small">
+        <li>屁股往後、身體跟著轉 → 從側面看手應該是一個平面</li>
+        <li>手肘往後「挖一下」→ 軌道不平均</li>
+        <li>骨盆前傾、人往後躺 → 難回來、容易壓到腰</li>
+      </ul>
+      <h3 style="margin-top:12px">關西OAD vs 關東OAD</h3>
+      <p class="small">今天教的是<b>關西OAD</b>；關東OAD 以左手為主要揮舞方向、右手畫小圈。台灣圈會區分兩者。</p>
+    </div>
+  </div>
+</section>
+
+<section class="slide" data-unit="7 技：實作" data-sources="wiki/techniques/nihai-ohai.md, wiki/techniques/soya.md, wiki/techniques/yddjj.md">
+  <div class="unit">單元 7　技：實作　<span class="tag">主歌技 2～4</span></div>
+  <h2>NIHAIOHAI、SOYA、YDDJJ</h2>
+  <div class="cols c3">
+    <div class="card">
+      <h3>NIHAIOHAI（過膝襪）</h3>
+      <p class="small">手碰到腳踝，像穿過膝襪一樣沿腿拉到胸口，往內轉、往下壓，在頭上拍一下。</p>
+      <p class="small" style="margin-top:6px">應援版就是 Aメロ 的「<span class="ja">ニーハイ、オイハイ</span>」call（不拿棒）。<span class="infer">（整理者推論）</span></p>
+    </div>
+    <div class="card">
+      <h3>SOYA</h3>
+      <p class="small">十字架＋「四突」（像正面打拳，一拍換一次手）。</p>
+      <p class="small" style="margin-top:6px">手肘<b>不要打直鎖死</b>，會受傷；有定點比較好看，不要用甩的。</p>
+    </div>
+    <div class="card">
+      <h3>YDDJJ</h3>
+      <p class="small">從斜下方劃出扇形大圈，接「風火輪」，再用身體帶起來接回 OAD。</p>
+      <p class="small" style="margin-top:6px">圈要畫大；起身接 OAD 的時間點是新手最大的障礙。</p>
+    </div>
+  </div>
+  <div class="gap">這三個技的日文原名，目前的來源都沒有寫到，暫用教學影片的羅馬字寫法。</div>
+</section>
+
+<section class="slide" data-unit="7 技：實作" data-sources="wiki/music/song-structure.md, wiki/techniques/oad.md, wiki/sources/S08a-zGVnPOHCoRA.md">
+  <div class="unit">單元 7　技：實作　<span class="tag">全體跟打</span></div>
+  <h2>影片：主歌技串起來<span class="sub">祈哥〈新手村入門〉主歌篇 12:00 起</span></h2>
+  <div class="cols w2">
+    <div class="yt" data-id="zGVnPOHCoRA" data-start="720"></div>
+    <div class="small">
+      <h3>跟打流程</h3>
+      <ol>
+        <li>先看一次示範</li>
+        <li>OAD → NIHAIOHAI → SOYA → YDDJJ，每個 8 拍</li>
+        <li>放慢、全體一起打一輪</li>
+        <li>原速再打一輪</li>
+      </ol>
+      <p style="margin-top:10px">YDDJJ 起身可以直接接回 OAD，形成循環。</p>
+    </div>
+  </div>
+</section>
+
+<section class="slide" data-unit="7 技：實作" data-sources="wiki/techniques/rosario.md, wiki/techniques/los-angeles.md">
+  <div class="unit">單元 7　技：實作　<span class="tag">導歌技</span></div>
+  <h2><span class="ja">ロザリオ</span>（十字架）與<span class="ja">ロサンゼルス</span>（洛杉磯）</h2>
+  <div class="cols">
+    <div class="card hl">
+      <h3><span class="ja">ロザリオ</span>（十字架）</h3>
+      <ul class="small">
+        <li>右手從後方拉到頭頂，在上方繞圈，再全力往下打（像用拳頭往下槌）</li>
+        <li>打下去時屁股往下坐、肚子往上提，才站得穩</li>
+        <li>拍數：一個動作 <b>4 拍</b>，做兩次合起來是<b>一個八拍</b></li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3><span class="ja">ロサンゼルス</span>（洛杉磯）</h3>
+      <ul class="small">
+        <li>雙手在左下 → 從左側<b>往內</b>繞上來 → 轉身延伸到右側 → 最後跟十字架一樣往下打</li>
+        <li><b>8 拍</b></li>
+        <li>往上延伸要畫<b>橢圓</b>；讓身體帶著手一起延伸，轉身控制在同一平面</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="slide" data-unit="7 技：實作" data-sources="wiki/techniques/rosario.md, wiki/techniques/los-angeles.md, wiki/techniques/sabi-waza.md, wiki/techniques/thunder-snake.md, wiki/techniques/romance.md, wiki/sources/S08b-HIsBsrt1bBw.md">
+  <div class="unit">單元 7　技：實作　<span class="tag">全體跟打</span></div>
+  <h2>影片：導歌篇跟打＋副歌技示範</h2>
+  <div class="cols">
+    <div>
+      <div class="yt" data-id="HIsBsrt1bBw" data-start="0"></div>
+      <p class="small" style="margin-top:6px">祈哥〈新手村入門〉導歌篇 → 全體跟打十字架、洛杉磯</p>
+    </div>
+    <div>
+      <div class="yt" data-id="7pO0AbJWxlE" data-start="0"></div>
+      <p class="small" style="margin-top:6px">副歌篇 #1：<b>只當視覺示範</b>（影片沒有字幕，內容沒有寫進 wiki）</p>
+    </div>
+  </div>
+  <p class="small" style="margin-top:8px">副歌技舉例：<b><span class="ja">サンダースネイク</span>（雷蛇）</b>── 直線＋畫圓，熟練後適合多人同步。另一個定番動作 <b><span class="ja">ロマンス</span>（羅曼史）</b>是 1989 年的原型，應援、表演兩邊都有人打<span class="infer">（整理者推論）</span>。</p>
+</section>
+
+<!-- ===================== 8 現場禮儀與厄介 ===================== -->
+<section class="slide" data-unit="8 現場禮儀與厄介" data-sources="wiki/culture/controversies.md, wiki/gear/glowstick.md">
+  <div class="unit">單元 8　現場禮儀與厄介</div>
+  <h2>御宅藝為什麼會被禁止</h2>
+  <div class="cols">
+    <div class="card">
+      <h3>被批評的地方</h3>
+      <ul class="small">
+        <li>打藝變成來活動的<b>主要目的</b>（本末倒置）</li>
+        <li>沉浸在自己的世界、<b>不顧周圍</b></li>
+        <li>掛上「オタ芸」之名就等於「迷惑行為」</li>
+      </ul>
+    </div>
+    <div class="timeline">
+      <div class="tl"><div class="y">2008 起</div><div class="e">歌手榊原ゆい在自己的 live 全面禁止オタ芸</div></div>
+      <div class="tl"><div class="y">2015</div><div class="e">AKB48 禁止帶入化學螢光棒</div></div>
+      <div class="tl"><div class="y">2017-08</div><div class="e">神戸 KOBerrieS♪ 演唱會：觀眾因打藝太激烈、聽不到歌，向主辦方提告</div></div>
+      <div class="tl"><div class="y">2020-02-02</div><div class="e">ブシロード宣布根絕家虎</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="slide" data-unit="8 現場禮儀與厄介" data-sources="wiki/concepts/yakkai.md, wiki/concepts/chika-gei.md, wiki/concepts/yetta-tiger.md">
+  <div class="unit">單元 8　現場禮儀與厄介</div>
+  <h2>厄介（<span class="ja">やっかい</span>）是什麼</h2>
+  <p class="lead" style="font-size:24px">在 live 現場用不正當的應援方式，影響周圍觀眾的<b>行為</b>。</p>
+  <div class="cols">
+    <table class="small">
+      <tr><th>場合（台灣）</th><th>打地下藝、喊家虎</th></tr>
+      <tr><td>正經的演唱會</td><td><b>會被當成厄介</b></td></tr>
+      <tr><td>DJ 場、地下偶像場</td><td>打地下藝是一般的<b>同樂</b></td></tr>
+    </table>
+    <div class="card">
+      <h3>不分場合都是厄介</h3>
+      <p class="small">丟螢光棒砸到人、應援過度造成財物損壞、大功率光學設備、表演時在台下跑動、衝著表演者下跪、敲鑼打鼓、吹管樂器、無人機……</p>
+    </div>
+  </div>
+  <div class="warn">說法分歧：有的中文文章把厄介當成「一類人」（麻煩的粉絲）；本課依社團成員的用法，以「行為」為主。</div>
+  <div class="gap">目前的來源都是中文（萌娘百科、kknews）；日本方面對厄介的定義還沒有日文來源。</div>
+</section>
+
+<section class="slide" data-unit="8 現場禮儀與厄介" data-sources="wiki/concepts/yakkai.md, wiki/gear/glowstick.md, wiki/culture/controversies.md, wiki/concepts/chika-gei.md">
+  <div class="unit">單元 8　現場禮儀與厄介</div>
+  <h2>進場前的檢查表</h2>
+  <div class="cols">
+    <ul class="check">
+      <li>這是什麼場合？演唱會／DJ 場／地下偶像場</li>
+      <li>場地規定：能不能帶化學螢光棒？能不能喊家虎？</li>
+      <li>旁邊的人有沒有空間？揮棒不要甩飛</li>
+      <li>不丟棒子、不用大功率燈具、表演時不在台下跑</li>
+    </ul>
+    <ul class="check">
+      <li>化學棒藥液進眼睛：不要揉，用流水沖</li>
+      <li>散場到車站：收起螢光棒（尤其紅色）</li>
+      <li>不確定能不能喊／打 → 先看周圍、先不要</li>
+    </ul>
+  </div>
+  <p class="small" style="color:var(--grey);margin-top:10px">這張是依 wiki 的事實整理成的清單（整理者整理）。</p>
+  <img class="chibi" src="img/chibi5.png" alt="" style="width:120px;right:50px;bottom:50px">
+</section>
+
+<!-- ===================== 9 總結 ===================== -->
+<section class="slide" data-unit="9 總結與 Q&A" data-sources="wiki/overview.md, wiki/concepts/wotagei.md, wiki/music/song-structure.md, wiki/concepts/yakkai.md">
+  <div class="unit">單元 9　總結與 Q&amp;A</div>
+  <h2>三句話帶走</h2>
+  <ol class="big3">
+    <li>御宅藝分三種：<b>一般應援、地下藝、表演藝</b>；打call 是喊聲應援的總稱。</li>
+    <li>喊 MIX、打技都<b>跟著曲子段落走</b>：前奏 MIX、主歌 OAD、導歌十字架、副歌前家虎。</li>
+    <li>同一個動作，換個場合可能就是<b>厄介</b> ── 先確認場合和規定再打。</li>
+  </ol>
+  <img class="chibi" src="img/chibi3.png" alt="" style="width:140px;right:50px;bottom:50px">
+</section>
+
+<section class="slide" data-unit="9 總結與 Q&A" data-sources="wiki/index.md, wiki/overview.md, wiki/outputs/slides-outline.md">
+  <div class="unit">單元 9　總結與 Q&amp;A</div>
+  <h2>延伸資源與資料缺口</h2>
+  <div class="cols">
+    <div class="card hl">
+      <h3>想學更多</h3>
+      <ul class="small">
+        <li>御宅藝 LLM Wiki：<a href="https://github.com/HibikiDad/wotagei-llm-wiki/blob/main/wiki/index.md" style="color:var(--orange-soft)">wiki/index.md</a>（20 份來源、50 多頁）</li>
+        <li>入門教學：祈哥〈新手村入門〉主歌篇、導歌篇</li>
+        <li>MIX：無用男Rain 的 MIX 講座</li>
+        <li>台灣圈與比賽：EvolutioN 官網、介紹影片</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>wiki 還缺什麼（歡迎提供來源）</h3>
+      <ul class="small">
+        <li>厄介的日文定義</li>
+        <li>副歌技的具體教學、紋章技</li>
+        <li>NIHAIOHAI、SOYA、YDDJJ 的日文原名</li>
+        <li>台灣原創技的動作；北部、中部團體的觀點</li>
+        <li>一般應援的揮棒方法；MAF展是什麼</li>
+      </ul>
+    </div>
+  </div>
+  <p style="text-align:center;font-size:34px;font-weight:900;margin-top:18px">Q &amp; A</p>
+</section>
+
+</div></div>
+<div id="bar"></div>
+<div id="help">← → 翻頁 · F 全螢幕</div>
+
+<script>
+(function(){
+  const REPO = "https://github.com/HibikiDad/wotagei-llm-wiki/blob/main/";
+  const deck = document.getElementById("deck");
+  const slides = Array.from(deck.querySelectorAll(".slide"));
+  const N = slides.length;
+  // 頁尾：依據與頁碼
+  slides.forEach((s, i) => {
+    const src = (s.dataset.sources || "").split(",").map(x => x.trim()).filter(Boolean);
+    const f = document.createElement("div"); f.className = "src";
+    f.innerHTML = "依據：" + src.map(p => `<a href="${REPO + p}" target="_blank" rel="noopener">${p.replace(/^wiki\//, "")}</a>`).join("、");
+    s.appendChild(f);
+    const pg = document.createElement("div"); pg.className = "pg"; pg.textContent = `${i + 1} / ${N}`;
+    s.appendChild(pg);
+  });
+  // 縮放
+  function fit(){ const k = Math.min(innerWidth / 1280, innerHeight / 720); deck.style.transform = `scale(${k})`; }
+  addEventListener("resize", fit); fit();
+  // 影片：只在當前頁載入 iframe，離開就移除（停止播放）
+  function setVideos(slide, on){
+    slide.querySelectorAll(".yt").forEach(box => {
+      if (on && !box.querySelector("iframe")) {
+        const ifr = document.createElement("iframe");
+        ifr.src = `https://www.youtube-nocookie.com/embed/${box.dataset.id}?start=${box.dataset.start || 0}&rel=0`;
+        ifr.title = "YouTube 影片"; ifr.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+        ifr.allowFullscreen = true; ifr.referrerPolicy = "strict-origin-when-cross-origin";
+        box.innerHTML = ""; box.appendChild(ifr);
+      } else if (!on) { box.innerHTML = '<div class="ph">▶ 影片（翻到這頁時載入）</div>'; }
+    });
+  }
+  let cur = 0;
+  function go(i){
+    i = Math.max(0, Math.min(N - 1, i));
+    slides[cur].classList.remove("active"); setVideos(slides[cur], false);
+    cur = i; slides[cur].classList.add("active"); setVideos(slides[cur], true);
+    document.getElementById("bar").style.width = ((cur + 1) / N * 100) + "%";
+    if (location.hash !== "#" + (cur + 1)) history.replaceState(null, "", "#" + (cur + 1));
+  }
+  slides.forEach(s => setVideos(s, false));
+  addEventListener("keydown", e => {
+    if (["ArrowRight","PageDown"," ","Enter"].includes(e.key)) { e.preventDefault(); go(cur + 1); }
+    else if (["ArrowLeft","PageUp","Backspace"].includes(e.key)) { e.preventDefault(); go(cur - 1); }
+    else if (e.key === "Home") go(0); else if (e.key === "End") go(N - 1);
+    else if (e.key === "f" || e.key === "F") { document.fullscreenElement ? document.exitFullscreen() : document.documentElement.requestFullscreen(); }
+  });
+  let tx = null;
+  addEventListener("touchstart", e => { tx = e.touches[0].clientX; }, {passive:true});
+  addEventListener("touchend", e => { if (tx === null) return; const dx = e.changedTouches[0].clientX - tx; if (Math.abs(dx) > 40) go(cur + (dx < 0 ? 1 : -1)); tx = null; });
+  addEventListener("hashchange", () => { const n = parseInt(location.hash.slice(1)); if (n) go(n - 1); });
+  go((parseInt(location.hash.slice(1)) || 1) - 1);
+
+  // 帶念：三連MIX
+  const cells = Array.from(document.querySelectorAll("#mixTable td")); let mi = -1;
+  function mixShow(k){ mi = k; cells.forEach((c, j) => c.classList.toggle("on", j === mi)); }
+  document.getElementById("mixNext").onclick = () => mixShow((mi + 1) % cells.length);
+  document.getElementById("mixReset").onclick = () => mixShow(-1);
+  cells.forEach((c, j) => c.onclick = () => mixShow(j));
+
+  // 休息倒數
+  const cd = document.getElementById("countdown"); let left = 600, timer = null;
+  const draw = () => cd.textContent = `${String(Math.floor(left / 60)).padStart(2, "0")}:${String(left % 60).padStart(2, "0")}`;
+  document.getElementById("cdStart").onclick = () => { if (timer) return; timer = setInterval(() => { left = Math.max(0, left - 1); draw(); if (!left) { clearInterval(timer); timer = null; } }, 1000); };
+  document.getElementById("cdReset").onclick = () => { clearInterval(timer); timer = null; left = 600; draw(); };
+})();
+</script>
+</body>
+</html>

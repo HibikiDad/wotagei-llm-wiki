@@ -31,6 +31,8 @@ updated: 2026-11-23
 
 台灣打藝團體 EvolutioN 的介紹也採二分法：オタ芸＝地下藝，**通常不拿螢光棒**，包含口號與動作；ヲタ芸是拿螢光棒揮出光跡，又叫「光棒藝」（[S05](../sources/S05-K97ZqVhf-mA.md) 00:33～01:06）。另外「打call」也算御宅藝的一種，偏向應援（[S05](../sources/S05-K97ZqVhf-mA.md) 01:38）。同團隊的官網 FAQ 說法一致，並強調御宅藝不一定要拿螢光棒、也不限於肢體動作，所以**不等於「螢光棒舞蹈」**；團隊也避免單用「螢光棒舞蹈」，因為容易被誤解成 Light Dance（[S10b](../sources/S10b-evolution-faq.md)）。
 
+EvolutioN 官網的 FAQ 進一步說明：御宅藝不一定要拿螢光棒，也不限於肢體動作，所以**不等於「螢光棒舞蹈」**；團隊避免單用「螢光棒舞蹈」這個說法，因為容易被理解成 Light Dance（[S10b](../sources/S10b-evolution-faq.md)）。
+
 **使用者的三分法**（[S00](../sources/S00-discussion-notes.md)）—— 本 wiki 採用這個分類：
 
 | 分類 | 對象 | 特徵 |

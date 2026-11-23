@@ -45,7 +45,7 @@
 - 討論修正：地下藝通常不拿螢光棒；打call＝一般應援；十字架＝ロザリオ；基扭特戰隊為台灣通稱；小祈＝S07 的祈哥；S05 可信度高；S04 可信度回改為中
 - lint：通過（第 1 次）
 
-## [2026-11-23 16:45] ingest | S06b、S06c YouTube 無用男Rain MIX／家虎講座
+## [2026-11-23 16:42] ingest | S06b、S06c YouTube 無用男Rain MIX／家虎講座
 
 - 來源：S06b yzX_SkMQAfw（2018 流行 MIX 大集合，英文字幕）、S06c dLfZSCgwyMY（發動 MIX＋家虎講座，繁中字幕）。S06a IgyO088HTH8 ingest 時才發現沒有字幕 → 剔除，記錄在 raw/backlog.md。
 - 討論（S00）：使用者**修正 S05 討論時的結論**——打call 是總稱，一般應援與地下藝都包含在內；MIX 不是地下藝專有；地下藝的 call 是約定俗成、讓聲音大到被偶像注意的念法；「虎火三連」最常用，並提供 kknews 文章。
@@ -54,7 +54,7 @@
 - 重新編號：kknews 插入為 S07 → 祈哥改為 S08a-b、厄介改為 S09（各頁的「待 S0x」一併更新）。
 - 檢查：第一次 lint E5 ×2（S06c 來源頁直接寫了不採用的「耶太嘎」「愛孥語」→ 改為放進（）原文註記），重跑通過。
 
-## [2026-11-23 17:00] ingest | S07 kknews〈日式應援中mix，家虎，火虎，厄介都是什麼意思？〉
+## [2026-11-23 16:46] ingest | S07 kknews〈日式應援中mix，家虎，火虎，厄介都是什麼意思？〉
 
 - 來源：使用者在 S06 討論時提供；trafilatura 直接抓取成功（全文 .private.md）。
 - 新增：sources/S07、concepts/yakkai.md（厄介）。
@@ -63,7 +63,7 @@
 
 - lint：第 1 次即通過。
 
-## [2026-11-23 17:20] ingest | S08a、S08b YouTube 祈哥 Hong〈新手村入門〉主歌篇、導歌篇
+## [2026-11-23 16:54] ingest | S08a、S08b YouTube 祈哥 Hong〈新手村入門〉主歌篇、導歌篇
 
 - 來源：zGVnPOHCoRA（主歌，13:20）、HIsBsrt1bBw（導歌，8:26），皆為作者上傳繁中字幕。
 - 新增：sources/S08a、S08b；techniques/oad、nihai-ohai、soya、yddjj、rosario、los-angeles（一技一頁）。
@@ -72,18 +72,18 @@
 
 - lint：第 1 次即通過。
 
-## [2026-11-23 17:30] lint | LLM Lint Pass（簡報前）
+## [2026-11-23 16:55] lint | LLM Lint Pass（簡報前）
 
 - 報告：checks/lint-llm-20261123.md。
 - 修正：glowstick（「台灣現場以 LED 為主」過度概括 → 限定演唱會；化學棒與地下藝不拿棒的關係加註）、general-support（過時的缺口說明、王劍）、timeline（補 2017-10、2018-12、2020-01）、5 個技頁的語句。
 - 缺口：厄介日文定義（S09）、副歌技例子、NIHAIOHAI／SOYA／YDDJJ 日文原名等 → 簡報中標示。
 
-## [2026-11-23 17:40] slides | 簡報大綱（Slides Graph 第 1 步）
+## [2026-11-23 16:57] slides | 簡報大綱（Slides Graph 第 1 步）
 - 新增：outputs/slides-outline.md（10 單元、33 張、120 分鐘；每張列出依據的 wiki 頁）
 - 資料缺口在投影片中標示：厄介日文定義（S09）、副歌技例子、NIHAIOHAI／SOYA／YDDJJ 日文原名
 - 狀態：等待使用者審核大綱
 
-## [2026-11-23 18:10] ingest | S10a～S10d EvolutioN 官網（首頁、常見問題、比賽頁、台灣原創技）
+## [2026-11-23 17:12] ingest | S10a～S10d EvolutioN 官網（首頁、常見問題、比賽頁、台灣原創技）
 - 抓取：使用者提供首頁，正文很短；Claude 列出子頁面，挑出 faq、competition、twotageiskill_cultureshock 一起 ingest（S09 預留給厄介，故用 S10）
 - 新增：sources/S10a～S10d、techniques/taiwan-original-waza.md、culture/competitions.md
 - 更新：wotagei（藝師、不等於螢光棒舞蹈）、chika-gei（同樂 vs 吸引注意 ⚠️ 分歧）、yakkai（台灣依場合分兩列）、performance-gei（技／技連／本家、拍光軌、比賽）、oad（站姿 ⚠️ 分歧）、rosario（4 拍×2＝八拍）、glowstick（品牌、15 分鐘、握法）、taiwan、timeline（2011 戰鬥哥改為確定年份、2017～2025 比賽與原創技）、song-structure、glossary（藝師、光棒藝、比賽、技、技連、本家、副手、台灣原創技）
@@ -91,31 +91,40 @@
 - 順手修正：glowstick 頁殘留的錯誤引用「{Bb}」→ S08b；taiwan 頁「台灣現場以 LED 為主」→ 限定為演唱會（LLM lint 時漏改的同一句）
 - lint：通過（第 1 次）
 
-## [2026-11-23 18:20] ingest | S11a～S11c LUMICA 官網（商品一覧、化学発光体について、沿革）
+## [2026-11-23 17:15] ingest | S11a～S11c LUMICA 官網（商品一覧、化学発光体について、沿革）
 - 抓取：使用者提供商品頁，正文很短；Claude 挑出 about_cl（化學發光原理、安全）與 history（沿革）一起 ingest；technology 頁與 about_cl 重複，未抓
 - 新增：sources/S11a～S11c
 - 更新：glowstick（化學棒原理「冷光」、保存、外漏處理、安全 ⚠️ 分歧、サイリューム銷售權、年表 1982／1993／2012／2018）、timeline（1982、2019 MAF展）、competitions（MAF展獲獎、LUMICA 贊助關係）、glossary（大閃光、冷光）、S00、index
 - 討論修正：使用者確認台灣圈「大閃光」通常指化學棒；安全說法 S04a 與廠商並列；MAF展性質不明 → 照原文記錄
 - lint：通過（第 1 次）
 
-## [2026-11-23 18:25] slides | 簡報大綱依 S10、S11 修訂
+## [2026-11-23 17:16] slides | 簡報大綱依 S10、S11 修訂
 - 更新：outputs/slides-outline.md（第 3、8、9、12、13、15、23、27、30、31、33 張；加入比賽與台灣原創技、化學棒原理與外漏處理、站姿與安全的 ⚠️ 分歧、地下藝看場合）
 - 狀態：等待使用者審核大綱
 
-## [2026-11-23 18:40] ingest | S09 萌娘百科「厄介」
+## [2026-11-23 17:23] ingest | S09 萌娘百科「厄介」
 - 抓取：正文很短；「典型例子」一節只抓到網站導覽框，不採用
 - 新增：sources/S09
 - 更新：yakkai（定義改為「行為」、⚠️ 指人／指行為分歧、非地下偶像系演唱會一列、厄介行為清單；移除「待補 S09」缺口，改為「仍缺日文來源」）、controversies、yetta-tiger、glowstick（丟棒子是厄介）、glossary、S00、index、backlog
 - 討論修正：使用者表示厄介偏向指行為；S09 的行為清單台灣圈都認同；可信度低～中
 - lint：通過（第 1 次）
 
-## [2026-11-23 18:45] slides | 簡報大綱審核通過
+## [2026-11-23 17:23] slides | 簡報大綱審核通過
 - 更新：outputs/slides-outline.md —— 年表 10→6 分（3→2 張）、台灣圈 10→14 分（3→4 張，新增「台灣主要團體」）、第 28 張嵌入副歌篇影片、第 30～31 張依 S09 改寫
 - 狀態：使用者審核通過 → 進入 Slides Graph 第 2 步（撰寫投影片）
 
-## [2026-11-23 19:05] fix | overview 殘留舊說法
+## [2026-11-23 17:29] fix | overview 殘留舊說法
 - 寫簡報前重讀 overview.md，發現三處沒跟上後續 ingest 的舊說法（自動 lint 與 LLM lint 都沒抓到）：
   - 「台灣現場也是 LED 為主」→ 改成「台灣的**演唱會**現場也是 LED 為主」（S08 討論已修正為只限演唱會）
   - 「厄介（麻煩的人）」→ 改成 S09 的行為定義，並補上 DJ 場／地下偶像場是同樂（S10 討論）
   - 「目前依據：S00～S08」→ 「S00～S11c」
 - lint：通過（W1 只剩 outputs/slides-outline.md 孤兒頁，可接受）
+
+## [2026-11-23 17:45] slides | 撰寫 HTML 簡報＋確定性檢查＋事實查核（Slides Graph 第 2～4 步）
+- 新增：slides/index.html（33 張，每張 data-sources 指向 wiki 頁）、slides/img/（Assets 縮圖）、tools/check_slides.py
+- check_slides：第 1 次 PASS；用故意埋錯的副本做反向測試（缺出處、不採用寫法、缺圖、未知影片）→ 4 類都抓到；過程中修了相對路徑參數會讓報告失敗的 bug
+- LLM 事實查核（checks/slides-factcheck-20261123.md）：5 個問題
+  - 投影片寫錯 3 個：ロマンス被歸成副歌技、爭議年表順序錯、AKB48 那條缺出處頁
+  - wiki 漏寫／過時 2 個：wotagei.md 沒寫進 S10b 的 FAQ 說明 → 補上；yetta-tiger.md 的「台灣喊家虎＝厄介」沒跟上 S10 討論的場合區分 → 加 ⚠️ 資料缺口
+- lint：通過；check_slides：通過（S5 warning：副歌篇影片只在 backlog，只當視覺示範）
+- 另：校正 log 中 S06 之後各筆的時間（原本是估計值，改為對應 commit 的實際時間）
