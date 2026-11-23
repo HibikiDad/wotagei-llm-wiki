@@ -40,10 +40,18 @@ updated: 2026-11-23
 2. 同意寫入整理者推論：秋葉系現場歌迷少、多團同場、距離近 → 表演者認得出個別粉絲 → 這是地下藝以「吸引表演者注意」為目的的背景。
 3. 其餘重點與頁面規劃 —— 同意。
 
+### S04 討論（2026-11-23）
+
+1. 用語表同意；**LED 螢光棒在台灣也叫「手燈」**，要記錄下來。
+2. 螢光棒**合併成一頁**（gear/glowstick.md）。
+3. **台灣現場以 LED 螢光棒為主**，因為演唱會可能禁止化學螢光棒。
+4. （可信度評估未回覆，沿用提議。）
+
 ## 相關頁面
 
 - [S01 日文維基百科「オタ芸」](S01-ja-wiki-wotagei.md)
 - [S02 中文維基百科「臺灣地下偶像文化」](S02-zh-wiki-taiwan-underground-idol.md)
 - [S03 中文維基百科「在地偶像」](S03-zh-wiki-local-idol.md)
+- [S04a](S04a-ja-wiki-chemical-light.md)、[S04b](S04b-ja-wiki-penlight.md) 螢光棒
 - [御宅藝](../concepts/wotagei.md)
 - [用語表](../glossary.md)

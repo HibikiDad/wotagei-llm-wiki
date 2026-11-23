@@ -1,7 +1,7 @@
 ---
 title: 用語表
 type: glossary
-sources: [S00, S01, S02, S03]
+sources: [S00, S01, S02, S03, S04a, S04b]
 updated: 2026-11-23
 ---
 
@@ -26,6 +26,16 @@ updated: 2026-11-23
 | 拼盤 | 対バン（整理者推論） | — | — | 多組表演者共同參演的演出 | [S02](sources/S02-zh-wiki-taiwan-underground-idol.md) |
 | ACG | — | Anime, Comic, Game | — | 動畫、漫畫、遊戲的合稱 | [S02](sources/S02-zh-wiki-taiwan-underground-idol.md) |
 | [家虎](concepts/yetta-tiger.md) | イエッタイガー | Yetta Tiger | 耶太嘎 | 喊聲；「耶太嘎」為音譯，只在括號內註記 | [S01](sources/S01-ja-wiki-wotagei.md) |
+
+## 道具
+
+| 標準寫法 | 日文 | 羅馬拼音／英文 | 不採用寫法 | 說明 | 出處 |
+|---|---|---|---|---|---|
+| [螢光棒](gear/glowstick.md) | サイリウム、ペンライト | Glowstick、Lightstick | 螢光燈棒、熒光棒 | 總稱，化學式與 LED 都算 | [S04a](sources/S04a-ja-wiki-chemical-light.md)、[S04b](sources/S04b-ja-wiki-penlight.md) |
+| 化學螢光棒 | ケミカルライト、サイリューム | Chemical light、Cyalume | — | 折斷內管、兩液混合發光；漸被禁止 | [S04a](sources/S04a-ja-wiki-chemical-light.md) |
+| LED 螢光棒 | ペンライト | Penlight、LED light | — | 台灣也常叫「手燈」；目前主流 | [S04b](sources/S04b-ja-wiki-penlight.md)、[S00](sources/S00-discussion-notes.md) |
+| UO | ウルトラオレンジ | Ultra Orange | — | 只亮 5～15 分鐘的高亮度化學螢光棒 | [S04a](sources/S04a-ja-wiki-chemical-light.md) |
+| 應援色 | メンバーカラー、イメージカラー | Member color | — | 對應成員代表色的螢光棒顏色 | [S04b](sources/S04b-ja-wiki-penlight.md) |
 
 ## 技
 

@@ -2,7 +2,7 @@
 title: 表演藝
 type: concept
 aliases: [地上藝, サイリウムダンス, サイリウムパフォーマンス, ヲタ芸]
-sources: [S00, S01]
+sources: [S00, S01, S04a]
 updated: 2026-11-23
 ---
 
@@ -17,8 +17,9 @@ updated: 2026-11-23
 - 2014 年前後，已經頻繁舉辦以打藝為主體的活動和 live（[S01](../sources/S01-ja-wiki-wotagei.md)）。
 - 知名的先驅隊伍：**GinyuforcE**（[S01](../sources/S01-ja-wiki-wotagei.md)）。
 - 別名：使用者表示「地上藝」與「サイリウムダンス」都是它的別名（[S00](../sources/S00-discussion-notes.md)）。S01 本身沒有出現「地上芸」這個詞。
+- 「サイリウム」是日本對[螢光棒](../gear/glowstick.md)的泛稱（[S04a](../sources/S04a-ja-wiki-chemical-light.md)），「サイリウムダンス」字面上就是「螢光棒舞」。
 
 ## 相關頁面
 
 - [御宅藝](wotagei.md)、[地下藝](chika-gei.md)、[一般應援](general-support.md)
-- [サンダースネイク](../techniques/thunder-snake.md)、[年表](../history/timeline.md)
+- [螢光棒](../gear/glowstick.md)、[サンダースネイク](../techniques/thunder-snake.md)、[年表](../history/timeline.md)

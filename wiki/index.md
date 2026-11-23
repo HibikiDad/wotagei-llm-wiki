@@ -1,7 +1,7 @@
 # 御宅藝 LLM Wiki — 目錄
 
 > 這是 wiki 的內容目錄。每頁一行：連結＋一句話摘要。由 LLM 在每次 ingest 時更新。
-> 新手請從 [總覽](overview.md) 開始。　來源數：4（S00～S03）　最後更新：2026-11-23
+> 新手請從 [總覽](overview.md) 開始。　來源數：5（S00～S04b）　最後更新：2026-11-23
 
 ## 入口
 
@@ -14,6 +14,8 @@
 - [S01 日文維基百科「オタ芸」](sources/S01-ja-wiki-wotagei.md) — 定義、兩種寫法、代表技、歷史、爭議
 - [S02 中文維基百科「臺灣地下偶像文化」](sources/S02-zh-wiki-taiwan-underground-idol.md) — 地下偶像定義、台灣發展、疫情轉折、規模
 - [S03 中文維基百科「在地偶像」](sources/S03-zh-wiki-local-idol.md) — 日本在地偶像的起源、秋葉系經營、台灣稱地下偶像
+- [S04a 日文維基百科「ケミカルライト」](sources/S04a-ja-wiki-chemical-light.md) — 化學螢光棒原理、UO、サイリウム名稱、危險性
+- [S04b 日文維基百科「ペンライト」](sources/S04b-ja-wiki-penlight.md) — 演唱會揮光的歷史（1974～2020 年代）、應援色、LED 主流化
 
 ## 概念（Concepts）
 
@@ -37,7 +39,7 @@
 
 ## 道具（Gear）
 
-（待 S04）
+- [螢光棒](gear/glowstick.md) — 化學 vs. LED 比較、UO、應援色、演變史、安全須知
 
 ## 曲結構與打法（Music）
 
@@ -45,7 +47,7 @@
 
 ## 歷史（History）
 
-- [御宅藝年表](history/timeline.md) — 1970 年代親衛隊到 2020 年家虎根絕宣言
+- [御宅藝年表](history/timeline.md) — 1970 年代親衛隊、1974 年演唱會揮光起源到 2020 年家虎根絕宣言
 
 ## 文化與禮儀（Culture）
 

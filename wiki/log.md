@@ -32,3 +32,9 @@
 - 更新：concepts/underground-idol.md（台灣定義、⚠️ 說法分歧：S03 視為同義 vs. 本 wiki 分兩頁）、concepts/chika-gei.md（整理者推論：為什麼要吸引表演者注意）、culture/taiwan.md、history/timeline.md（1993／1995／1996）、glossary.md（在地偶像、秋葉系）、sources/S00-discussion-notes.md（補 S02、S03 討論）、index.md
 - 討論修正：使用者決定在地偶像與地下偶像分兩頁；同意寫入推論
 - lint：通過（第 2 次；第 1 次 E5 ×3：glossary 把「秋葉原系」列為不採用，但改寫時照抄原文 → 改為「秋葉系（秋葉原系）」）
+
+## [2026-11-23 16:23] ingest | S04a 日文維基百科「ケミカルライト」＋ S04b「ペンライト」
+- 新增：sources/S04a-ja-wiki-chemical-light.md、sources/S04b-ja-wiki-penlight.md、gear/glowstick.md
+- 更新：history/timeline.md（1974／1986／1996／2002／2010／2015）、concepts/performance-gei.md（サイリウムダンス名稱）、culture/controversies.md（化學螢光棒安全）、glossary.md（新增「道具」表）、overview.md、sources/S00-discussion-notes.md、index.md
+- 討論修正：使用者補充台灣也叫 LED 螢光棒「手燈」、台灣以 LED 為主；決定合併成一頁
+- lint：通過（第 1 次）

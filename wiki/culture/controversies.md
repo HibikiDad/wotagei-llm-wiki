@@ -2,7 +2,7 @@
 title: 爭議與禁止
 type: culture
 aliases: [迷惑行為, 禁止オタ芸]
-sources: [S01]
+sources: [S01, S04a, S04b]
 updated: 2026-11-23
 ---
 
@@ -30,6 +30,10 @@ S01 整理的批評聲音（[S01](../sources/S01-ja-wiki-wotagei.md)）：
 ## 安全問題：車站裡的螢光棒
 
 在車站月台或車廂揮舞螢光棒（特別是**紅色**），可能被列車員誤認為**緊急停車信號**而打亂行車，JR 東日本、西武鐵道都提醒乘客不要這樣做（[S01](../sources/S01-ja-wiki-wotagei.md)）。
+
+## 安全問題：化學螢光棒
+
+化學螢光棒的藥液可能外漏、玻璃碎片可能割傷，細長的棒子也容易甩飛打到別人；因此有些演唱會禁止帶入，改推 LED 螢光棒（[S04a](../sources/S04a-ja-wiki-chemical-light.md)）。AKB48 在 2015 年禁止帶入（[S04b](../sources/S04b-ja-wiki-penlight.md)）。詳見[螢光棒](../gear/glowstick.md)。
 
 > ⚠️ 資料缺口：「厄介」這個詞與爭議的關係尚無來源，預計在 Lint Pass 後決定是否補 S08。
 

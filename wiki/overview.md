@@ -1,7 +1,7 @@
 ---
 title: 御宅藝總覽
 type: overview
-sources: [S00, S01, S02]
+sources: [S00, S01, S02, S04a, S04b]
 updated: 2026-11-23
 ---
 
@@ -36,6 +36,10 @@ updated: 2026-11-23
 ## 爭議
 
 被批評干擾其他觀眾，部分歌手與公司已經禁止，也發生過訴訟（[S01](sources/S01-ja-wiki-wotagei.md)）→ [爭議與禁止](culture/controversies.md)
+
+## 手上拿的是什麼
+
+[螢光棒](gear/glowstick.md)分化學式（ケミカルライト）與 LED 式（ペンライト）。化學螢光棒有安全疑慮、常被演唱會禁止，2020 年代以 LED 為主流（[S04a](sources/S04a-ja-wiki-chemical-light.md)、[S04b](sources/S04b-ja-wiki-penlight.md)）；台灣現場也是 LED 為主（[S00](sources/S00-discussion-notes.md)）。
 
 ## 相關頁面
 
