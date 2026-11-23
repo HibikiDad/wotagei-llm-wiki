@@ -1,13 +1,13 @@
 ---
 title: 御宅藝總覽
 type: overview
-sources: [S00, S01, S02, S04a, S04b, S03, S05, S06b, S06c, S07, S08a, S08b]
+sources: [S09, S00, S01, S02, S04a, S04b, S03, S05, S06b, S06c, S07, S08a, S08b]
 updated: 2026-11-23
 ---
 
 # 御宅藝總覽
 
-> 新手入口頁。隨著來源增加持續改寫。目前依據：S00～S08。
+> 新手入口頁。隨著來源增加持續改寫。目前依據：S00～S11c。
 
 **御宅藝（ヲタ芸）是粉絲配合音樂、用舞蹈動作與喊聲來應援或表演的「藝」。**（[S01](sources/S01-ja-wiki-wotagei.md)）
 
@@ -42,11 +42,11 @@ updated: 2026-11-23
 
 ## 爭議
 
-被批評干擾其他觀眾，部分歌手與公司已經禁止，也發生過訴訟（[S01](sources/S01-ja-wiki-wotagei.md)）→ [爭議與禁止](culture/controversies.md)。在台灣，喊家虎、打地下藝會被當成「[厄介](concepts/yakkai.md)」（麻煩的人）（[S00](sources/S00-discussion-notes.md)、[S07](sources/S07-kknews-mix.md)）。
+被批評干擾其他觀眾，部分歌手與公司已經禁止，也發生過訴訟（[S01](sources/S01-ja-wiki-wotagei.md)）→ [爭議與禁止](culture/controversies.md)。在台灣，喊家虎、打地下藝會被當成「[厄介](concepts/yakkai.md)」（[S00](sources/S00-discussion-notes.md)、[S07](sources/S07-kknews-mix.md)）—— 厄介是指在現場用不正當的應援方式影響周圍觀眾的行為（[S09](sources/S09-moegirl-yakkai.md)）；在 DJ 場、地下偶像場打地下藝則是一般的同樂（[S00](sources/S00-discussion-notes.md)）。
 
 ## 手上拿的是什麼
 
-[螢光棒](gear/glowstick.md)分化學式（ケミカルライト）與 LED 式（ペンライト）。化學螢光棒有安全疑慮、常被演唱會禁止，2020 年代以 LED 為主流（[S04a](sources/S04a-ja-wiki-chemical-light.md)、[S04b](sources/S04b-ja-wiki-penlight.md)）；台灣現場也是 LED 為主（[S00](sources/S00-discussion-notes.md)）；不過表演藝通常用化學棒，圈內還有「王劍」「電棒」等叫法（[S00](sources/S00-discussion-notes.md)、[S08a](sources/S08a-zGVnPOHCoRA.md)）。
+[螢光棒](gear/glowstick.md)分化學式（ケミカルライト）與 LED 式（ペンライト）。化學螢光棒有安全疑慮、常被演唱會禁止，2020 年代以 LED 為主流（[S04a](sources/S04a-ja-wiki-chemical-light.md)、[S04b](sources/S04b-ja-wiki-penlight.md)）；台灣的**演唱會**現場也是 LED 為主（[S00](sources/S00-discussion-notes.md)）；不過表演藝通常用化學棒，圈內還有「王劍」「電棒」等叫法（[S00](sources/S00-discussion-notes.md)、[S08a](sources/S08a-zGVnPOHCoRA.md)）。
 
 ## 相關頁面
 
