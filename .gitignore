@@ -1,0 +1,8 @@
+# 版權：非 CC 授權來源的全文只留在本機
+*.private.md
+# 雜項
+__pycache__/
+*.pyc
+.obsidian/workspace*.json
+.DS_Store
+Thumbs.db
