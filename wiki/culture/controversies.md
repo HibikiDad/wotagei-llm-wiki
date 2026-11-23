@@ -35,7 +35,7 @@ S01 整理的批評聲音（[S01](../sources/S01-ja-wiki-wotagei.md)）：
 
 化學螢光棒的藥液可能外漏、玻璃碎片可能割傷，細長的棒子也容易甩飛打到別人；因此有些演唱會禁止帶入，改推 LED 螢光棒（[S04a](../sources/S04a-ja-wiki-chemical-light.md)）。AKB48 在 2015 年禁止帶入（[S04b](../sources/S04b-ja-wiki-penlight.md)）。詳見[螢光棒](../gear/glowstick.md)。
 
-> ⚠️ 資料缺口：「厄介」這個詞與爭議的關係尚無來源，預計在 Lint Pass 後決定是否補 S08。
+> ⚠️ 資料缺口：「厄介」這個詞與爭議的關係尚無來源，預計在 Lint Pass 後決定是否補 S09。
 
 ## 相關頁面
 

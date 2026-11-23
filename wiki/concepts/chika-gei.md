@@ -2,7 +2,7 @@
 title: 地下藝
 type: concept
 aliases: [地下芸, オタ芸]
-sources: [S00, S01, S02, S03, S05]
+sources: [S00, S01, S02, S03, S05, S06b]
 updated: 2026-11-23
 ---
 
@@ -30,9 +30,14 @@ updated: 2026-11-23
 
 這個推論有圈內說法佐證：一位打師說自己打藝的目的「就是讓偶像知道我們就好，就是**刷認知**」（[S05](../sources/S05-K97ZqVhf-mA.md) 09:44）。
 
-> ⚠️ 資料缺口：S05 沒有拆解地下藝的具體動作，而是推薦台灣打師「無用男」的頻道（[S05](../sources/S05-K97ZqVhf-mA.md) 00:33），預計由 S06（無用男 Rain 系列）補充。
+## 地下藝的 call
+
+- 地下藝也屬於[打call](call.md)。地下藝中喊的 call，有時候跟偶像本身沒有關係，而是**約定俗成的一套念法**，讓好幾個人的聲音大到讓偶像注意到（[S00](../sources/S00-discussion-notes.md)）—— 這也呼應了「刷認知」的目的。
+- 例子：Aメロ的「ニーハイ、オイハイ」call，動作跟ヲタ芸很像，只是**沒拿螢光棒**（[S06b](../sources/S06b-yzX_SkMQAfw.md) 04:52）。各段落喊什麼，見[曲子結構與打法](../music/song-structure.md)。
+
+> ⚠️ 資料缺口：S05 沒有拆解地下藝的具體動作，而是推薦台灣打師「無用男」的頻道（[S05](../sources/S05-K97ZqVhf-mA.md) 00:33）；S06 的兩支有字幕影片只講 MIX 與家虎，Rain 的地下藝動作教學影片（KX-1K9WhZ7g、pohViXj3Jvk）都沒有字幕，已剔除（見 raw/backlog.md）。
 
 ## 相關頁面
 
 - [御宅藝](wotagei.md)、[一般應援](general-support.md)、[表演藝](performance-gei.md)
-- [地下偶像](underground-idol.md)、[家虎](yetta-tiger.md)、[爭議與禁止](../culture/controversies.md)
+- [打call](call.md)、[MIX](mix.md)、[地下偶像](underground-idol.md)、[家虎](yetta-tiger.md)、[爭議與禁止](../culture/controversies.md)

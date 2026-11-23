@@ -1,13 +1,13 @@
 ---
 title: 御宅藝總覽
 type: overview
-sources: [S00, S01, S02, S04a, S04b, S03, S05]
+sources: [S00, S01, S02, S04a, S04b, S03, S05, S06b, S06c]
 updated: 2026-11-23
 ---
 
 # 御宅藝總覽
 
-> 新手入口頁。隨著來源增加持續改寫。目前依據：S00～S05。
+> 新手入口頁。隨著來源增加持續改寫。目前依據：S00～S06。
 
 **御宅藝（ヲタ芸）是粉絲配合音樂、用舞蹈動作與喊聲來應援或表演的「藝」。**（[S01](sources/S01-ja-wiki-wotagei.md)）
 
@@ -15,7 +15,7 @@ updated: 2026-11-23
 
 | | [一般應援](concepts/general-support.md) | [地下藝](concepts/chika-gei.md) | [表演藝](concepts/performance-gei.md) |
 |---|---|---|---|
-| 別名 | 打call | — | 地上藝、サイリウムダンス、光棒藝 |
+| 別名 | — | — | 地上藝、サイリウムダンス、光棒藝 |
 | 對誰 | 台上的偶像 | 台上的表演者 | 觀眾 |
 | 怎麼做 | 觀眾席上揮螢光棒 | 誇張扭曲的動作＋MIX，通常不拿螢光棒 | 技很多的螢光棒舞蹈，常沒有喊聲 |
 | 出處 | [S00](sources/S00-discussion-notes.md) [S05](sources/S05-K97ZqVhf-mA.md) | [S00](sources/S00-discussion-notes.md) [S05](sources/S05-K97ZqVhf-mA.md) | [S00](sources/S00-discussion-notes.md) [S01](sources/S01-ja-wiki-wotagei.md) [S05](sources/S05-K97ZqVhf-mA.md) |
@@ -29,6 +29,10 @@ updated: 2026-11-23
 ## 在哪裡看得到
 
 台灣的[地下藝](concepts/chika-gei.md)大多出現在[地下偶像](concepts/underground-idol.md)的應援場合（[S00](sources/S00-discussion-notes.md)）。地下偶像是重視現場演出、由小型公司經營的偶像；台灣的地下偶像文化從日本傳入，疫情後本土圈快速成長，目前約 45～50 多組（[S02](sources/S02-zh-wiki-taiwan-underground-idol.md)）。粉絲這一側，台灣從北到南都有打藝團體，很多是從高中、大學社團發展起來的（[S05](sources/S05-K97ZqVhf-mA.md)）→ [台灣的地下偶像與御宅藝圈](culture/taiwan.md)
+
+## 喊什麼
+
+一般應援和地下藝都會[打call](concepts/call.md)（喊口號、拍手、揮手臂）；[MIX](concepts/mix.md)與[家虎](concepts/yetta-tiger.md)是其中最常聽到的。喊什麼跟著歌曲段落走 → [曲子結構與打法](music/song-structure.md)（[S06b](sources/S06b-yzX_SkMQAfw.md)、[S06c](sources/S06c-dLfZSCgwyMY.md)、[S00](sources/S00-discussion-notes.md)）。
 
 ## 代表性的技
 

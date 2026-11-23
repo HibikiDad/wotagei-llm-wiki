@@ -44,3 +44,13 @@
 - 更新：culture/taiwan.md（台灣御宅藝圈：團體地圖、風城界隈校園傳承、入坑理由 → 填掉資料缺口）、concepts/wotagei.md／general-support.md（打call）／chika-gei.md（通常不拿螢光棒、刷認知佐證推論）／performance-gei.md（光棒藝、基扭特戰隊 2009）／yetta-tiger.md、techniques/romance.md／thunder-snake.md（台灣中文叫法確認、⚠️ 分歧）、history/timeline.md、glossary.md、overview.md、index.md、S00
 - 討論修正：地下藝通常不拿螢光棒；打call＝一般應援；十字架＝ロザリオ；基扭特戰隊為台灣通稱；小祈＝S07 的祈哥；S05 可信度高；S04 可信度回改為中
 - lint：通過（第 1 次）
+
+## [2026-11-23 16:45] ingest | S06b、S06c YouTube 無用男Rain MIX／家虎講座
+
+- 來源：S06b yzX_SkMQAfw（2018 流行 MIX 大集合，英文字幕）、S06c dLfZSCgwyMY（發動 MIX＋家虎講座，繁中字幕）。S06a IgyO088HTH8 ingest 時才發現沒有字幕 → 剔除，記錄在 raw/backlog.md。
+- 討論（S00）：使用者**修正 S05 討論時的結論**——打call 是總稱，一般應援與地下藝都包含在內；MIX 不是地下藝專有；地下藝的 call 是約定俗成、讓聲音大到被偶像注意的念法；「虎火三連」最常用，並提供 kknews 文章。
+- 新增：concepts/call.md、concepts/mix.md、music/song-structure.md、sources/S06b、sources/S06c。
+- 更新：general-support（移除「打call」別名）、wotagei、overview、glossary（打call／一般應援列修正；新增 MIX 相關用語與曲子段落表）、yetta-tiger（喊的時機）、chika-gei、index、S00。
+- 重新編號：kknews 插入為 S07 → 祈哥改為 S08a-b、厄介改為 S09（各頁的「待 S0x」一併更新）。
+- 檢查：第一次 lint E5 ×2（S06c 來源頁直接寫了不採用的「耶太嘎」「愛孥語」→ 改為放進（）原文註記），重跑通過。
+

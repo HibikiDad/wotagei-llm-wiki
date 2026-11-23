@@ -11,9 +11,10 @@
 | S03 | 網頁 | [中文維基「在地偶像」](https://zh.wikipedia.org/zh-tw/%E5%9C%A8%E5%9C%B0%E5%81%B6%E5%83%8F) | 地下偶像的定義 |
 | S04 | 網頁 | 日文維基「ケミカルライト」／「ペンライト」 | 螢光棒 |
 | S05 | YT | [EvolutioN 御宅藝文化詳細介紹](https://www.youtube.com/watch?v=K97ZqVhf-mA) | 全貌、地下藝 vs 地上藝 |
-| S06a-c | YT | 無用男Rain：IgyO088HTH8、yzX_SkMQAfw、dLfZSCgwyMY | MIX、CALL、家虎 |
-| S07a-b | YT | 祈哥 Hong：zGVnPOHCoRA（主歌）、HIsBsrt1bBw（導歌） | 曲結構 × 打法 |
-| S08 | 網頁 | 厄介相關條目（Lint Pass 後決定） | 厄介爭議 |
+| S06b-c | YT | 無用男Rain：yzX_SkMQAfw、dLfZSCgwyMY（S06a IgyO088HTH8 無字幕，已剔除） | MIX、CALL、家虎 |
+| S07 | 網頁 | [kknews「虎火三連」MIX 介紹](https://kknews.cc/zh-tw/education/lxvp4zb.html)（使用者在 S06 討論時提供） | MIX 喊詞 |
+| S08a-b | YT | 祈哥 Hong：zGVnPOHCoRA（主歌）、HIsBsrt1bBw（導歌） | 曲結構 × 打法 |
+| S09 | 網頁 | 厄介相關條目（Lint Pass 後決定） | 厄介爭議 |
 
 ## 剔除：沒有字幕（2026-11-23 檢查）
 
@@ -38,6 +39,7 @@
 | tK7aGIcqw5k | EvolutioN_Official | 【御宅藝基本教學 1】簡單學習御宅藝的基本流程 |
 | TjCwSE3OnA8 | EvolutioN_Official | 【御宅藝基本教學 2】一起來學習副歌技吧 |
 | 7pO0AbJWxlE | 祈哥 Hong | 新手村入門 - 副歌篇#1 |
+| IgyO088HTH8 | 無用男Rain | 2019-2020年偶像現場流行MIX、CALL介紹（原訂 S06a，ingest 時才發現沒有字幕） |
 | 1Sp3bflBqzY | 祈哥 Hong | 新手村入門 - 副歌篇#2 |
 
 ## 剔除：無法存取
