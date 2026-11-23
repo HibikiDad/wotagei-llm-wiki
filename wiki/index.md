@@ -1,7 +1,7 @@
 # 御宅藝 LLM Wiki — 目錄
 
 > 這是 wiki 的內容目錄。每頁一行：連結＋一句話摘要。由 LLM 在每次 ingest 時更新。
-> 新手請從 [總覽](overview.md) 開始。　來源數：19（S00～S11c）　最後更新：2026-11-23
+> 新手請從 [總覽](overview.md) 開始。　來源數：20（S00～S11c）　最後更新：2026-11-23
 
 ## 入口
 
@@ -22,6 +22,7 @@
 - [S07 kknews〈日式應援中mix，家虎，火虎，厄介都是什麼意思？〉](sources/S07-kknews-mix.md) — 三連MIX 喊詞、虎火發動、家虎由來、厄介
 - [S08a YouTube 祈哥 Hong〈新手村入門 - 主歌篇〉](sources/S08a-zGVnPOHCoRA.md) — 螢光棒折法／拿法；主歌技 OAD、NIHAIOHAI、SOYA、YDDJJ
 - [S08b YouTube 祈哥 Hong〈新手村入門 - 導歌篇〉](sources/S08b-HIsBsrt1bBw.md) — 導歌技ロザリオ、ロサンゼルス；關東／關西OAD
+- [S09 萌娘百科「厄介」](sources/S09-moegirl-yakkai.md) — 厄介的定義（打擾別人的行為）與具體行為清單
 - [S10a EvolutioN 官網首頁](sources/S10a-evolution-home.md) — EvolutioN 簡介；2011 台北電玩展戰鬥哥
 - [S10b EvolutioN 官網「常見問題」](sources/S10b-evolution-faq.md) — 地下藝／光棒藝、技／技連／本家／副手、自學、螢光棒品牌、拍光軌、站姿
 - [S10c EvolutioN 官網「比賽專屬頁面」](sources/S10c-evolution-competition.md) — 比賽發展、賽制與評分、Party Time（地下藝＝同樂）
@@ -41,7 +42,7 @@
 - [打call](concepts/call.md) — 喊聲應援的總稱（一般應援與地下藝都包含）
 - [MIX](concepts/mix.md) — 前奏、間奏一起喊的固定單字；發動、三連MIX 喊詞表、虎火發動
 - [家虎](concepts/yetta-tiger.md) — 喊「イエッタイガー」的應援，2020 年被ブシロード宣布根絕
-- [厄介](concepts/yakkai.md) — 在現場搞事的麻煩粉絲；台灣正經演唱會喊家虎、打地下藝會被當成厄介
+- [厄介](concepts/yakkai.md) — 在現場用不正當的應援方式影響周圍觀眾的行為；台灣正經演唱會喊家虎、打地下藝會被當成厄介
 
 ## 技（Techniques）
 

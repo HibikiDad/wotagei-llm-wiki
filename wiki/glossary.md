@@ -25,7 +25,7 @@ updated: 2026-11-23
 | 發動 | — | Starter | — | MIX 的起手（拍手節奏＋起手喊聲）；發動前的喊聲也叫「警報」 | [S06b](sources/S06b-yzX_SkMQAfw.md) [S06c](sources/S06c-dLfZSCgwyMY.md) [S07](sources/S07-kknews-mix.md) |
 | woo hey | — | woo hey | — | 前奏抓拍子的喊聲；喊聲以羅馬音為標準寫法 | [S06c](sources/S06c-dLfZSCgwyMY.md) [S00](sources/S00-discussion-notes.md) |
 | Urya-Hi | — | Urya-Hi | — | 前奏轉重拍時的喊聲 | [S06b](sources/S06b-yzX_SkMQAfw.md) [S00](sources/S00-discussion-notes.md) |
-| [厄介](concepts/yakkai.md) | 厄介 | Yakkai | — | 在現場搞事、讓旁人覺得麻煩的粉絲（指人，不是動作） | [S07](sources/S07-kknews-mix.md) [S00](sources/S00-discussion-notes.md) |
+| [厄介](concepts/yakkai.md) | 厄介 | Yakkai | — | 在 live 現場用不正當的應援方式、影響周圍觀眾的行為（圈內偏向指行為；S07 用來指這類粉絲） | [S09](sources/S09-moegirl-yakkai.md) [S07](sources/S07-kknews-mix.md) [S00](sources/S00-discussion-notes.md) |
 | ガチ恋口上 | ガチ恋口上 | Gachikoi kojo | — | 表達「真心戀愛」的長口上，用在 Bメロ到尾奏 | [S06b](sources/S06b-yzX_SkMQAfw.md) |
 | WOTA | ヲタ | Wota | — | 偶像宅、跑現場的粉絲 | [S06c](sources/S06c-dLfZSCgwyMY.md) |
 | 跑場 | — | — | — | 去偶像現場（live） | [S06b](sources/S06b-yzX_SkMQAfw.md) [S06c](sources/S06c-dLfZSCgwyMY.md) |

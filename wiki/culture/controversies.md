@@ -2,7 +2,7 @@
 title: 爭議與禁止
 type: culture
 aliases: [迷惑行為, 禁止オタ芸]
-sources: [S01, S04a, S04b, S00, S07]
+sources: [S01, S04a, S04b, S00, S07, S09]
 updated: 2026-11-23
 ---
 
@@ -37,9 +37,9 @@ S01 整理的批評聲音（[S01](../sources/S01-ja-wiki-wotagei.md)）：
 
 ## 厄介
 
-在現場「搞事」、讓旁人覺得麻煩的粉絲被稱為[厄介](../concepts/yakkai.md)（[S07](../sources/S07-kknews-mix.md)）。在台灣，喊家虎、打地下藝會被當成厄介（[S00](../sources/S00-discussion-notes.md)）。
+在 live 現場用不正當的應援方式影響周圍觀眾的行為，被稱為[厄介](../concepts/yakkai.md)（[S09](../sources/S09-moegirl-yakkai.md)）；S07 則用來指這類粉絲（[S07](../sources/S07-kknews-mix.md)）。例如把化學螢光棒丟出去砸到人、用大功率光學設備應援、在台下跑動（[S09](../sources/S09-moegirl-yakkai.md)）。在台灣，喊家虎、打地下藝會被當成厄介（[S00](../sources/S00-discussion-notes.md)）。
 
-> ⚠️ 資料缺口：日本方面對厄介的定義，待補日文來源（S09）。
+> ⚠️ 資料缺口：日本方面對厄介的定義，還沒有日文來源（S09 是中文百科）。
 
 ## 相關頁面
 

@@ -2,7 +2,7 @@
 title: 家虎
 type: concept
 aliases: [イエッタイガー, イェッタイガー, 耶太嘎, Yetta Tiger]
-sources: [S01, S05, S06b, S06c, S07]
+sources: [S01, S05, S06b, S06c, S07, S09]
 updated: 2026-11-23
 ---
 
@@ -29,7 +29,7 @@ updated: 2026-11-23
 - 只要有**兩三秒的空檔**就可以喊家虎；常見的時機是**副歌前的空檔**，前一句先喊兩聲「耶」當作預備動作（[S06c](../sources/S06c-dLfZSCgwyMY.md) 03:49～04:26）。
 - 在 2018 年的偶像現場，家虎「很常見，幾乎是必備知識」（[S06b](../sources/S06b-yzX_SkMQAfw.md) 00:36）。
 - 家虎和 [MIX](mix.md) 都屬於[打call](call.md)（[S00](../sources/S00-discussion-notes.md)）。曲中位置見[曲子結構與打法](../music/song-structure.md)。
-- 在台灣，喊家虎會被當成[厄介](yakkai.md)（[S00](../sources/S00-discussion-notes.md)）。
+- 在台灣，喊家虎會被當成[厄介](yakkai.md)（[S00](../sources/S00-discussion-notes.md)）；S09 也說，在非地下偶像系的偶像演唱會上大喊家虎是厄介，通常會被官方禁止（[S09](../sources/S09-moegirl-yakkai.md)）。
 
 ## 相關頁面
 

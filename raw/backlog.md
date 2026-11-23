@@ -16,7 +16,7 @@
 | S08a-b | YT | 祈哥 Hong：zGVnPOHCoRA（主歌）、HIsBsrt1bBw（導歌）—— 已 ingest | 曲結構 × 打法 |
 | S10a-d | 網頁 | EvolutioN 官網：home、faq、activelist/competition、home/twotageiskill_cultureshock（使用者提供）—— 已 ingest | 用語、比賽、原創技 |
 | S11a-c | 網頁 | LUMICA：product、about_cl、aboutus/history（使用者提供；technology 頁與 about_cl 重複，未抓）—— 已 ingest | 化學螢光棒 |
-| S09 | 網頁 | 厄介相關條目（使用者表示後續會補；S07 已有中國場景的說法） | 厄介爭議 |
+| S09 | 網頁 | 萌娘百科「厄介」（使用者提供）—— 已 ingest | 厄介爭議 |
 
 ## 剔除：沒有字幕（2026-11-23 檢查）
 

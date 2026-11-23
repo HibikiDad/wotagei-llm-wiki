@@ -67,7 +67,7 @@ updated: 2026-11-23
 1. **「虎火三連」就是英語、日本語、愛努語三種接著喊的一般三連MIX**（不是 S07 的「虎火發動」）。
 2. 「woo hey」「Urya-Hi」這類喊聲**直接寫羅馬音**。
 3. **在台灣，喊家虎、打地下藝會被當成厄介**。
-4. 厄介的日文來源之後再補（S09）。
+4. 厄介的來源之後再補（→ S09 萌娘百科）。
 5. S07 可信度評為**高**。
 
 ### S08 討論（2026-11-23）
@@ -77,6 +77,12 @@ updated: 2026-11-23
 3. 台灣圈**會區分關東OAD／關西OAD**。
 4. **演唱會應援通常用 LED、表演藝通常用化學棒**；但地下偶像場很常有粉絲用化學螢光棒，表演藝有時因成本改用電棒。圈內把演唱會用的 LED 螢光棒叫「**王劍**」（亮度較低、很粗）；專給表演藝用、大小接近化學棒的高亮度 LED 叫「**電棒**」。
 5. 一技一頁、S08 可信度**高** —— 同意。
+
+### S09 討論（2026-11-23）
+
+1. 厄介**偏向指行為**（不是指人）。
+2. S09 列出的厄介行為，台灣圈都認同。
+3. S09 可信度**低～中**。
 
 ### S10 討論（2026-11-23）
 
@@ -105,6 +111,7 @@ updated: 2026-11-23
 - [S06b](S06b-yzX_SkMQAfw.md)、[S06c](S06c-dLfZSCgwyMY.md) 無用男Rain MIX 講座
 - [S07 kknews MIX／家虎／厄介](S07-kknews-mix.md)
 - [S08a](S08a-zGVnPOHCoRA.md)、[S08b](S08b-HIsBsrt1bBw.md) 祈哥 主歌／導歌教學
+- [S09 萌娘百科「厄介」](S09-moegirl-yakkai.md)
 - [S10a](S10a-evolution-home.md)～[S10d](S10d-evolution-taiwan-original-waza.md) EvolutioN 官網
 - [S11a](S11a-lumica-product.md)～[S11c](S11c-lumica-history.md) LUMICA 官網
 - [打call](../concepts/call.md)、[MIX](../concepts/mix.md)、[厄介](../concepts/yakkai.md)

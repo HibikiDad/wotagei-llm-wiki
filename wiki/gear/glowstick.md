@@ -2,7 +2,7 @@
 title: 螢光棒
 type: gear
 aliases: [サイリウム, サイリューム, ケミカルライト, ペンライト, 手燈, 王劍, 電棒, 大閃光, lightstick]
-sources: [S00, S01, S04a, S04b, S08a, S10b, S08b, S11a, S11b, S11c]
+sources: [S00, S01, S04a, S04b, S08a, S10b, S08b, S11a, S11b, S11c, S09]
 updated: 2026-11-23
 ---
 
@@ -80,7 +80,7 @@ updated: 2026-11-23
 - 藥液外漏時（廠商的處理建議）：進到眼睛 → 不要揉，用流水沖，發癢或充血就就醫；沾到皮膚 → 用水或肥皂水洗；沾到衣服 → 可乾洗；漏出的液體用紙巾吸起來、裝進塑膠袋封好再丟（[S11b](../sources/S11b-lumica-about-chemical-light.md)）。
 
 > ⚠️ 說法分歧：S04a 強調藥液噴出、玻璃碎片的風險；製造商 LUMICA 則說自家藥液沒有使用毒物、劇物，有害性約等於中性洗劑，引火性極低、不會爆炸（[S11b](../sources/S11b-lumica-about-chemical-light.md)）。後者是廠商的說法，兩邊並列（[S00](../sources/S00-discussion-notes.md)）。
-- 棒子細長好滑，揮動時注意不要甩飛打到旁邊的人（[S04a](../sources/S04a-ja-wiki-chemical-light.md)）。
+- 棒子細長好滑，揮動時注意不要甩飛打到旁邊的人（[S04a](../sources/S04a-ja-wiki-chemical-light.md)）；把化學螢光棒丟出去砸到觀眾，是典型的[厄介](../concepts/yakkai.md)行為（[S09](../sources/S09-moegirl-yakkai.md)）。
 - 在車站不要揮螢光棒（特別是紅色），可能被誤認為緊急停車信號（[S01](../sources/S01-ja-wiki-wotagei.md)）。
 
 > 注意：S08a 推薦化學棒，但影片的螢光棒由 LUMICA 在台經銷商提供（[S08b](../sources/S08b-HIsBsrt1bBw.md) 07:50）；化學棒的安全疑慮見上方「安全」段落。
