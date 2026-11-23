@@ -1,7 +1,7 @@
 # 御宅藝 LLM Wiki — 目錄
 
 > 這是 wiki 的內容目錄。每頁一行：連結＋一句話摘要。由 LLM 在每次 ingest 時更新。
-> 新手請從 [總覽](overview.md) 開始。　來源數：2（S00、S01）　最後更新：2026-11-23
+> 新手請從 [總覽](overview.md) 開始。　來源數：3（S00～S02）　最後更新：2026-11-23
 
 ## 入口
 
@@ -12,6 +12,7 @@
 
 - [S00 使用者討論紀錄](sources/S00-discussion-notes.md) — 每次 ingest 討論時使用者的圈內實務補充
 - [S01 日文維基百科「オタ芸」](sources/S01-ja-wiki-wotagei.md) — 定義、兩種寫法、代表技、歷史、爭議
+- [S02 中文維基百科「臺灣地下偶像文化」](sources/S02-zh-wiki-taiwan-underground-idol.md) — 地下偶像定義、台灣發展、疫情轉折、規模
 
 ## 概念（Concepts）
 
@@ -19,6 +20,7 @@
 - [一般應援](concepts/general-support.md) — 在觀眾席揮螢光棒的應援
 - [地下藝](concepts/chika-gei.md) — 誇張扭曲的動作＋MIX，吸引台上表演者注意
 - [表演藝](concepts/performance-gei.md) — 別名地上藝、サイリウムダンス；表演給觀眾看
+- [地下偶像](concepts/underground-idol.md) — 重視現場演出、小型公司經營的偶像
 - [家虎](concepts/yetta-tiger.md) — 喊「イエッタイガー」的應援，2020 年被ブシロード宣布根絕
 
 ## 技（Techniques）
@@ -45,6 +47,7 @@
 
 ## 文化與禮儀（Culture）
 
+- [台灣的地下偶像與御宅藝圈](culture/taiwan.md) — 日本傳入、女僕咖啡、疫情轉折、45～50 組
 - [爭議與禁止](culture/controversies.md) — 主要批評、榊原ゆい禁止、KOBerrieS♪ 訴訟、車站螢光棒
 
 ## 產出（Outputs）

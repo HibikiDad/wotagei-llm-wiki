@@ -2,7 +2,7 @@
 title: 地下藝
 type: concept
 aliases: [地下芸, オタ芸]
-sources: [S00, S01]
+sources: [S00, S01, S02]
 updated: 2026-11-23
 ---
 
@@ -18,9 +18,14 @@ updated: 2026-11-23
 
 > ⚠️ 說法分歧：「地下藝」的範圍 —— S01 指所有應援型的藝；S00 只指誇張動作＋MIX 的那一種。本 wiki 採 S00 的定義。
 
-> ⚠️ 資料缺口：「地下」一詞與地下偶像的關係、具體動作的解析，預計由 S02、S03（地下偶像）、S05（EvolutioN 介紹）補充。
+## 出現場合
+
+- 台灣的地下藝大多出現在[地下偶像](underground-idol.md)的應援場合（[S00](../sources/S00-discussion-notes.md)）。
+- 名稱中的「地下」大概率與地下偶像有關，待書面來源證實（[S00](../sources/S00-discussion-notes.md)）。
+
+> ⚠️ 資料缺口：地下藝的具體動作解析，預計由 S05（EvolutioN 介紹）補充。
 
 ## 相關頁面
 
 - [御宅藝](wotagei.md)、[一般應援](general-support.md)、[表演藝](performance-gei.md)
-- [家虎](yetta-tiger.md)、[爭議與禁止](../culture/controversies.md)
+- [地下偶像](underground-idol.md)、[家虎](yetta-tiger.md)、[爭議與禁止](../culture/controversies.md)

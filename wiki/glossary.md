@@ -1,7 +1,7 @@
 ---
 title: 用語表
 type: glossary
-sources: [S00, S01]
+sources: [S00, S01, S02]
 updated: 2026-11-23
 ---
 
@@ -20,6 +20,9 @@ updated: 2026-11-23
 | [表演藝](concepts/performance-gei.md) | サイリウムダンス | Cyalume Dance | 表演芸 | 別名：地上藝、サイリウムダンス；表演給觀眾看 | [S00](sources/S00-discussion-notes.md) [S01](sources/S01-ja-wiki-wotagei.md) |
 | 打藝 | 打つ | — | 打芸 | 表演御宅藝這個動作 | [S01](sources/S01-ja-wiki-wotagei.md) |
 | 打師 | 打ち師 | — | — | 表演御宅藝的人 | [S01](sources/S01-ja-wiki-wotagei.md) |
+| [地下偶像](concepts/underground-idol.md) | 地下アイドル | Underground Idol | — | 重視現場演出、小型公司經營的偶像 | [S02](sources/S02-zh-wiki-taiwan-underground-idol.md) |
+| 拼盤 | 対バン（整理者推論） | — | — | 多組表演者共同參演的演出 | [S02](sources/S02-zh-wiki-taiwan-underground-idol.md) |
+| ACG | — | Anime, Comic, Game | — | 動畫、漫畫、遊戲的合稱 | [S02](sources/S02-zh-wiki-taiwan-underground-idol.md) |
 | [家虎](concepts/yetta-tiger.md) | イエッタイガー | Yetta Tiger | 耶太嘎 | 喊聲；「耶太嘎」為音譯，只在括號內註記 | [S01](sources/S01-ja-wiki-wotagei.md) |
 
 ## 技
