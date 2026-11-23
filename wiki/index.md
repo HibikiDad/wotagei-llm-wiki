@@ -1,7 +1,7 @@
 # 御宅藝 LLM Wiki — 目錄
 
 > 這是 wiki 的內容目錄。每頁一行：連結＋一句話摘要。由 LLM 在每次 ingest 時更新。
-> 新手請從 [總覽](overview.md) 開始。　來源數：16（S00～S10d）　最後更新：2026-11-23
+> 新手請從 [總覽](overview.md) 開始。　來源數：19（S00～S11c）　最後更新：2026-11-23
 
 ## 入口
 
@@ -26,6 +26,9 @@
 - [S10b EvolutioN 官網「常見問題」](sources/S10b-evolution-faq.md) — 地下藝／光棒藝、技／技連／本家／副手、自學、螢光棒品牌、拍光軌、站姿
 - [S10c EvolutioN 官網「比賽專屬頁面」](sources/S10c-evolution-competition.md) — 比賽發展、賽制與評分、Party Time（地下藝＝同樂）
 - [S10d EvolutioN 官網「台灣原創技」](sources/S10d-evolution-taiwan-original-waza.md) — 2025 煌芒祭用到的 12 個台灣原創技與本家
+- [S11a LUMICA 官網「商品一覧」](sources/S11a-lumica-product.md) — ルミカライト（大閃光）與 LED 的大閃光ブレード
+- [S11b LUMICA 官網「化学発光体について」](sources/S11b-lumica-about-chemical-light.md) — 化學螢光棒原理（冷光）、保存、外漏處理、廠商的安全說法
+- [S11c LUMICA 官網「沿革」](sources/S11c-lumica-history.md) — 1982 年取得サイリューム銷售權、大閃光系列、2019 年サイリウムダンス獲獎
 
 ## 概念（Concepts）
 
@@ -60,7 +63,7 @@
 
 ## 道具（Gear）
 
-- [螢光棒](gear/glowstick.md) — 化學 vs. LED 比較、王劍／電棒／大閃光、折法與拿法、應援色、演變史、安全須知
+- [螢光棒](gear/glowstick.md) — 化學 vs. LED 比較、化學棒原理與外漏處理、王劍／電棒／大閃光、折法與拿法、應援色、演變史、安全須知
 
 ## 曲結構與打法（Music）
 

@@ -67,7 +67,8 @@ updated: 2026-11-23
 | LED 螢光棒 | ペンライト | Penlight、LED light | — | 台灣也常叫「手燈」；目前主流 | [S04b](sources/S04b-ja-wiki-penlight.md)、[S00](sources/S00-discussion-notes.md) |
 | 王劍 | — | — | — | 台灣圈對演唱會用 LED 螢光棒的叫法；亮度較低、很粗 | [S00](sources/S00-discussion-notes.md) |
 | 電棒 | — | — | — | 專給表演藝用的高亮度 LED 螢光棒，大小接近化學棒 | [S00](sources/S00-discussion-notes.md) |
-| 大閃光 | 大閃光 | — | — | LUMICA 的化學螢光棒，表演藝常用；打藝挑發光 15 分鐘內的版本 | [S08a](sources/S08a-zGVnPOHCoRA.md) |
+| 大閃光 | 大閃光 | Daisenko | — | LUMICA 的化學螢光棒（台灣圈通常指化學棒；LUMICA 另有 LED 的「大閃光ブレード」），表演藝常用；打藝挑發光 15 分鐘內的版本 | [S08a](sources/S08a-zGVnPOHCoRA.md) [S11a](sources/S11a-lumica-product.md) [S00](sources/S00-discussion-notes.md) |
+| 冷光 | 冷光 | — | — | 化學螢光棒發光時不發熱，所以叫冷光 | [S11b](sources/S11b-lumica-about-chemical-light.md) |
 | UO | ウルトラオレンジ | Ultra Orange | — | 只亮 5～15 分鐘的高亮度化學螢光棒 | [S04a](sources/S04a-ja-wiki-chemical-light.md) |
 | 應援色 | メンバーカラー、イメージカラー | Member color | — | 對應成員代表色的螢光棒顏色 | [S04b](sources/S04b-ja-wiki-penlight.md) |
 

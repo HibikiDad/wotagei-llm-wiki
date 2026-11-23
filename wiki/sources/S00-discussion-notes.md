@@ -88,6 +88,13 @@ updated: 2026-11-23
 3. 台灣原創技**合併成一頁**。
 4. S10 可信度**中～高**。
 
+### S11 討論（2026-11-23）
+
+1. 台灣圈說「**大閃光**」通常是指**化學棒**（LUMICA 的 LED 系列雖然也叫「大閃光ブレード」）。
+2. 安全說法：S04a 與廠商（S11b）的說法**並列**。
+3. MAF展是什麼：使用者也不清楚 → 照原文記錄，不加解釋。
+4. S11 可信度**中**。
+
 ## 相關頁面
 
 - [S01 日文維基百科「オタ芸」](S01-ja-wiki-wotagei.md)
@@ -99,6 +106,7 @@ updated: 2026-11-23
 - [S07 kknews MIX／家虎／厄介](S07-kknews-mix.md)
 - [S08a](S08a-zGVnPOHCoRA.md)、[S08b](S08b-HIsBsrt1bBw.md) 祈哥 主歌／導歌教學
 - [S10a](S10a-evolution-home.md)～[S10d](S10d-evolution-taiwan-original-waza.md) EvolutioN 官網
+- [S11a](S11a-lumica-product.md)～[S11c](S11c-lumica-history.md) LUMICA 官網
 - [打call](../concepts/call.md)、[MIX](../concepts/mix.md)、[厄介](../concepts/yakkai.md)
 - [御宅藝](../concepts/wotagei.md)
 - [用語表](../glossary.md)

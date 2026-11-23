@@ -1,7 +1,7 @@
 ---
 title: 御宅藝年表
 type: history
-sources: [S01, S02, S03, S04b, S05, S06b, S07, S08a, S10a, S10c, S10d]
+sources: [S01, S02, S03, S04b, S05, S06b, S07, S08a, S10a, S10c, S10d, S11c]
 updated: 2026-11-23
 ---
 
@@ -13,6 +13,7 @@ updated: 2026-11-23
 |---|---|---|
 | 1974 夏 | 西城秀樹在大阪球場請觀眾帶手電筒，演唱會揮光文化的起源（→ [螢光棒](../gear/glowstick.md)） | [S04b](../sources/S04b-ja-wiki-penlight.md) |
 | 1970～80 年代 | 偶像親衛隊配合歌曲齊聲喊聲的應援風格已經存在 | [S01](../sources/S01-ja-wiki-wotagei.md) |
+| 1982 | LUMICA 與美國 American Cyanamid 簽下「サイリューム」的獨家銷售合約（→ [螢光棒](../gear/glowstick.md)） | [S11c](../sources/S11c-lumica-history.md) |
 | 1986 | 偶像演唱會已多半從燈泡式改用化學螢光棒 | [S04b](../sources/S04b-ja-wiki-penlight.md) |
 | 1989-11-22 | 渡辺美奈代〈恋愛紅一点〉發售；A メロ時粉絲跳的「[ロマンス](../techniques/romance.md)ダンス」被視為オタ芸的發源與原型 | [S01](../sources/S01-ja-wiki-wotagei.md) |
 | 1993 | 吉本興業推出「大阪勁舞娃娃」「阿波勁舞娃娃」（[在地偶像](../concepts/local-idol.md)的先聲） | [S03](../sources/S03-zh-wiki-local-idol.md) |
@@ -42,6 +43,7 @@ updated: 2026-11-23
 | 2018 | 基扭特戰隊與 LUMICA 合辦「Cyalume Dance World Battle」（有台灣區選拔賽）；🇹🇼 EvolutioN 在高雄成立 | [S10c](../sources/S10c-evolution-competition.md) [S10a](../sources/S10a-evolution-home.md) |
 | 2018-08 | 🇹🇼 新竹高中動畫社在社團博覽會表演ヲタ芸，之後發展成風城界隈 | [S05](../sources/S05-K97ZqVhf-mA.md) |
 | 2018-12 | 🇹🇼 台灣 WOTA 無用男Rain 上傳 MIX 教學；家虎在偶像現場「幾乎是必備知識」 | [S06b](../sources/S06b-yzX_SkMQAfw.md) |
+| 2019 | 「サイリウムダンス」在第 46 回 MAF展獲得「文部科学大臣賞」 | [S11c](../sources/S11c-lumica-history.md) |
 | 2019～2020 初 | 🇹🇼 疫情使粉絲無法出國看日本 live，轉而關注台灣本土[地下偶像](../concepts/underground-idol.md) | [S02](../sources/S02-zh-wiki-taiwan-underground-idol.md) |
 | 2020-01 | 🇹🇼 風城界隈創團；祈哥上傳〈新手村入門〉表演藝中文教學 | [S05](../sources/S05-K97ZqVhf-mA.md) [S08a](../sources/S08a-zGVnPOHCoRA.md) |
 | 2020-02-02 | ブシロード木谷高明宣布根絕[家虎](../concepts/yetta-tiger.md) | [S01](../sources/S01-ja-wiki-wotagei.md) |

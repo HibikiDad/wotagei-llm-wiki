@@ -2,7 +2,7 @@
 title: 螢光棒
 type: gear
 aliases: [サイリウム, サイリューム, ケミカルライト, ペンライト, 手燈, 王劍, 電棒, 大閃光, lightstick]
-sources: [S00, S01, S04a, S04b, S08a, S10b, S08b]
+sources: [S00, S01, S04a, S04b, S08a, S10b, S08b, S11a, S11b, S11c]
 updated: 2026-11-23
 ---
 
@@ -20,8 +20,14 @@ updated: 2026-11-23
 | 風險 | 藥液外漏、玻璃碎片、甩飛傷人（[S04a](../sources/S04a-ja-wiki-chemical-light.md)） | 較安全 |
 | 現況 | 越來越多演唱會禁止帶入（[S04a](../sources/S04a-ja-wiki-chemical-light.md)、[S04b](../sources/S04b-ja-wiki-penlight.md)） | 2020 年代的主流（[S04b](../sources/S04b-ja-wiki-penlight.md)） |
 
-- **名稱**：サイリューム（Cyalume）是商標，日本常用它泛稱所有螢光棒，連 LED 的也叫サイリウム（[S04a](../sources/S04a-ja-wiki-chemical-light.md)）——「[サイリウムダンス](../concepts/performance-gei.md)」這個名字就是從這裡來的（整理者推論）。
+- **名稱**：サイリューム（Cyalume）是商標，日本常用它泛稱所有螢光棒，連 LED 的也叫サイリウム（[S04a](../sources/S04a-ja-wiki-chemical-light.md)）；LUMICA 在 1982 年與美國 American Cyanamid 簽下サイリューム的獨家銷售合約（[S11c](../sources/S11c-lumica-history.md)）——「[サイリウムダンス](../concepts/performance-gei.md)」這個名字就是從這裡來的（整理者推論）。
 - **台灣**：LED 螢光棒也常被叫作「手燈」；因為演唱會可能禁止化學螢光棒，台灣的**演唱會**現場以 LED 為主（[S00](../sources/S00-discussion-notes.md)）。
+
+## 化學螢光棒為什麼會亮
+
+- 輕輕折彎棒子，裡面的玻璃安瓿破裂，「酸化液」和「蛍光液」起化學反應而發光；發光時不發熱，所以叫「**冷光**」（[S11b](../sources/S11b-lumica-about-chemical-light.md)）。
+- 反應結束就不會再亮，不能重複使用；包裝上的「發光時間」是維持實用亮度的時間（[S11b](../sources/S11b-lumica-about-chemical-light.md)）。
+- 保存：怕光、熱、濕氣；強烈撞擊可能讓安瓿破裂、提早發光；不要加熱（明火、吹風機、熱水），也不要放冷凍庫（[S11b](../sources/S11b-lumica-about-chemical-light.md)）。
 
 ## 台灣圈的用法：誰用哪一種
 
@@ -30,6 +36,7 @@ updated: 2026-11-23
 | 演唱會應援 | LED：圈內叫「**王劍**」，亮度較低、很粗 | 地下偶像場很常有粉絲用化學螢光棒（拿棒子的是一般應援的粉絲；[地下藝](../concepts/chika-gei.md)通常不拿棒子） | [S00](../sources/S00-discussion-notes.md) |
 | 表演藝 | 化學螢光棒（例如 LUMICA「**大閃光**」） | 因為成本改用「**電棒**」：專給表演藝用的高亮度 LED，大小跟化學棒接近 | [S08a](../sources/S08a-zGVnPOHCoRA.md) 00:48；[S00](../sources/S00-discussion-notes.md) |
 
+- 「**大閃光**」在台灣圈通常是指化學棒（[S00](../sources/S00-discussion-notes.md)）；但 LUMICA 的 LED 螢光棒也有「大閃光ブレード」系列（[S11a](../sources/S11a-lumica-product.md)）。
 - 大閃光的顏色有紅、橙、黃、綠、藍、靛、紫、粉，還有淺蔥、琉璃、白等特殊色；另有大閃光8、MEGA大閃光等產品（[S08a](../sources/S08a-zGVnPOHCoRA.md) 00:48）。練習時有人改用電子螢光棒（[S08a](../sources/S08a-zGVnPOHCoRA.md) 00:48）。
 - **打藝用的品牌**：化學棒最常用 LUMICA「大閃光」系列與 Riverroots「Flash Bomber」系列；要挑**發光時長 15 分鐘以內**的版本，才有影片上的亮度（打藝會加速消耗，實際能用的時間比包裝寫的短）。電子螢光棒有光芒一閃E-Light、仁光社大火、PolarLight、KiraLight、CheerLight 等（[S10b](../sources/S10b-evolution-faq.md)）。
 - **握法**：EvolutioN 的說法是怎麼握都可以，只要找到適合自己、不會掉棒的方法（[S10b](../sources/S10b-evolution-faq.md)）；下面是 S08a 介紹的三種常見握法。
@@ -57,15 +64,22 @@ updated: 2026-11-23
 | 1974 夏 | 西城秀樹在大阪球場開唱前透過廣播請觀眾帶手電筒——演唱會揮光的起源 | [S04b](../sources/S04b-ja-wiki-penlight.md) |
 | 1974-11 | 寶塚真帆志ぶき告別公演，觀眾席一起亮起燈海 | [S04b](../sources/S04b-ja-wiki-penlight.md) |
 | 1980 年代 | 纏彩色玻璃紙的小燈泡、化學螢光棒；1986 年偶像演唱會已多半轉用化學螢光棒 | [S04b](../sources/S04b-ja-wiki-penlight.md) |
+| 1982 | LUMICA 取得サイリューム（Cyalume）在日本的獨家銷售權 | [S11c](../sources/S11c-lumica-history.md) |
+| 1993 | LUMICA 推出化學螢光棒「ルミカライト」 | [S11c](../sources/S11c-lumica-history.md) |
 | 1996-06 | やまと工業推出 5 色 LED「チアライト」，被ジャニーズ採用 | [S04b](../sources/S04b-ja-wiki-penlight.md) |
 | 2002 前後 | 音樂祭上出現「推的團上場才折 UO」 | [S04b](../sources/S04b-ja-wiki-penlight.md) |
 | 2010 前後 | 觀眾自備多色螢光棒對應成員代表色；FreFlow 等無線控制 LED 出現，2013 年起普及 | [S04b](../sources/S04b-ja-wiki-penlight.md) |
+| 2012 | LUMICA 推出多色 LED 螢光棒「LUMI ACE」 | [S11c](../sources/S11c-lumica-history.md) |
 | 2015 | AKB48 禁止帶入化學螢光棒 | [S04b](../sources/S04b-ja-wiki-penlight.md) |
+| 2018 | LUMICA 推出「大閃光８」 | [S11c](../sources/S11c-lumica-history.md) |
 | 2020 年代 | LED 螢光棒成為主流 | [S04b](../sources/S04b-ja-wiki-penlight.md) |
 
 ## 安全須知
 
 - 化學螢光棒不要用力折、不要往膝蓋上敲：藥液可能噴出，進到眼睛要就醫（[S04a](../sources/S04a-ja-wiki-chemical-light.md)）。
+- 藥液外漏時（廠商的處理建議）：進到眼睛 → 不要揉，用流水沖，發癢或充血就就醫；沾到皮膚 → 用水或肥皂水洗；沾到衣服 → 可乾洗；漏出的液體用紙巾吸起來、裝進塑膠袋封好再丟（[S11b](../sources/S11b-lumica-about-chemical-light.md)）。
+
+> ⚠️ 說法分歧：S04a 強調藥液噴出、玻璃碎片的風險；製造商 LUMICA 則說自家藥液沒有使用毒物、劇物，有害性約等於中性洗劑，引火性極低、不會爆炸（[S11b](../sources/S11b-lumica-about-chemical-light.md)）。後者是廠商的說法，兩邊並列（[S00](../sources/S00-discussion-notes.md)）。
 - 棒子細長好滑，揮動時注意不要甩飛打到旁邊的人（[S04a](../sources/S04a-ja-wiki-chemical-light.md)）。
 - 在車站不要揮螢光棒（特別是紅色），可能被誤認為緊急停車信號（[S01](../sources/S01-ja-wiki-wotagei.md)）。
 
