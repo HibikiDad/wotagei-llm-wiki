@@ -1,13 +1,13 @@
 ---
 title: 御宅藝總覽
 type: overview
-sources: [S00, S01, S02, S04a, S04b, S03, S05, S06b, S06c]
+sources: [S00, S01, S02, S04a, S04b, S03, S05, S06b, S06c, S07]
 updated: 2026-11-23
 ---
 
 # 御宅藝總覽
 
-> 新手入口頁。隨著來源增加持續改寫。目前依據：S00～S06。
+> 新手入口頁。隨著來源增加持續改寫。目前依據：S00～S07。
 
 **御宅藝（ヲタ芸）是粉絲配合音樂、用舞蹈動作與喊聲來應援或表演的「藝」。**（[S01](sources/S01-ja-wiki-wotagei.md)）
 
@@ -32,7 +32,7 @@ updated: 2026-11-23
 
 ## 喊什麼
 
-一般應援和地下藝都會[打call](concepts/call.md)（喊口號、拍手、揮手臂）；[MIX](concepts/mix.md)與[家虎](concepts/yetta-tiger.md)是其中最常聽到的。喊什麼跟著歌曲段落走 → [曲子結構與打法](music/song-structure.md)（[S06b](sources/S06b-yzX_SkMQAfw.md)、[S06c](sources/S06c-dLfZSCgwyMY.md)、[S00](sources/S00-discussion-notes.md)）。
+一般應援和地下藝都會[打call](concepts/call.md)（喊口號、拍手、揮手臂）；[MIX](concepts/mix.md)（最常用的是英語、日本語、愛努語接著喊的三連MIX）與[家虎](concepts/yetta-tiger.md)是其中最常聽到的。喊什麼跟著歌曲段落走 → [曲子結構與打法](music/song-structure.md)（[S06b](sources/S06b-yzX_SkMQAfw.md)、[S06c](sources/S06c-dLfZSCgwyMY.md)、[S00](sources/S00-discussion-notes.md)）。
 
 ## 代表性的技
 
@@ -40,7 +40,7 @@ updated: 2026-11-23
 
 ## 爭議
 
-被批評干擾其他觀眾，部分歌手與公司已經禁止，也發生過訴訟（[S01](sources/S01-ja-wiki-wotagei.md)）→ [爭議與禁止](culture/controversies.md)
+被批評干擾其他觀眾，部分歌手與公司已經禁止，也發生過訴訟（[S01](sources/S01-ja-wiki-wotagei.md)）→ [爭議與禁止](culture/controversies.md)。在台灣，喊家虎、打地下藝會被當成「[厄介](concepts/yakkai.md)」（麻煩的人）（[S00](sources/S00-discussion-notes.md)、[S07](sources/S07-kknews-mix.md)）。
 
 ## 手上拿的是什麼
 

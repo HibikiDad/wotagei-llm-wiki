@@ -14,7 +14,7 @@
 | S06b-c | YT | 無用男Rain：yzX_SkMQAfw、dLfZSCgwyMY（S06a IgyO088HTH8 無字幕，已剔除） | MIX、CALL、家虎 |
 | S07 | 網頁 | [kknews「虎火三連」MIX 介紹](https://kknews.cc/zh-tw/education/lxvp4zb.html)（使用者在 S06 討論時提供） | MIX 喊詞 |
 | S08a-b | YT | 祈哥 Hong：zGVnPOHCoRA（主歌）、HIsBsrt1bBw（導歌） | 曲結構 × 打法 |
-| S09 | 網頁 | 厄介相關條目（Lint Pass 後決定） | 厄介爭議 |
+| S09 | 網頁 | 厄介相關條目（使用者表示後續會補；S07 已有中國場景的說法） | 厄介爭議 |
 
 ## 剔除：沒有字幕（2026-11-23 檢查）
 

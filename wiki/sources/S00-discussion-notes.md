@@ -62,6 +62,14 @@ updated: 2026-11-23
 4. **「虎火三連」是最常使用的 MIX**；喊詞與寫法參考使用者提供的 kknews 文章（→ S07）。
 5. 曲子段落以「日文原名＋中文」為標準寫法，例如 Aメロ（主歌）、Bメロ（導歌）、サビ（副歌）。
 
+### S07 討論（2026-11-23）
+
+1. **「虎火三連」就是英語、日本語、愛努語三種接著喊的一般三連MIX**（不是 S07 的「虎火發動」）。
+2. 「woo hey」「Urya-Hi」這類喊聲**直接寫羅馬音**。
+3. **在台灣，喊家虎、打地下藝會被當成厄介**。
+4. 厄介的日文來源之後再補（S09）。
+5. S07 可信度評為**高**。
+
 ## 相關頁面
 
 - [S01 日文維基百科「オタ芸」](S01-ja-wiki-wotagei.md)
@@ -70,6 +78,7 @@ updated: 2026-11-23
 - [S04a](S04a-ja-wiki-chemical-light.md)、[S04b](S04b-ja-wiki-penlight.md) 螢光棒
 - [S05 YouTube【EvolutioN】御宅藝文化詳細介紹](S05-K97ZqVhf-mA.md)
 - [S06b](S06b-yzX_SkMQAfw.md)、[S06c](S06c-dLfZSCgwyMY.md) 無用男Rain MIX 講座
-- [打call](../concepts/call.md)、[MIX](../concepts/mix.md)
+- [S07 kknews MIX／家虎／厄介](S07-kknews-mix.md)
+- [打call](../concepts/call.md)、[MIX](../concepts/mix.md)、[厄介](../concepts/yakkai.md)
 - [御宅藝](../concepts/wotagei.md)
 - [用語表](../glossary.md)

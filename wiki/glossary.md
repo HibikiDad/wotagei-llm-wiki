@@ -1,7 +1,7 @@
 ---
 title: 用語表
 type: glossary
-sources: [S00, S01, S02, S03, S04a, S04b, S05, S06b, S06c]
+sources: [S00, S01, S02, S03, S04a, S04b, S05, S06b, S06c, S07]
 updated: 2026-11-23
 ---
 
@@ -18,10 +18,14 @@ updated: 2026-11-23
 | [一般應援](concepts/general-support.md) | — | — | — | 拿著螢光棒在觀眾席上應援 | [S00](sources/S00-discussion-notes.md) |
 | [打call](concepts/call.md) | コール | Call | — | 喊口號、拍手、揮手臂的應援總稱；一般應援與地下藝都包含在內 | [S05](sources/S05-K97ZqVhf-mA.md) [S06c](sources/S06c-dLfZSCgwyMY.md) [S00](sources/S00-discussion-notes.md) |
 | [MIX](concepts/mix.md) | ミックス | MIX | — | 前奏、間奏時一起喊的一串固定單字；打call 的一種 | [S06b](sources/S06b-yzX_SkMQAfw.md) [S06c](sources/S06c-dLfZSCgwyMY.md) [S00](sources/S00-discussion-notes.md) |
-| 三連MIX | 3連MIX | — | — | 英語、日本語、愛努語 MIX 連續喊；「虎火三連」最常用 | [S06c](sources/S06c-dLfZSCgwyMY.md) [S00](sources/S00-discussion-notes.md) |
+| 三連MIX | 3連MIX | — | — | 英語、日本語、愛努語 MIX 接著喊；每段 8 拍；台灣常稱「虎火三連」，最常用 | [S06c](sources/S06c-dLfZSCgwyMY.md) [S07](sources/S07-kknews-mix.md) [S00](sources/S00-discussion-notes.md) |
+| 虎火發動 | — | — | — | 用「タイガー、ファイヤー」或「虎、火」當發動的三連MIX 變體（≠ 虎火三連） | [S07](sources/S07-kknews-mix.md) [S06b](sources/S06b-yzX_SkMQAfw.md) |
 | 倍速MIX | — | — | — | 句與句之間的空檔用加倍速度喊的 MIX | [S06c](sources/S06c-dLfZSCgwyMY.md) |
-| 愛努語MIX | アイヌ語MIX | Ainu MIX | 愛孥語 | 三種基本 MIX 之一 | [S06b](sources/S06b-yzX_SkMQAfw.md) [S06c](sources/S06c-dLfZSCgwyMY.md) |
-| 發動 | — | Starter | — | MIX 的起手（拍手節奏＋起手喊聲） | [S06b](sources/S06b-yzX_SkMQAfw.md) [S06c](sources/S06c-dLfZSCgwyMY.md) |
+| 愛努語MIX | アイヌ語MIX | Ainu MIX | 愛孥語、阿伊努語 | 三種基本 MIX 之一 | [S06b](sources/S06b-yzX_SkMQAfw.md) [S06c](sources/S06c-dLfZSCgwyMY.md) |
+| 發動 | — | Starter | — | MIX 的起手（拍手節奏＋起手喊聲）；發動前的喊聲也叫「警報」 | [S06b](sources/S06b-yzX_SkMQAfw.md) [S06c](sources/S06c-dLfZSCgwyMY.md) [S07](sources/S07-kknews-mix.md) |
+| woo hey | — | woo hey | — | 前奏抓拍子的喊聲；喊聲以羅馬音為標準寫法 | [S06c](sources/S06c-dLfZSCgwyMY.md) [S00](sources/S00-discussion-notes.md) |
+| Urya-Hi | — | Urya-Hi | — | 前奏轉重拍時的喊聲 | [S06b](sources/S06b-yzX_SkMQAfw.md) [S00](sources/S00-discussion-notes.md) |
+| [厄介](concepts/yakkai.md) | 厄介 | Yakkai | — | 在現場搞事、讓旁人覺得麻煩的粉絲（指人，不是動作） | [S07](sources/S07-kknews-mix.md) [S00](sources/S00-discussion-notes.md) |
 | ガチ恋口上 | ガチ恋口上 | Gachikoi kojo | — | 表達「真心戀愛」的長口上，用在 Bメロ到尾奏 | [S06b](sources/S06b-yzX_SkMQAfw.md) |
 | WOTA | ヲタ | Wota | — | 偶像宅、跑現場的粉絲 | [S06c](sources/S06c-dLfZSCgwyMY.md) |
 | 跑場 | — | — | — | 去偶像現場（live） | [S06b](sources/S06b-yzX_SkMQAfw.md) [S06c](sources/S06c-dLfZSCgwyMY.md) |
@@ -37,7 +41,7 @@ updated: 2026-11-23
 | 秋葉系 | 秋葉系 | Akiba-kei | 秋葉原系 | 東京秋葉原式的偶像經營：歌迷少、單價高、多團同場 | [S03](sources/S03-zh-wiki-local-idol.md) |
 | 拼盤 | 対バン（整理者推論） | — | — | 多組表演者共同參演的演出 | [S02](sources/S02-zh-wiki-taiwan-underground-idol.md) |
 | ACG | — | Anime, Comic, Game | — | 動畫、漫畫、遊戲的合稱 | [S02](sources/S02-zh-wiki-taiwan-underground-idol.md) |
-| [家虎](concepts/yetta-tiger.md) | イエッタイガー | Yetta Tiger | 耶太嘎 | 喊聲；「耶太嘎」為音譯，只在括號內註記 | [S01](sources/S01-ja-wiki-wotagei.md) |
+| [家虎](concepts/yetta-tiger.md) | イエッタイガー | Yetta Tiger | 耶太嘎 | 喊聲；「イエ」＝家、「タイガー」＝虎；也寫作イェッタイガー；「耶太嘎」為音譯，只在括號內註記 | [S01](sources/S01-ja-wiki-wotagei.md) [S07](sources/S07-kknews-mix.md) |
 
 ## 曲子段落
 

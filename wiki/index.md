@@ -1,7 +1,7 @@
 # 御宅藝 LLM Wiki — 目錄
 
 > 這是 wiki 的內容目錄。每頁一行：連結＋一句話摘要。由 LLM 在每次 ingest 時更新。
-> 新手請從 [總覽](overview.md) 開始。　來源數：8（S00～S06c）　最後更新：2026-11-23
+> 新手請從 [總覽](overview.md) 開始。　來源數：9（S00～S07）　最後更新：2026-11-23
 
 ## 入口
 
@@ -19,6 +19,7 @@
 - [S05 YouTube【EvolutioN】御宅藝文化詳細介紹](sources/S05-K97ZqVhf-mA.md) — 台灣打藝團體的分類說明、團體地圖、校園社團傳承
 - [S06b YouTube 無用男Rain〈流行MIX大集合〉](sources/S06b-yzX_SkMQAfw.md) — 2018 年流行 MIX／call 與曲子段落的對應
 - [S06c YouTube 無用男Rain〈如何正確發動MIX＋家虎運用講座〉](sources/S06c-dLfZSCgwyMY.md) — MIX 的發動、順序、喊法；家虎時機
+- [S07 kknews〈日式應援中mix，家虎，火虎，厄介都是什麼意思？〉](sources/S07-kknews-mix.md) — 三連MIX 喊詞、虎火發動、家虎由來、厄介
 
 ## 概念（Concepts）
 
@@ -29,8 +30,9 @@
 - [地下偶像](concepts/underground-idol.md) — 重視現場演出、小型公司經營的偶像
 - [在地偶像](concepts/local-idol.md) — 以家鄉為中心的日本偶像（與地下偶像分開）
 - [打call](concepts/call.md) — 喊聲應援的總稱（一般應援與地下藝都包含）
-- [MIX](concepts/mix.md) — 前奏、間奏一起喊的固定單字；發動、三種語言、三連MIX
+- [MIX](concepts/mix.md) — 前奏、間奏一起喊的固定單字；發動、三連MIX 喊詞表、虎火發動
 - [家虎](concepts/yetta-tiger.md) — 喊「イエッタイガー」的應援，2020 年被ブシロード宣布根絕
+- [厄介](concepts/yakkai.md) — 在現場搞事的麻煩粉絲；台灣喊家虎、打地下藝會被當成厄介
 
 ## 技（Techniques）
 
@@ -58,7 +60,7 @@
 ## 文化與禮儀（Culture）
 
 - [台灣的地下偶像與御宅藝圈](culture/taiwan.md) — 地下偶像（日本傳入、疫情轉折、45～50 組）＋御宅藝圈（團體地圖、校園社團傳承）
-- [爭議與禁止](culture/controversies.md) — 主要批評、榊原ゆい禁止、KOBerrieS♪ 訴訟、車站螢光棒
+- [爭議與禁止](culture/controversies.md) — 主要批評、榊原ゆい禁止、KOBerrieS♪ 訴訟、厄介、車站螢光棒
 
 ## 產出（Outputs）
 

@@ -2,7 +2,7 @@
 title: 爭議與禁止
 type: culture
 aliases: [迷惑行為, 禁止オタ芸]
-sources: [S01, S04a, S04b]
+sources: [S01, S04a, S04b, S00, S07]
 updated: 2026-11-23
 ---
 
@@ -35,8 +35,12 @@ S01 整理的批評聲音（[S01](../sources/S01-ja-wiki-wotagei.md)）：
 
 化學螢光棒的藥液可能外漏、玻璃碎片可能割傷，細長的棒子也容易甩飛打到別人；因此有些演唱會禁止帶入，改推 LED 螢光棒（[S04a](../sources/S04a-ja-wiki-chemical-light.md)）。AKB48 在 2015 年禁止帶入（[S04b](../sources/S04b-ja-wiki-penlight.md)）。詳見[螢光棒](../gear/glowstick.md)。
 
-> ⚠️ 資料缺口：「厄介」這個詞與爭議的關係尚無來源，預計在 Lint Pass 後決定是否補 S09。
+## 厄介
+
+在現場「搞事」、讓旁人覺得麻煩的粉絲被稱為[厄介](../concepts/yakkai.md)（[S07](../sources/S07-kknews-mix.md)）。在台灣，喊家虎、打地下藝會被當成厄介（[S00](../sources/S00-discussion-notes.md)）。
+
+> ⚠️ 資料缺口：日本方面對厄介的定義，待補日文來源（S09）。
 
 ## 相關頁面
 
-- [家虎](../concepts/yetta-tiger.md)、[地下藝](../concepts/chika-gei.md)、[年表](../history/timeline.md)
+- [厄介](../concepts/yakkai.md)、[家虎](../concepts/yetta-tiger.md)、[地下藝](../concepts/chika-gei.md)、[年表](../history/timeline.md)
