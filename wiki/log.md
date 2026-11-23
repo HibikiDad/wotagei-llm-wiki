@@ -78,3 +78,7 @@
 - 修正：glowstick（「台灣現場以 LED 為主」過度概括 → 限定演唱會；化學棒與地下藝不拿棒的關係加註）、general-support（過時的缺口說明、王劍）、timeline（補 2017-10、2018-12、2020-01）、5 個技頁的語句。
 - 缺口：厄介日文定義（S09）、副歌技例子、NIHAIOHAI／SOYA／YDDJJ 日文原名等 → 簡報中標示。
 
+## [2026-11-23 17:40] slides | 簡報大綱（Slides Graph 第 1 步）
+- 新增：outputs/slides-outline.md（10 單元、33 張、120 分鐘；每張列出依據的 wiki 頁）
+- 資料缺口在投影片中標示：厄介日文定義（S09）、副歌技例子、NIHAIOHAI／SOYA／YDDJJ 日文原名
+- 狀態：等待使用者審核大綱
