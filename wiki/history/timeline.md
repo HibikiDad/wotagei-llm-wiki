@@ -1,7 +1,7 @@
 ---
 title: 御宅藝年表
 type: history
-sources: [S01, S02, S03, S04b, S05]
+sources: [S01, S02, S03, S04b, S05, S06b, S07, S08a]
 updated: 2026-11-23
 ---
 
@@ -37,9 +37,11 @@ updated: 2026-11-23
 | 2014 前後 | 以打藝為主體的活動與 live 頻繁舉辦（[表演藝](../concepts/performance-gei.md)成形） | [S01](../sources/S01-ja-wiki-wotagei.md) |
 | 2015 | AKB48 禁止帶入化學螢光棒；2020 年代 LED 螢光棒成為主流 | [S04b](../sources/S04b-ja-wiki-penlight.md) |
 | 2017-08 | 神戸 KOBerrieS♪ 演唱會訴訟（打藝太激烈、聽不到歌） | [S01](../sources/S01-ja-wiki-wotagei.md) |
+| 2017-10 | 三連MIX、家虎、厄介的中文解說文章（S07）；文中描述偶像劇場喊家虎會被當成厄介（場景推測為中國，整理者推論） | [S07](../sources/S07-kknews-mix.md) |
 | 2018-08 | 🇹🇼 新竹高中動畫社在社團博覽會表演ヲタ芸，之後發展成風城界隈 | [S05](../sources/S05-K97ZqVhf-mA.md) |
+| 2018-12 | 🇹🇼 台灣 WOTA 無用男Rain 上傳 MIX 教學；家虎在偶像現場「幾乎是必備知識」 | [S06b](../sources/S06b-yzX_SkMQAfw.md) |
 | 2019～2020 初 | 🇹🇼 疫情使粉絲無法出國看日本 live，轉而關注台灣本土[地下偶像](../concepts/underground-idol.md) | [S02](../sources/S02-zh-wiki-taiwan-underground-idol.md) |
-| 2020-01 | 🇹🇼 風城界隈創團 | [S05](../sources/S05-K97ZqVhf-mA.md) |
+| 2020-01 | 🇹🇼 風城界隈創團；祈哥上傳〈新手村入門〉表演藝中文教學 | [S05](../sources/S05-K97ZqVhf-mA.md) [S08a](../sources/S08a-zGVnPOHCoRA.md) |
 | 2020-02-02 | ブシロード木谷高明宣布根絕[家虎](../concepts/yetta-tiger.md) | [S01](../sources/S01-ja-wiki-wotagei.md) |
 
 🇹🇼 = 台灣的事件，詳見[台灣的地下偶像與御宅藝圈](../culture/taiwan.md)。

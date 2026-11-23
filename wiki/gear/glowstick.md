@@ -21,13 +21,13 @@ updated: 2026-11-23
 | 現況 | 越來越多演唱會禁止帶入（[S04a](../sources/S04a-ja-wiki-chemical-light.md)、[S04b](../sources/S04b-ja-wiki-penlight.md)） | 2020 年代的主流（[S04b](../sources/S04b-ja-wiki-penlight.md)） |
 
 - **名稱**：サイリューム（Cyalume）是商標，日本常用它泛稱所有螢光棒，連 LED 的也叫サイリウム（[S04a](../sources/S04a-ja-wiki-chemical-light.md)）——「[サイリウムダンス](../concepts/performance-gei.md)」這個名字就是從這裡來的（整理者推論）。
-- **台灣**：LED 螢光棒也常被叫作「手燈」；因為演唱會可能禁止化學螢光棒，台灣現場以 LED 為主（[S00](../sources/S00-discussion-notes.md)）。
+- **台灣**：LED 螢光棒也常被叫作「手燈」；因為演唱會可能禁止化學螢光棒，台灣的**演唱會**現場以 LED 為主（[S00](../sources/S00-discussion-notes.md)）。
 
 ## 台灣圈的用法：誰用哪一種
 
 | 場合 | 通常用 | 例外 | 出處 |
 |---|---|---|---|
-| 演唱會應援 | LED：圈內叫「**王劍**」，亮度較低、很粗 | 地下偶像場很常有粉絲用化學螢光棒 | [S00](../sources/S00-discussion-notes.md) |
+| 演唱會應援 | LED：圈內叫「**王劍**」，亮度較低、很粗 | 地下偶像場很常有粉絲用化學螢光棒（拿棒子的是一般應援的粉絲；[地下藝](../concepts/chika-gei.md)通常不拿棒子） | [S00](../sources/S00-discussion-notes.md) |
 | 表演藝 | 化學螢光棒（例如 LUMICA「**大閃光**」） | 因為成本改用「**電棒**」：專給表演藝用的高亮度 LED，大小跟化學棒接近 | [S08a](../sources/S08a-zGVnPOHCoRA.md) 00:48；[S00](../sources/S00-discussion-notes.md) |
 
 - 大閃光的顏色有紅、橙、黃、綠、藍、靛、紫、粉，還有淺蔥、琉璃、白等特殊色；另有大閃光8、MEGA大閃光等產品（[S08a](../sources/S08a-zGVnPOHCoRA.md) 00:48）。練習時有人改用電子螢光棒（[S08a](../sources/S08a-zGVnPOHCoRA.md) 00:48）。
