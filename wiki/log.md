@@ -62,3 +62,12 @@
 - 討論修正：「虎火三連」＝一般三連MIX，與 S07 的「虎火發動」不同（整理者原本以為可能相同）；喊聲以羅馬音為標準；台灣喊家虎、打地下藝會被當成厄介；可信度由提議的低～中改為**高**。
 
 - lint：第 1 次即通過。
+
+## [2026-11-23 17:20] ingest | S08a、S08b YouTube 祈哥 Hong〈新手村入門〉主歌篇、導歌篇
+
+- 來源：zGVnPOHCoRA（主歌，13:20）、HIsBsrt1bBw（導歌，8:26），皆為作者上傳繁中字幕。
+- 新增：sources/S08a、S08b；techniques/oad、nihai-ohai、soya、yddjj、rosario、los-angeles（一技一頁）。
+- 更新：music/song-structure（主歌／導歌打法表，移除資料缺口）、gear/glowstick（王劍／電棒／大閃光、折法、拿法 → 補上 S04 起的缺口）、performance-gei、sabi-waza、overview、glossary（技表、道具表）、index、S00；jizo 等 5 頁的「待 S08」改為「S08 沒有教到」。
+- 討論修正：使用者把「演唱會用 LED、表演藝用化學棒」的推論修正為「通常」，並補上例外（地下偶像場常見化學棒、表演藝因成本改用電棒）與圈內叫法王劍／電棒；技名標準為日文原名（羅馬拼音），OAD 照寫。
+
+- lint：第 1 次即通過。

@@ -1,13 +1,13 @@
 ---
 title: 御宅藝總覽
 type: overview
-sources: [S00, S01, S02, S04a, S04b, S03, S05, S06b, S06c, S07]
+sources: [S00, S01, S02, S04a, S04b, S03, S05, S06b, S06c, S07, S08a, S08b]
 updated: 2026-11-23
 ---
 
 # 御宅藝總覽
 
-> 新手入口頁。隨著來源增加持續改寫。目前依據：S00～S07。
+> 新手入口頁。隨著來源增加持續改寫。目前依據：S00～S08。
 
 **御宅藝（ヲタ芸）是粉絲配合音樂、用舞蹈動作與喊聲來應援或表演的「藝」。**（[S01](sources/S01-ja-wiki-wotagei.md)）
 
@@ -38,13 +38,15 @@ updated: 2026-11-23
 
 [地蔵](techniques/jizo.md)、[マワリ](techniques/mawari.md)、[ロマンス](techniques/romance.md)、[PPPH](techniques/ppph.md)、[ケチャ](techniques/kecha.md)、[サンダースネイク](techniques/thunder-snake.md)、[メリーゴーランド](techniques/merry-go-round.md)（[S01](sources/S01-ja-wiki-wotagei.md)）。表演藝的技分成經典的定番技與種類極多的[副歌技](techniques/sabi-waza.md)（[S05](sources/S05-K97ZqVhf-mA.md)）。
 
+入門的表演藝依曲子段落學技：主歌 [OAD](techniques/oad.md) 等、導歌[ロザリオ](techniques/rosario.md)（十字架）與[ロサンゼルス](techniques/los-angeles.md)（洛杉磯）（[S08a](sources/S08a-zGVnPOHCoRA.md)、[S08b](sources/S08b-HIsBsrt1bBw.md)）→ [曲子結構與打法](music/song-structure.md)。
+
 ## 爭議
 
 被批評干擾其他觀眾，部分歌手與公司已經禁止，也發生過訴訟（[S01](sources/S01-ja-wiki-wotagei.md)）→ [爭議與禁止](culture/controversies.md)。在台灣，喊家虎、打地下藝會被當成「[厄介](concepts/yakkai.md)」（麻煩的人）（[S00](sources/S00-discussion-notes.md)、[S07](sources/S07-kknews-mix.md)）。
 
 ## 手上拿的是什麼
 
-[螢光棒](gear/glowstick.md)分化學式（ケミカルライト）與 LED 式（ペンライト）。化學螢光棒有安全疑慮、常被演唱會禁止，2020 年代以 LED 為主流（[S04a](sources/S04a-ja-wiki-chemical-light.md)、[S04b](sources/S04b-ja-wiki-penlight.md)）；台灣現場也是 LED 為主（[S00](sources/S00-discussion-notes.md)）。
+[螢光棒](gear/glowstick.md)分化學式（ケミカルライト）與 LED 式（ペンライト）。化學螢光棒有安全疑慮、常被演唱會禁止，2020 年代以 LED 為主流（[S04a](sources/S04a-ja-wiki-chemical-light.md)、[S04b](sources/S04b-ja-wiki-penlight.md)）；台灣現場也是 LED 為主（[S00](sources/S00-discussion-notes.md)）；不過表演藝通常用化學棒，圈內還有「王劍」「電棒」等叫法（[S00](sources/S00-discussion-notes.md)、[S08a](sources/S08a-zGVnPOHCoRA.md)）。
 
 ## 相關頁面
 

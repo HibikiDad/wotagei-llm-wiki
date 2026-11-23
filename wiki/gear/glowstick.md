@@ -1,8 +1,8 @@
 ---
 title: 螢光棒
 type: gear
-aliases: [サイリウム, サイリューム, ケミカルライト, ペンライト, 手燈, lightstick]
-sources: [S00, S01, S04a, S04b]
+aliases: [サイリウム, サイリューム, ケミカルライト, ペンライト, 手燈, 王劍, 電棒, 大閃光, lightstick]
+sources: [S00, S01, S04a, S04b, S08a]
 updated: 2026-11-23
 ---
 
@@ -22,6 +22,23 @@ updated: 2026-11-23
 
 - **名稱**：サイリューム（Cyalume）是商標，日本常用它泛稱所有螢光棒，連 LED 的也叫サイリウム（[S04a](../sources/S04a-ja-wiki-chemical-light.md)）——「[サイリウムダンス](../concepts/performance-gei.md)」這個名字就是從這裡來的（整理者推論）。
 - **台灣**：LED 螢光棒也常被叫作「手燈」；因為演唱會可能禁止化學螢光棒，台灣現場以 LED 為主（[S00](../sources/S00-discussion-notes.md)）。
+
+## 台灣圈的用法：誰用哪一種
+
+| 場合 | 通常用 | 例外 | 出處 |
+|---|---|---|---|
+| 演唱會應援 | LED：圈內叫「**王劍**」，亮度較低、很粗 | 地下偶像場很常有粉絲用化學螢光棒 | [S00](../sources/S00-discussion-notes.md) |
+| 表演藝 | 化學螢光棒（例如 LUMICA「**大閃光**」） | 因為成本改用「**電棒**」：專給表演藝用的高亮度 LED，大小跟化學棒接近 | [S08a](../sources/S08a-zGVnPOHCoRA.md) 00:48；[S00](../sources/S00-discussion-notes.md) |
+
+- 大閃光的顏色有紅、橙、黃、綠、藍、靛、紫、粉，還有淺蔥、琉璃、白等特殊色；另有大閃光8、MEGA大閃光等產品（[S08a](../sources/S08a-zGVnPOHCoRA.md) 00:48）。練習時有人改用電子螢光棒（[S08a](../sources/S08a-zGVnPOHCoRA.md) 00:48）。
+
+## 打藝時怎麼折、怎麼拿
+
+- **折**（讓化學棒發光）：把幾支併在一起對折；單手用大拇指和食指凹（要練握力）；或棒子對棒子敲、敲地板（[S08a](../sources/S08a-zGVnPOHCoRA.md) 01:23）。
+- **拿**：
+  1. 常見：棒子夾在指間、整隻手握住 —— 有「手掌」「手指」的顏色感，手張開時很好看（[S08a](../sources/S08a-zGVnPOHCoRA.md) 02:00）；
+  2. 一般：直接抓住棒子最頂端 —— 棒子露出比較長，打出來的光弧比較長（[S08a](../sources/S08a-zGVnPOHCoRA.md) 02:35）；
+  3. 特殊：用大拇指抓著，像爪子（[S08a](../sources/S08a-zGVnPOHCoRA.md) 02:35）。
 
 ## UO（ウルトラオレンジ）
 
@@ -50,9 +67,9 @@ updated: 2026-11-23
 - 棒子細長好滑，揮動時注意不要甩飛打到旁邊的人（[S04a](../sources/S04a-ja-wiki-chemical-light.md)）。
 - 在車站不要揮螢光棒（特別是紅色），可能被誤認為緊急停車信號（[S01](../sources/S01-ja-wiki-wotagei.md)）。
 
-> ⚠️ 資料缺口：御宅藝的拿法（一手幾支、指間夾法、打藝專用的棒子）S04 沒有寫到，預計由 S05 補充。
+> 注意：S08a 推薦化學棒，但影片的螢光棒由 LUMICA 在台經銷商提供（{Bb} 07:50）；化學棒的安全疑慮見上方「安全」段落。
 
 ## 相關頁面
 
 - [御宅藝](../concepts/wotagei.md)、[表演藝](../concepts/performance-gei.md)、[一般應援](../concepts/general-support.md)
-- [爭議與禁止](../culture/controversies.md)、[年表](../history/timeline.md)
+- [OAD](../techniques/oad.md)（打藝的基本技）、[爭議與禁止](../culture/controversies.md)、[年表](../history/timeline.md)

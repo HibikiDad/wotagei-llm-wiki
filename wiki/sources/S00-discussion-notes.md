@@ -70,6 +70,14 @@ updated: 2026-11-23
 4. 厄介的日文來源之後再補（S09）。
 5. S07 可信度評為**高**。
 
+### S08 討論（2026-11-23）
+
+1. 技名標準寫法：**OAD 照寫**；其他技寫**日文原名（羅馬拼音）**。
+2. 洛杉磯的日文是**ロサンゼルス**。
+3. 台灣圈**會區分關東OAD／關西OAD**。
+4. **演唱會應援通常用 LED、表演藝通常用化學棒**；但地下偶像場很常有粉絲用化學螢光棒，表演藝有時因成本改用電棒。圈內把演唱會用的 LED 螢光棒叫「**王劍**」（亮度較低、很粗）；專給表演藝用、大小接近化學棒的高亮度 LED 叫「**電棒**」。
+5. 一技一頁、S08 可信度**高** —— 同意。
+
 ## 相關頁面
 
 - [S01 日文維基百科「オタ芸」](S01-ja-wiki-wotagei.md)
@@ -79,6 +87,7 @@ updated: 2026-11-23
 - [S05 YouTube【EvolutioN】御宅藝文化詳細介紹](S05-K97ZqVhf-mA.md)
 - [S06b](S06b-yzX_SkMQAfw.md)、[S06c](S06c-dLfZSCgwyMY.md) 無用男Rain MIX 講座
 - [S07 kknews MIX／家虎／厄介](S07-kknews-mix.md)
+- [S08a](S08a-zGVnPOHCoRA.md)、[S08b](S08b-HIsBsrt1bBw.md) 祈哥 主歌／導歌教學
 - [打call](../concepts/call.md)、[MIX](../concepts/mix.md)、[厄介](../concepts/yakkai.md)
 - [御宅藝](../concepts/wotagei.md)
 - [用語表](../glossary.md)

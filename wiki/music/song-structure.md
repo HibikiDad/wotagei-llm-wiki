@@ -2,7 +2,7 @@
 title: 曲子結構與打法
 type: music
 aliases: [曲構成, Aメロ, Bメロ, サビ]
-sources: [S00, S05, S06b, S06c]
+sources: [S00, S05, S06b, S06c, S08a, S08b]
 updated: 2026-11-23
 ---
 
@@ -44,10 +44,19 @@ updated: 2026-11-23
 
 ## 各段落打什麼技
 
-- サビ（副歌）：[副歌技](../techniques/sabi-waza.md)（[S05](../sources/S05-K97ZqVhf-mA.md)）。
+以下是表演藝（光棒藝）的入門打法：
 
-> ⚠️ 資料缺口：主歌、導歌的打法（技），預計由 S08（祈哥的主歌／導歌教學）補充。
+| 段落 | 技 | 拍子 | 出處 |
+|---|---|---|---|
+| Aメロ（主歌） | [OAD](../techniques/oad.md)、[NIHAIOHAI](../techniques/nihai-ohai.md)（過膝襪）、[SOYA](../techniques/soya.md)、[YDDJJ](../techniques/yddjj.md) | 每個技 8 拍，串起來練 | [S08a](../sources/S08a-zGVnPOHCoRA.md) 03:09、12:00 |
+| Bメロ（導歌） | [ロザリオ](../techniques/rosario.md)（十字架）4 拍、[ロサンゼルス](../techniques/los-angeles.md)（洛杉磯）8 拍 | | [S08b](../sources/S08b-HIsBsrt1bBw.md) 00:00、02:48 |
+| サビ（副歌） | [副歌技](../techniques/sabi-waza.md)（據說超過 1000 種） | | [S05](../sources/S05-K97ZqVhf-mA.md) |
+
+- 同一段 Aメロ，應援的人喊「ニーハイ、オイハイ」call（[S06b](../sources/S06b-yzX_SkMQAfw.md) 04:52），表演藝的人打 NIHAIOHAI —— 應援與表演在同一個段落做相似的動作（整理者推論）。
+
+> ⚠️ 資料缺口：副歌與橋段（Cメロ）的教學影片（祈哥 7pO0AbJWxlE 等）沒有字幕，已剔除；副歌技的具體例子只有[サンダースネイク](../techniques/thunder-snake.md)。
 
 ## 相關頁面
 
 - [MIX](../concepts/mix.md)、[打call](../concepts/call.md)、[家虎](../concepts/yetta-tiger.md)、[副歌技](../techniques/sabi-waza.md)
+- [OAD](../techniques/oad.md)、[ロザリオ](../techniques/rosario.md)、[ロサンゼルス](../techniques/los-angeles.md)

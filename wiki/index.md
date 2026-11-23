@@ -1,7 +1,7 @@
 # 御宅藝 LLM Wiki — 目錄
 
 > 這是 wiki 的內容目錄。每頁一行：連結＋一句話摘要。由 LLM 在每次 ingest 時更新。
-> 新手請從 [總覽](overview.md) 開始。　來源數：9（S00～S07）　最後更新：2026-11-23
+> 新手請從 [總覽](overview.md) 開始。　來源數：11（S00～S08b）　最後更新：2026-11-23
 
 ## 入口
 
@@ -20,6 +20,8 @@
 - [S06b YouTube 無用男Rain〈流行MIX大集合〉](sources/S06b-yzX_SkMQAfw.md) — 2018 年流行 MIX／call 與曲子段落的對應
 - [S06c YouTube 無用男Rain〈如何正確發動MIX＋家虎運用講座〉](sources/S06c-dLfZSCgwyMY.md) — MIX 的發動、順序、喊法；家虎時機
 - [S07 kknews〈日式應援中mix，家虎，火虎，厄介都是什麼意思？〉](sources/S07-kknews-mix.md) — 三連MIX 喊詞、虎火發動、家虎由來、厄介
+- [S08a YouTube 祈哥 Hong〈新手村入門 - 主歌篇〉](sources/S08a-zGVnPOHCoRA.md) — 螢光棒折法／拿法；主歌技 OAD、NIHAIOHAI、SOYA、YDDJJ
+- [S08b YouTube 祈哥 Hong〈新手村入門 - 導歌篇〉](sources/S08b-HIsBsrt1bBw.md) — 導歌技ロザリオ、ロサンゼルス；關東／關西OAD
 
 ## 概念（Concepts）
 
@@ -43,15 +45,21 @@
 - [ケチャ](techniques/kecha.md) — 克差：低姿勢向台上揮舉手臂
 - [サンダースネイク](techniques/thunder-snake.md) — 雷蛇：難度低、最有魄力的代表技
 - [メリーゴーランド](techniques/merry-go-round.md) — 旋轉木馬：3～100 人的多人繞圈技
+- [OAD](techniques/oad.md) — 主歌技、定番技：左右劃光弧在臉旁拍手；關東／關西兩派
+- [NIHAIOHAI](techniques/nihai-ohai.md) — 過膝襪：手從腳踝沿腿拉上來（主歌）
+- [SOYA](techniques/soya.md) — 十字架＋四突（主歌）
+- [YDDJJ](techniques/yddjj.md) — 扇形大圈＋風火輪（主歌）
+- [ロザリオ](techniques/rosario.md) — 十字架：頭頂繞圈再全力往下打（導歌，4 拍）
+- [ロサンゼルス](techniques/los-angeles.md) — 洛杉磯：往內繞、轉身延伸（導歌，8 拍）
 - [副歌技](techniques/sabi-waza.md) — サビ技：定番技 vs. 副歌技，據說超過 1000 種
 
 ## 道具（Gear）
 
-- [螢光棒](gear/glowstick.md) — 化學 vs. LED 比較、UO、應援色、演變史、安全須知
+- [螢光棒](gear/glowstick.md) — 化學 vs. LED 比較、王劍／電棒／大閃光、折法與拿法、應援色、演變史、安全須知
 
 ## 曲結構與打法（Music）
 
-- [曲子結構與打法](music/song-structure.md) — 前奏／Aメロ／Bメロ／サビ／Cメロ／尾奏 × 喊什麼、打什麼
+- [曲子結構與打法](music/song-structure.md) — 前奏／Aメロ／Bメロ／サビ／Cメロ／尾奏 × 喊什麼（MIX、call）、打什麼（主歌技、導歌技）
 
 ## 歷史（History）
 

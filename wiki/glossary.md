@@ -1,7 +1,7 @@
 ---
 title: 用語表
 type: glossary
-sources: [S00, S01, S02, S03, S04a, S04b, S05, S06b, S06c, S07]
+sources: [S00, S01, S02, S03, S04a, S04b, S05, S06b, S06c, S07, S08a, S08b]
 updated: 2026-11-23
 ---
 
@@ -62,6 +62,9 @@ updated: 2026-11-23
 | [螢光棒](gear/glowstick.md) | サイリウム、ペンライト | Glowstick、Lightstick | 螢光燈棒、熒光棒 | 總稱，化學式與 LED 都算 | [S04a](sources/S04a-ja-wiki-chemical-light.md)、[S04b](sources/S04b-ja-wiki-penlight.md) |
 | 化學螢光棒 | ケミカルライト、サイリューム | Chemical light、Cyalume | — | 折斷內管、兩液混合發光；漸被禁止 | [S04a](sources/S04a-ja-wiki-chemical-light.md) |
 | LED 螢光棒 | ペンライト | Penlight、LED light | — | 台灣也常叫「手燈」；目前主流 | [S04b](sources/S04b-ja-wiki-penlight.md)、[S00](sources/S00-discussion-notes.md) |
+| 王劍 | — | — | — | 台灣圈對演唱會用 LED 螢光棒的叫法；亮度較低、很粗 | [S00](sources/S00-discussion-notes.md) |
+| 電棒 | — | — | — | 專給表演藝用的高亮度 LED 螢光棒，大小接近化學棒 | [S00](sources/S00-discussion-notes.md) |
+| 大閃光 | 大閃光 | — | — | LUMICA 的化學螢光棒，表演藝常用 | [S08a](sources/S08a-zGVnPOHCoRA.md) |
 | UO | ウルトラオレンジ | Ultra Orange | — | 只亮 5～15 分鐘的高亮度化學螢光棒 | [S04a](sources/S04a-ja-wiki-chemical-light.md) |
 | 應援色 | メンバーカラー、イメージカラー | Member color | — | 對應成員代表色的螢光棒顏色 | [S04b](sources/S04b-ja-wiki-penlight.md) |
 
@@ -78,8 +81,13 @@ updated: 2026-11-23
 | [メリーゴーランド](techniques/merry-go-round.md) | メリーゴーランド | Merry-go-round | — | 中文意譯：旋轉木馬，簡稱メリゴ。多人技 | [S01](sources/S01-ja-wiki-wotagei.md) |
 | [副歌技](techniques/sabi-waza.md) | サビ技 | Sabi-waza | — | 副歌時打的技，據說超過 1000 種 | [S05](sources/S05-K97ZqVhf-mA.md) [S00](sources/S00-discussion-notes.md) |
 | 定番技 | 定番 | Teiban | — | 經典、固定的動作（OAD、ロザリオ、ロマンス） | [S05](sources/S05-K97ZqVhf-mA.md) |
-| OAD | OAD | OAD | — | 定番技之一（動作待補） | [S05](sources/S05-K97ZqVhf-mA.md) |
-| ロザリオ | ロザリオ | Rosario | — | 中文：十字架。定番技之一（動作待補） | [S05](sources/S05-K97ZqVhf-mA.md) [S00](sources/S00-discussion-notes.md) |
+| [OAD](techniques/oad.md) | OAD | OAD | — | 主歌技、定番技；左右劃光弧在臉旁拍手；分關西OAD／關東OAD | [S05](sources/S05-K97ZqVhf-mA.md) [S08a](sources/S08a-zGVnPOHCoRA.md) [S08b](sources/S08b-HIsBsrt1bBw.md) [S00](sources/S00-discussion-notes.md) |
+| [NIHAIOHAI](techniques/nihai-ohai.md) | （待補） | NIHAIOHAI | — | 中文：過膝襪。主歌技；手從腳踝沿腿拉上來 | [S08a](sources/S08a-zGVnPOHCoRA.md) |
+| [SOYA](techniques/soya.md) | （待補） | SOYA | — | 主歌技；十字架＋四突 | [S08a](sources/S08a-zGVnPOHCoRA.md) |
+| [YDDJJ](techniques/yddjj.md) | （待補） | YDDJJ | — | 主歌技；扇形大圈＋風火輪 | [S08a](sources/S08a-zGVnPOHCoRA.md) |
+| [ロサンゼルス](techniques/los-angeles.md) | ロサンゼルス | Rosanzerusu／Los Angeles | — | 中文：洛杉磯。導歌技，8 拍 | [S08b](sources/S08b-HIsBsrt1bBw.md) [S00](sources/S00-discussion-notes.md) |
+| [ロザリオ](techniques/rosario.md) | ロザリオ | Rosario | — | 中文：十字架。導歌技、定番技，4 拍 | [S05](sources/S05-K97ZqVhf-mA.md) [S00](sources/S00-discussion-notes.md) [S08b](sources/S08b-HIsBsrt1bBw.md) |
 | 紋章技 | 紋章技 | — | — | 技的一類（S05 沒有說明內容） | [S05](sources/S05-K97ZqVhf-mA.md) |
 
-> 羅曼史、雷蛇已由 S05 確認是台灣圈用法；其他技的中文意譯仍為整理者暫譯，待 S08（祈哥）確認後更新。
+> 羅曼史、雷蛇已由 S05 確認是台灣圈用法；十字架、洛杉磯、過膝襪由 S08 確認。地藏、迴轉、克差、旋轉木馬仍為整理者暫譯（S08 沒有教到）。
+> 技名的標準寫法：OAD 照寫；其他用日文原名（羅馬拼音）（S00）。NIHAIOHAI、SOYA、YDDJJ 的日文原名目前沒有來源，暫用影片的羅馬字。
