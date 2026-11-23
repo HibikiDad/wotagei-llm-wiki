@@ -1,7 +1,7 @@
 # 御宅藝 LLM Wiki — 目錄
 
 > 這是 wiki 的內容目錄。每頁一行：連結＋一句話摘要。由 LLM 在每次 ingest 時更新。
-> 新手請從 [總覽](overview.md) 開始。　來源數：3（S00～S02）　最後更新：2026-11-23
+> 新手請從 [總覽](overview.md) 開始。　來源數：4（S00～S03）　最後更新：2026-11-23
 
 ## 入口
 
@@ -13,6 +13,7 @@
 - [S00 使用者討論紀錄](sources/S00-discussion-notes.md) — 每次 ingest 討論時使用者的圈內實務補充
 - [S01 日文維基百科「オタ芸」](sources/S01-ja-wiki-wotagei.md) — 定義、兩種寫法、代表技、歷史、爭議
 - [S02 中文維基百科「臺灣地下偶像文化」](sources/S02-zh-wiki-taiwan-underground-idol.md) — 地下偶像定義、台灣發展、疫情轉折、規模
+- [S03 中文維基百科「在地偶像」](sources/S03-zh-wiki-local-idol.md) — 日本在地偶像的起源、秋葉系經營、台灣稱地下偶像
 
 ## 概念（Concepts）
 
@@ -21,6 +22,7 @@
 - [地下藝](concepts/chika-gei.md) — 誇張扭曲的動作＋MIX，吸引台上表演者注意
 - [表演藝](concepts/performance-gei.md) — 別名地上藝、サイリウムダンス；表演給觀眾看
 - [地下偶像](concepts/underground-idol.md) — 重視現場演出、小型公司經營的偶像
+- [在地偶像](concepts/local-idol.md) — 以家鄉為中心的日本偶像（與地下偶像分開）
 - [家虎](concepts/yetta-tiger.md) — 喊「イエッタイガー」的應援，2020 年被ブシロード宣布根絕
 
 ## 技（Techniques）

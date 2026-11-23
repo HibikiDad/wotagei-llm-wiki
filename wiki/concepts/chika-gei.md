@@ -2,7 +2,7 @@
 title: 地下藝
 type: concept
 aliases: [地下芸, オタ芸]
-sources: [S00, S01, S02]
+sources: [S00, S01, S02, S03]
 updated: 2026-11-23
 ---
 
@@ -22,6 +22,10 @@ updated: 2026-11-23
 
 - 台灣的地下藝大多出現在[地下偶像](underground-idol.md)的應援場合（[S00](../sources/S00-discussion-notes.md)）。
 - 名稱中的「地下」大概率與地下偶像有關，待書面來源證實（[S00](../sources/S00-discussion-notes.md)）。
+
+## 為什麼要吸引表演者注意？
+
+地下偶像的現場歌迷總數少、常常多團同場（[S03](../sources/S03-zh-wiki-local-idol.md)），場地小、距離近，台上的表演者看得到、也認得出個別粉絲；因此用誇張的動作讓自己被看見，成為一種應援方式（整理者推論，經使用者同意，見 [S00](../sources/S00-discussion-notes.md)）。
 
 > ⚠️ 資料缺口：地下藝的具體動作解析，預計由 S05（EvolutioN 介紹）補充。
 

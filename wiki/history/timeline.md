@@ -1,7 +1,7 @@
 ---
 title: 御宅藝年表
 type: history
-sources: [S01, S02]
+sources: [S01, S02, S03]
 updated: 2026-11-23
 ---
 
@@ -13,7 +13,10 @@ updated: 2026-11-23
 |---|---|---|
 | 1970～80 年代 | 偶像親衛隊配合歌曲齊聲喊聲的應援風格已經存在 | [S01](../sources/S01-ja-wiki-wotagei.md) |
 | 1989-11-22 | 渡辺美奈代〈恋愛紅一点〉發售；A メロ時粉絲跳的「[ロマンス](../techniques/romance.md)ダンス」被視為オタ芸的發源與原型 | [S01](../sources/S01-ja-wiki-wotagei.md) |
+| 1993 | 吉本興業推出「大阪勁舞娃娃」「阿波勁舞娃娃」（[在地偶像](../concepts/local-idol.md)的先聲） | [S03](../sources/S03-zh-wiki-local-idol.md) |
 | 1993 | 🇹🇼 台灣首個大規模同人誌即賣會 | [S02](../sources/S02-zh-wiki-taiwan-underground-idol.md) |
+| 1995 | COCONUT'（ココナッツJr.）成軍，被視為在地偶像的原型 | [S03](../sources/S03-zh-wiki-local-idol.md) |
+| 1996 起 | 「地方出道的偶像」大量出現（りんご娘、SHIP 等） | [S03](../sources/S03-zh-wiki-local-idol.md) |
 | 1997-12-09 以前 | 電視節目《ナイナイナ》播出オタ芸的樣子（最晚的全國播出紀錄）；在這之前水野あおい的演唱會就有オタ芸 | [S01](../sources/S01-ja-wiki-wotagei.md) |
 | 2000 年代 | 應援加入舞蹈、變得多樣化，在ハロー!プロジェクト的演唱會上以「オタ芸」之名被認知 | [S01](../sources/S01-ja-wiki-wotagei.md) |
 | 2002 | 🇹🇼 Comic World Taiwan（CWT）、開拓動漫祭（FF）開辦 | [S02](../sources/S02-zh-wiki-taiwan-underground-idol.md) |

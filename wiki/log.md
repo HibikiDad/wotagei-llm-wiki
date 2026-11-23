@@ -26,3 +26,9 @@
 - 討論修正：使用者補充「台灣地下藝大多出現在地下偶像應援場合」「地下藝的『地下』大概率與地下偶像有關（待證實）」→ 以 S00 引用。
 - lint：一次通過。自我檢查：用語表「拼盤＝対バン」不在 S02 內，改標「整理者推論」。
 
+
+## [2026-11-23 16:20] ingest | S03 中文維基百科「在地偶像」
+- 新增：sources/S03-zh-wiki-local-idol.md、concepts/local-idol.md
+- 更新：concepts/underground-idol.md（台灣定義、⚠️ 說法分歧：S03 視為同義 vs. 本 wiki 分兩頁）、concepts/chika-gei.md（整理者推論：為什麼要吸引表演者注意）、culture/taiwan.md、history/timeline.md（1993／1995／1996）、glossary.md（在地偶像、秋葉系）、sources/S00-discussion-notes.md（補 S02、S03 討論）、index.md
+- 討論修正：使用者決定在地偶像與地下偶像分兩頁；同意寫入推論
+- lint：通過（第 2 次；第 1 次 E5 ×3：glossary 把「秋葉原系」列為不採用，但改寫時照抄原文 → 改為「秋葉系（秋葉原系）」）

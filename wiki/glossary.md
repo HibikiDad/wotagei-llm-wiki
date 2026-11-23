@@ -1,7 +1,7 @@
 ---
 title: 用語表
 type: glossary
-sources: [S00, S01, S02]
+sources: [S00, S01, S02, S03]
 updated: 2026-11-23
 ---
 
@@ -21,6 +21,8 @@ updated: 2026-11-23
 | 打藝 | 打つ | — | 打芸 | 表演御宅藝這個動作 | [S01](sources/S01-ja-wiki-wotagei.md) |
 | 打師 | 打ち師 | — | — | 表演御宅藝的人 | [S01](sources/S01-ja-wiki-wotagei.md) |
 | [地下偶像](concepts/underground-idol.md) | 地下アイドル | Underground Idol | — | 重視現場演出、小型公司經營的偶像 | [S02](sources/S02-zh-wiki-taiwan-underground-idol.md) |
+| [在地偶像](concepts/local-idol.md) | ローカルアイドル | Local Idol | — | 以家鄉地區為活動中心的偶像；與地下偶像分開 | [S03](sources/S03-zh-wiki-local-idol.md) |
+| 秋葉系 | 秋葉系 | Akiba-kei | 秋葉原系 | 東京秋葉原式的偶像經營：歌迷少、單價高、多團同場 | [S03](sources/S03-zh-wiki-local-idol.md) |
 | 拼盤 | 対バン（整理者推論） | — | — | 多組表演者共同參演的演出 | [S02](sources/S02-zh-wiki-taiwan-underground-idol.md) |
 | ACG | — | Anime, Comic, Game | — | 動畫、漫畫、遊戲的合稱 | [S02](sources/S02-zh-wiki-taiwan-underground-idol.md) |
 | [家虎](concepts/yetta-tiger.md) | イエッタイガー | Yetta Tiger | 耶太嘎 | 喊聲；「耶太嘎」為音譯，只在括號內註記 | [S01](sources/S01-ja-wiki-wotagei.md) |

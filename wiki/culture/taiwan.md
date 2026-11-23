@@ -2,7 +2,7 @@
 title: 台灣的地下偶像與御宅藝圈
 type: culture
 aliases: [臺灣地下偶像文化]
-sources: [S00, S02]
+sources: [S00, S02, S03]
 updated: 2026-11-23
 ---
 
@@ -16,6 +16,10 @@ updated: 2026-11-23
 - **2004-06-16** 台灣第一家女僕咖啡廳「咖啡安妮莓（Coffee Animaid）」在台北開幕，店內有地下偶像唱跳表演；條目稱女僕咖啡是地下偶像文化的重要發源地（[S02](../sources/S02-zh-wiki-taiwan-underground-idol.md)）。
 - **2011 年起**各地方政府舉辦「動漫節」，表演機會變多（[S02](../sources/S02-zh-wiki-taiwan-underground-idol.md)）。
 - **疫情轉折**：原本台灣粉絲會出國到日本看現場，2019～2020 年初的疫情讓大部分粉絲無法出國，轉而關注本土地下偶像（[S02](../sources/S02-zh-wiki-taiwan-underground-idol.md)）。
+
+## 台灣地下偶像是什麼樣的團體
+
+由喜歡日系動畫歌曲、舞蹈、遊戲歌曲與秋葉系（秋葉原系）偶像曲目的人組成**女子偶像團體**，定期公演，很少上主流電視節目（[S03](../sources/S03-zh-wiki-local-idol.md)）。
 
 ## 現況（根據 2026-10 版條目）
 
