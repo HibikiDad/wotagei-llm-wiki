@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>御宅藝文化講座</title>
+<link rel="icon" href="img/chibi1.png">
 <meta name="description" content="御宅藝社團 120 分鐘入門課簡報：內容全部依據御宅藝 LLM Wiki。">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -61,6 +62,14 @@ th,td{padding:7px 12px;border-bottom:1px solid var(--line);vertical-align:top}
 .tl .e{font-size:20px;line-height:1.45;border-left:2px solid var(--line);padding-left:14px}
 .yt{position:relative;width:100%;aspect-ratio:16/9;background:#000;border-radius:12px;overflow:hidden;border:1px solid var(--line)}
 .yt iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.yt .ytlink{position:absolute;inset:0;display:block;color:#fff;text-decoration:none}
+.yt .ytlink img{width:100%;height:100%;object-fit:cover;opacity:.55}
+.yt .ytlink span{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);background:var(--orange);color:var(--dark);font-weight:700;font-size:22px;padding:12px 22px;border-radius:999px;white-space:nowrap;text-align:center}
+.yt .ytlink small{display:block;font-size:13px;font-weight:500;opacity:.8}
+.yt .ytout{position:absolute;right:2px;top:-22px;font-size:13px;line-height:1;color:var(--grey);text-decoration:none}
+.yt .ytout:hover{color:var(--orange)}
+.yt{overflow:visible;min-width:0}
+.yt iframe{border-radius:12px}
 .yt .ph{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:var(--grey);font-size:18px}
 .imgs{display:grid;grid-template-columns:1fr 1fr;gap:12px}
 .imgs figure{background:var(--panel);border:1px solid var(--line);border-radius:10px;overflow:hidden}
@@ -131,7 +140,7 @@ button.btn.ghost{background:transparent;color:var(--text);border:1px solid var(-
 <section class="slide" data-unit="1 御宅藝是什麼" data-sources="wiki/concepts/wotagei.md">
   <div class="unit">單元 1　御宅藝是什麼</div>
   <h2>一句話定義</h2>
-  <p class="lead">御宅藝（<span class="ja">ヲタ芸／オタ芸</span>）是偶像宅配合音樂，用舞蹈動作和喊聲來應援或表演的「藝」。</p>
+  <p class="lead" style="margin-right:130px">御宅藝（<span class="ja">ヲタ芸／オタ芸</span>）是偶像宅配合音樂，用舞蹈動作和喊聲來應援或表演的「藝」。</p>
   <div class="cols">
     <div class="card">
       <h3>基本用語</h3>
@@ -185,7 +194,7 @@ button.btn.ghost{background:transparent;color:var(--text);border:1px solid var(-
   <div class="unit">單元 1　御宅藝是什麼</div>
   <h2>影片：台灣打師自己怎麼分類<span class="sub">EvolutioN〈御宅藝文化詳細介紹〉00:33 起</span></h2>
   <div class="cols w2">
-    <div class="yt" data-id="K97ZqVhf-mA" data-start="33"></div>
+    <div class="yt" data-id="K97ZqVhf-mA" data-start="33" data-mode="link"></div>
     <div class="small">
       <h3>看的時候注意</h3>
       <ul>
@@ -762,14 +771,25 @@ button.btn.ghost{background:transparent;color:var(--text);border:1px solid var(-
   function fit(){ const k = Math.min(innerWidth / 1280, innerHeight / 720); deck.style.transform = `scale(${k})`; }
   addEventListener("resize", fit); fit();
   // 影片：只在當前頁載入 iframe，離開就移除（停止播放）
+  // data-mode="link"：上傳者限制嵌入播放的影片 → 改成縮圖＋外連（2026-11-23 渲染檢查發現）
+  function ytURL(box){ return `https://www.youtube.com/watch?v=${box.dataset.id}&t=${box.dataset.start || 0}s`; }
+  function mmss(s){ s = +s || 0; return `${String(Math.floor(s / 60)).padStart(2, "0")}:${String(s % 60).padStart(2, "0")}`; }
   function setVideos(slide, on){
     slide.querySelectorAll(".yt").forEach(box => {
+      if (box.dataset.mode === "link") {
+        if (!box.querySelector("a")) box.innerHTML =
+          `<a class="ytlink" href="${ytURL(box)}" target="_blank" rel="noopener">` +
+          `<img src="https://i.ytimg.com/vi/${box.dataset.id}/hqdefault.jpg" alt="影片縮圖">` +
+          `<span>▶ 在 YouTube 開啟（從 ${mmss(box.dataset.start)} 起）<small>這支影片限制在其他網站播放</small></span></a>`;
+        return;
+      }
       if (on && !box.querySelector("iframe")) {
         const ifr = document.createElement("iframe");
         ifr.src = `https://www.youtube-nocookie.com/embed/${box.dataset.id}?start=${box.dataset.start || 0}&rel=0`;
         ifr.title = "YouTube 影片"; ifr.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
         ifr.allowFullscreen = true; ifr.referrerPolicy = "strict-origin-when-cross-origin";
         box.innerHTML = ""; box.appendChild(ifr);
+        box.insertAdjacentHTML("beforeend", `<a class="ytout" href="${ytURL(box)}" target="_blank" rel="noopener">↗ YouTube</a>`);
       } else if (!on) { box.innerHTML = '<div class="ph">▶ 影片（翻到這頁時載入）</div>'; }
     });
   }

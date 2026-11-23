@@ -120,7 +120,7 @@
   - 「目前依據：S00～S08」→ 「S00～S11c」
 - lint：通過（W1 只剩 outputs/slides-outline.md 孤兒頁，可接受）
 
-## [2026-11-23 17:45] slides | 撰寫 HTML 簡報＋確定性檢查＋事實查核（Slides Graph 第 2～4 步）
+## [2026-11-23 17:33] slides | 撰寫 HTML 簡報＋確定性檢查＋事實查核（Slides Graph 第 2～4 步）
 - 新增：slides/index.html（33 張，每張 data-sources 指向 wiki 頁）、slides/img/（Assets 縮圖）、tools/check_slides.py
 - check_slides：第 1 次 PASS；用故意埋錯的副本做反向測試（缺出處、不採用寫法、缺圖、未知影片）→ 4 類都抓到；過程中修了相對路徑參數會讓報告失敗的 bug
 - LLM 事實查核（checks/slides-factcheck-20261123.md）：5 個問題
@@ -128,3 +128,10 @@
   - wiki 漏寫／過時 2 個：wotagei.md 沒寫進 S10b 的 FAQ 說明 → 補上；yetta-tiger.md 的「台灣喊家虎＝厄介」沒跟上 S10 討論的場合區分 → 加 ⚠️ 資料缺口
 - lint：通過；check_slides：通過（S5 warning：副歌篇影片只在 backlog，只當視覺示範）
 - 另：校正 log 中 S06 之後各筆的時間（原本是估計值，改為對應 commit 的實際時間）
+
+## [2026-11-23 17:41] slides | 渲染檢查（Slides Graph 第 5 步）
+- chrome-devtools：33 張腳本量測（溢出、裁切、圖片、影片、console）＋逐頁截圖（checks/render-20261123/）
+- 4 個問題：第 3 張定義句被 Q 版角色蓋住；第 6 張 S05 影片限制外部播放 → 改縮圖外連卡；各影片加「↗ YouTube」備援；補 favicon
+- 修正的副作用：.yt 改 overflow:visible 後影片在 grid 裡被撐寬 → 加 min-width:0，重新截圖確認
+- 報告：checks/slides-render-20261123.md；check_slides：通過
+- 另：上一筆 log 的時間 17:45 是估計值（比當時時鐘還晚），改為 commit 的實際時間 17:33
